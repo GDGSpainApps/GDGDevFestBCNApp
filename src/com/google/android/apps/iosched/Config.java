@@ -25,7 +25,8 @@ public class Config {
     // TODO: Add your Google API key here.
     public static final String API_KEY = "YOUR_API_KEY_HERE";
 
-    // Conference API-specific config
+    // Conference API-specific config 
+    // Update Values Google DevFest
     public static final String EVENT_ID = "googleio2013";
     public static final String CONFERENCE_IMAGE_PREFIX_URL = "https://developers.google.com";
 
