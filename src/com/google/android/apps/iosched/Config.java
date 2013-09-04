@@ -50,10 +50,7 @@ public class Config {
     public static final String PRIMARY_LIVESTREAM_TRACK = "android";
     public static final String SECONDARY_LIVESTREAM_TRACK = "chrome";
 
-    // Conference public WiFi AP parameters
-    public static final String WIFI_SSID = "Google5G";
-    public static final String WIFI_PASSPHRASE = "gomobileio";
-
+   
     // GCM config
     // TODO: Add your GCM information here.
     public static final String GCM_SERVER_URL = "https://YOUR_GCM_APP_ID_HERE.appspot.com";

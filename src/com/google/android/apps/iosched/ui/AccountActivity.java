@@ -47,7 +47,6 @@ import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.sync.SyncHelper;
 import com.google.android.apps.iosched.util.AccountUtils;
 import com.google.android.apps.iosched.util.PrefUtils;
-import com.google.android.apps.iosched.util.WiFiUtils;
 import com.google.android.gms.auth.GoogleAuthUtil;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
@@ -73,8 +72,7 @@ public class AccountActivity extends ActionBarActivity
             = "com.google.android.iosched.extra.FINISH_INTENT";
 
     private static final int SETUP_ATTENDEE = 1;
-    private static final int SETUP_WIFI = 2;
-
+ 
     private static final String KEY_CHOSEN_ACCOUNT = "chosen_account";
 
     private static final int REQUEST_AUTHENTICATE = 100;
@@ -257,11 +255,6 @@ public class AccountActivity extends ActionBarActivity
                     mDescriptionBodyResId = R.string.description_setup_attendee_mode_body;
                     mSelectionResId = R.array.selection_setup_attendee;
                     break;
-                case SETUP_WIFI:
-                    mDescriptionHeaderResId = R.string.description_setup_wifi_header;
-                    mDescriptionBodyResId = R.string.description_setup_wifi_body;
-                    mSelectionResId = R.array.selection_setup_wifi;
-                    break;
                 default:
                     throw new IllegalArgumentException("Undefined setup id.");
             }
@@ -293,22 +286,9 @@ public class AccountActivity extends ActionBarActivity
             final Activity activity = getActivity();
             if (mSetupId == SETUP_ATTENDEE) {
                 if (position == 0) {
-                    // Attendee is at the conference.  If WiFi AP isn't set already, go to
-                    // the WiFi set up screen.  Otherwise, set up is done.
                     PrefUtils.setAttendeeAtVenue(activity, true);
                     PrefUtils.setUsingLocalTime(activity, false);
-                    // If WiFi has already been configured, set up is complete.  Otherwise,
-                    // show the WiFi AP configuration screen.
-                    //if (WiFiUtils.shouldInstallWiFi(activity)) {
-                    if (WiFiUtils.shouldBypassWiFiSetup(activity)) {
-                        ((AccountActivity)activity).finishSetup();
-                    } else {
-                        getFragmentManager().beginTransaction()
-                                .replace(R.id.root_container,
-                                        SignInSetupFragment.makeFragment(SETUP_WIFI), "setup_wifi")
-                                .addToBackStack("setup_attendee")
-                                .commit();
-                    }
+                    
                     EasyTracker.getTracker()
                             .setCustomDimension(ATCONF_DIMEN_INDEX,"conference attendee");
 
@@ -320,13 +300,7 @@ public class AccountActivity extends ActionBarActivity
                             .setCustomDimension(ATCONF_DIMEN_INDEX,"remote attendee");
                     ((AccountActivity)activity).finishSetup();
                 }
-            } else if (mSetupId == SETUP_WIFI) {
-                if (position == 0) {
-                    WiFiUtils.setWiFiConfigStatus(activity, WiFiUtils.WIFI_CONFIG_REQUESTED);
-                }
-                // Done with set up.
-                ((AccountActivity)activity).finishSetup();
-            }
+            } 
         }
     }
 
