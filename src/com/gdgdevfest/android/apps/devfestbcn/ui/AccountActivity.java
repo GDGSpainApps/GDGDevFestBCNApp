@@ -296,8 +296,8 @@ public class AccountActivity extends ActionBarActivity
                     // If WiFi has already been configured, set up is complete.  Otherwise,
                     // show the WiFi AP configuration screen.
                     //if (WiFiUtils.shouldInstallWiFi(activity)) {
-                   
-                    EasyTracker.getTracker()
+                        ((AccountActivity)activity).finishSetup();
+                        EasyTracker.getTracker()
                             .setCustomDimension(ATCONF_DIMEN_INDEX,"conference attendee");
 
                 } else if (position == 1) {
@@ -308,7 +308,7 @@ public class AccountActivity extends ActionBarActivity
                             .setCustomDimension(ATCONF_DIMEN_INDEX,"remote attendee");
                     ((AccountActivity)activity).finishSetup();
                 }
-            }
+            } 
         }
     }
 
