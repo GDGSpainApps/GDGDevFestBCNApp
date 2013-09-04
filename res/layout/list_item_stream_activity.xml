@@ -22,7 +22,7 @@
         android:id="@+id/stream_author_container"
         style="@style/StreamContainer">
 
-        <com.google.android.apps.iosched.ui.widget.BezelImageView
+        <com.gdgdevfest.android.apps.devfestbcn.ui.widget.BezelImageView
             android:id="@+id/stream_user_image"
             style="@style/StreamUserImage"
             iosched:borderDrawable="@null"
@@ -39,7 +39,7 @@
     </RelativeLayout>
 
     <!-- Author's content -->
-    <com.google.android.apps.iosched.ui.widget.EllipsizedTextView
+    <com.gdgdevfest.android.apps.devfestbcn.ui.widget.EllipsizedTextView
         android:id="@+id/stream_content"
         style="@style/StreamContent" />
 
@@ -57,7 +57,7 @@
             android:id="@+id/stream_original_author"
             style="@style/StreamOriginalAuthor"/>
 
-        <com.google.android.apps.iosched.ui.widget.EllipsizedTextView
+        <com.gdgdevfest.android.apps.devfestbcn.ui.widget.EllipsizedTextView
             android:id="@+id/stream_original_content"
             style="@style/StreamOriginalContent"/>
 

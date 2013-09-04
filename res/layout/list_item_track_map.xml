@@ -25,7 +25,7 @@
         android:layout_height="?android:listPreferredItemHeight"
         android:foreground="?activatableItemBackground">
 
-        <com.google.android.apps.iosched.ui.widget.BezelImageView
+        <com.gdgdevfest.android.apps.devfestbcn.ui.widget.BezelImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/map_background"

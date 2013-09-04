@@ -21,7 +21,7 @@
     android:layout_marginTop="@dimen/element_spacing_normal"
     android:layout_marginBottom="@dimen/element_spacing_normal">
 
-    <com.google.android.apps.iosched.ui.widget.BezelImageView android:id="@+id/speaker_image"
+    <com.gdgdevfest.android.apps.devfestbcn.ui.widget.BezelImageView android:id="@+id/speaker_image"
         style="@style/SpeakerDetailImage"
         iosched:maskDrawable="@drawable/circle_mask"
         iosched:borderDrawable="@drawable/circle_border"

@@ -36,7 +36,7 @@
             style="@style/SessionDetailSubtitle" />
     </RelativeLayout>
 
-    <com.google.android.apps.iosched.ui.widget.ObservableScrollView
+    <com.gdgdevfest.android.apps.devfestbcn.ui.widget.ObservableScrollView
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -102,9 +102,10 @@
                     android:layout_marginTop="@dimen/element_spacing_normal"
                     style="@style/TextHeader2" />
 
+                <!-- android:divider="?android:dividerHorizontal" -->
                 <LinearLayout android:orientation="vertical"
                     android:id="@+id/links_container"
-                    android:divider="?android:dividerHorizontal"
+                    
                     android:showDividers="middle"
                     android:dividerPadding="16dp"
                     android:layout_marginLeft="-17dp"
@@ -128,6 +129,6 @@
                 android:layout_height="@dimen/add_to_schedule_button_height" />
         </FrameLayout>
 
-    </com.google.android.apps.iosched.ui.widget.ObservableScrollView>
+    </com.gdgdevfest.android.apps.devfestbcn.ui.widget.ObservableScrollView>
 
 </LinearLayout>
