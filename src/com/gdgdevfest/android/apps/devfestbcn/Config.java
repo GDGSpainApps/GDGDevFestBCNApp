@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.apps.iosched;
+package com.gdgdevfest.android.apps.devfestbcn;
 
 public class Config {
     // General configuration
