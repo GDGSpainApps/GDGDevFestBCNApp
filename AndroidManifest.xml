@@ -324,7 +324,7 @@
             </intent-filter>
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.HomeActivity" />
-            <meta-data android:name="com.google.android.apps.iosched.meta.TARGET_FORM_FACTOR"
+            <meta-data android:name="com.gdgdevfest.android.apps.devfestbcn.meta.TARGET_FORM_FACTOR"
                 android:value="tablet" />
         </activity>
 
@@ -335,7 +335,7 @@
             android:parentActivityName=".ui.HomeActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.HomeActivity" />
-            <meta-data android:name="com.google.android.apps.iosched.meta.TARGET_FORM_FACTOR"
+            <meta-data android:name="com.gdgdevfest.android.apps.devfestbcn.meta.TARGET_FORM_FACTOR"
                 android:value="tablet" />
         </activity>
 
