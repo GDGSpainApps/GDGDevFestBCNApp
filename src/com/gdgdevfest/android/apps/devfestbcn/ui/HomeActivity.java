@@ -46,7 +46,6 @@ import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.HelpUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.PrefUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.UIUtils;
-import com.gdgdevfest.android.apps.devfestbcn.util.WiFiUtils;
 import com.google.analytics.tracking.android.EasyTracker;
 import com.google.android.gcm.GCMRegistrar;
 import com.google.android.gms.auth.GoogleAuthUtil;
@@ -302,11 +301,7 @@ public class HomeActivity extends BaseActivity implements
                 searchView.setQueryRefinementEnabled(true);
             }
         }
-        MenuItem wifiItem = menu.findItem(R.id.menu_wifi);
-        if (!PrefUtils.isAttendeeAtVenue(this) ||
-                (WiFiUtils.isWiFiEnabled(this) && WiFiUtils.isWiFiApConfigured(this))) {
-            wifiItem.setVisible(false);
-        }
+       
         return true;
     }
 
@@ -328,10 +323,7 @@ public class HomeActivity extends BaseActivity implements
                 HelpUtils.showAbout(this);
                 return true;
 
-            case R.id.menu_wifi:
-                WiFiUtils.showWiFiDialog(this);
-                return true;
-
+          
             case R.id.menu_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
                 return true;
@@ -371,9 +363,7 @@ public class HomeActivity extends BaseActivity implements
                 ContentResolver.SYNC_OBSERVER_TYPE_ACTIVE;
         mSyncObserverHandle = ContentResolver.addStatusChangeListener(mask, mSyncStatusObserver);
 
-        // Set up conference WiFi AP if requested by user.
-        WiFiUtils.installWiFiIfRequested(this);
-
+   
         // Refresh options menu.  Menu item visibility could be altered by user preferences.
         supportInvalidateOptionsMenu();
     }

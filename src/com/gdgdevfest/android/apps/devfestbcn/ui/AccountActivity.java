@@ -49,7 +49,6 @@ import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.sync.SyncHelper;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.PrefUtils;
-import com.gdgdevfest.android.apps.devfestbcn.util.WiFiUtils;
 import com.google.analytics.tracking.android.EasyTracker;
 import com.google.android.gms.auth.GoogleAuthUtil;
 import com.google.android.gms.common.ConnectionResult;
@@ -297,15 +296,7 @@ public class AccountActivity extends ActionBarActivity
                     // If WiFi has already been configured, set up is complete.  Otherwise,
                     // show the WiFi AP configuration screen.
                     //if (WiFiUtils.shouldInstallWiFi(activity)) {
-                    if (WiFiUtils.shouldBypassWiFiSetup(activity)) {
-                        ((AccountActivity)activity).finishSetup();
-                    } else {
-                        getFragmentManager().beginTransaction()
-                                .replace(R.id.root_container,
-                                        SignInSetupFragment.makeFragment(SETUP_WIFI), "setup_wifi")
-                                .addToBackStack("setup_attendee")
-                                .commit();
-                    }
+                   
                     EasyTracker.getTracker()
                             .setCustomDimension(ATCONF_DIMEN_INDEX,"conference attendee");
 
@@ -317,12 +308,6 @@ public class AccountActivity extends ActionBarActivity
                             .setCustomDimension(ATCONF_DIMEN_INDEX,"remote attendee");
                     ((AccountActivity)activity).finishSetup();
                 }
-            } else if (mSetupId == SETUP_WIFI) {
-                if (position == 0) {
-                    WiFiUtils.setWiFiConfigStatus(activity, WiFiUtils.WIFI_CONFIG_REQUESTED);
-                }
-                // Done with set up.
-                ((AccountActivity)activity).finishSetup();
             }
         }
     }
