@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources> 
+  <string name="app_name">GDG DevFest BCN</string>
+  <string name="description_search">Cercar</string>
+  <string name="description_map">Mapa</string>
+  <string name="description_refresh">Refrescar</string>
+  <string name="description_share">Compartir</string>
+  <string name="description_add_schedule">Afegeix a la agenda</string>
+  <string name="description_remove_schedule">Eliminar de l\'agenda</string>
+  <string name="description_social_stream">Veure corrent Google+</string>
+  <string name="description_compose">Missatge nou</string>
+  <string name="description_add_account">Afegir compte</string>
+  <string name="description_about">Sobre</string>
+  <string name="description_configure_wifi">Configuració Wi-Fi</string>
+  <string name="description_settings">Configuració</string>
+  <string name="description_sign_out">Sortir</string>
+  <string name="description_captions">Etiquetes</string>
+  <string name="description_presentation">Cambiar pantalla</string>
+  <string name="title_sessions">Sessions</string>
+  <string name="title_session_detail">Informació de la sessió</string>
+  <string name="title_session_feedback">Feedback de la Sessió</string>
+  <string name="title_tracks">Tracks</string>
+  <string name="title_office_hours">Hores lectives</string>
+  <string name="title_sandbox">Sandbox</string>
+  <string name="title_sandbox_detail">Informació de l\'empresa</string>
+  <string name="title_map">Mapa</string>
+  <string name="title_tagstream">Missatges Google+</string>
+  <string name="title_announcements">Notícies</string>
+  <string name="title_about">Sobre</string>
+  <string name="title_settings">Configuració</string>
+  <string name="title_share">Comparteix amb</string>
+  <string name="title_search">Cercar</string>
+  <string name="title_search_query">Cercar  \"&lt;b&gt;%1$s&lt;b&gt;\"</string>
+  <string name="title_my_schedule">Programar</string>
+  <string name="title_explore">Explorar</string>
+  <string name="title_stream">Publicacions</string>
+  <string name="session_subtitle">%1$s a %2$s</string>
+  <string name="all_tracks">Tots els tracks</string>
+  <string name="all_tracks_sessions">Totes les sessions</string>
+  <string name="all_tracks_office_hours">Totes les hores lectives</string>
+  <string name="all_tracks_sandbox">Totes les empreses</string>
+  <string name="all_tracks_subtitle_sessions">Totes les sessions de Dev Fest 2013.</string>
+  <string name="all_tracks_subtitle_office_hours">Totes les hores d\'oficina a Dev Fest 2013.</string>
+  <string name="all_tracks_subtitle_sandbox">Tots els sandbox de desenvolupadors a Dev Fest 2013.</string>
+  <string name="other_tracks">Altres tracks</string>
+  <string name="empty_sessions">No hi ha sessions trobades.</string>
+  <string name="empty_live_streamed_sessions">No s\'han trobat sessions per streaming en viu.</string>
+  <string name="empty_session_detail">No hi ha detalls de la sessió trobades.</string>
+  <string name="empty_sandbox">No hi ha empreses de desenvolupador de sandbox trobades.</string>
+  <string name="empty_social_stream">No s\'han trobat articles.</string>
+  <string name="empty_announcements">Les notificacions apareixeran aquí.</string>
+  <string name="empty_waiting_for_sync">Esperant sincronització ...</string>
+  <string name="empty_captions">No es van trobar títols per a aquesta sessió.</string>
+  <string name="unknown_room">(Habitació sense especificar)</string>
+  <string name="codelab_room">Code Labs (Planta 2)</string>
+  <string name="keynote_room">Nivell 3</string>
+  <string name="session_links">Més</string>
+  <string name="session_requirements">Requeriments</string>
+  <string name="session_speakers">Conferenciants</string>
+  <string name="session_link_main">Enllaç Web</string>
+  <string name="session_link_youtube">Video en YouTube</string>
+  <string name="session_link_moderator">Moderador</string>
+  <string name="session_link_pdf">Diapositives (PDF)</string>
+  <string name="session_link_notes">Notes oficials</string>
+  <string name="session_link_livestream">Veure DevFest en viu</string>
+  <string name="session_livestream_title">DevFest en viu</string>
+  <string name="session_livestream_track_title">%s Track</string>
+  <string name="session_livestream_info">Informació</string>
+  <string name="session_livestream_captions">Etiquetes</string>
+  <string name="session_livestream_error_init">Ho sentim, hi ha hagut un error al inicialitzar el reproductor de YouTube ( {0/} )</string>
+  <string name="session_livestream_error_playback">Ho sentim, hi ha hagut un error al carregar la transmissió en viu, si us plau intenti-ho més tard</string>
+  <string name="session_livestream_keynote_title">Dev Fest - %s</string>
+  <string name="session_livestream_keynote_desc">Els esdeveniments en primicia del DevFest el convertiran en un dels primers desenvolupadors a conéixer. Agafa les teves crispetes, acomoda\'t i disfruta de l\'espectacle directament des del teu dispositiu Android.</string>
+  <string name="session_livestream_play_pause">Reproduir / Pausa</string>
+  <string name="codelab_title_template">Code Lab: %1$s</string>
+  <string name="search_label">Dev Fest Sessions</string>
+  <string name="search_hint">Cercar sessions</string>
+  <string name="share_template">Checking out \'%1$s\' at %2$s %3$s</string>
+  <string name="share_livestream_template">DevFest Live: \'%1$s\' at %2$s %3$s</string>
+  <string name="add_to_schedule">Afegeix a la Agenda</string>
+  <string name="remove_from_schedule">Afegit a l\'agenda</string>
+  <string name="add_to_schedule_desc">Afegeix a la Agenda</string>
+  <string name="remove_from_schedule_desc">Eliminar de l\'agenda</string>
+  <!--  Announcements  -->
+  <string name="whats_on_countdown_title_0">%1$s\nfins Dev Fest</string>
+  <string name="whats_on_thank_you_short">Gràcies!</string>
+  <string name="whats_on_thank_you_title">Ens veiem el proper any!</string>
+  <string name="whats_on_thank_you_subtitle">Dev Fest 2013 ha acabat.</string>
+  <string name="news_will_appear_here">Les notificacions apareixeran aquí</string>
+  <string name="welcome_to_google_i_o">Benvingut a la Dev Fest!</string>
+  <string name="permission_write">Modificar dades de l\'agenda Dev Fest</string>
+  <!--  Schedule  -->
+  <string name="schedule_empty_slot_title_template">Explorar%1$s…</string>
+  <string name="schedule_empty_slot_subtitle">Slot lliure</string>
+  <!-- TODO: string name="schedule_conflict_title" -->
+  <string name="schedule_conflict_subtitle">Conflicte al horari</string>
+  <string name="schedule_block_title_sessions">Sessions</string>
+  <string name="schedule_block_title_code_labs">Code Labs</string>
+  <string name="schedule_block_title_office_hours">Hores lectives</string>
+  <string name="schedule_block_title_keynote">Presentació</string>
+  <string name="schedule_block_title_sandbox">Sandbox</string>
+  <!--  Map  -->
+  <string name="map_floorcontrol_1">1.0</string>
+  <string name="map_floorcontrol_2">2.0</string>
+  <string name="map_floorcontrol_3">3.0</string>
+  <string name="map_touch_to_see_session">Pitgeu per veure les sessions</string>
+  <string name="map_at">A %1$s:&lt;br&gt;&lt;b&gt;%2$s&lt;/b&gt;</string>
+  <string name="map_now_playing">Ara:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;</string>
+  <string name="map_touch_to_see_sandbox">Toc per veure els socis sandbox</string>
+  <string name="map_now_sandbox">Ara en el sandbox:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;</string>
+  <string name="map_infowindow_text_empty">-</string>
+  <!--  EULA, login, and about  -->
+  <string name="description_choose_account">&lt;! [CDATA [&lt;font color="#4d90fe"&gt; &lt;b&gt; Seleccioneu un compte a continuació. Si es va inscriure per participar al Dev Fest, assegureu-vos d\'utilitzar el mateix compte. &lt;/ B&gt; &lt;/ font&gt;</string>
+  <string name="description_setup_attendee_mode_header">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;b&gt;Està vostè assistint al Dev Fest en persona aquest any? &lt;/ B&gt; &lt;/ font&gt; &lt;br&gt;</string>
+  <string name="description_setup_attendee_mode_body">&lt;! [CDATA [Si no és així, només li mostrarem sessions d\'estreaming en viu. Sempre es pot canviar això a la Configuració.</string>
+  <string name="description_sign_in_main">&lt;! [CDATA [Benvingut a Google Dev Fest App, el seu company oficial a la conferència Dev Fest que té lloc a Barcelona 11 octubre 2013. &lt;br&gt; Només hem de fer-li un parell de preguntes ràpides. Premeu el botó "Sign-in" per començar.</string>
+  <string name="calltoaction_wifi_configure">&lt;![CDATA[&lt;br&gt;Tap \'Add Wi-Fi Network\' per procedir.</string>
+  <string name="calltoaction_wifi_settings">&lt;!\'Obrir Configuració Wi-Fi "[CDATA[&lt;br&gt;toc per activar el Wi-Fi.</string>
+  <string name="empty_accounts">No hi ha comptes de Google disponibles. Afegeix un compte per continuar.</string>
+  <string name="no_connection_cant_login">No es pot entrar, comprova la connexió de xarxa.</string>
+  <string name="taking_a_while">Carregant...</string>
+  <string name="about_eula">Acord de llicència d\'usuari final</string>
+  <string name="about_licenses">Open Source Licenses</string>
+  <string name="about_body">
+        &lt;b&gt;Dev Fest 2013&lt;/b&gt;&lt;br&gt;
+        Version %s&lt;br&gt;&lt;br&gt;
+        &lt;a href="http://m.google.com/utos"&gt;Terms of Service&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+        &lt;a href="http://www.google.com/policies/privacy/"&gt;Privacy Policy&lt;/a&gt;
+    </string>
+  <!-- suppress AndroidLintTypographyOther  -->
+  <string name="eula_text">&lt;[CDATA [En descarregar, instal·lar o utilitzar aquesta aplicació o qualsevol part de la mateixa ("Aplicació"), vostè està d\'acord amb aquests termes i condicions: el seu millor ús d\'aquesta aplicació es regeix per:. (A) la Google Termes de Servei (&lt;a href="http://m.google.com/utos"&gt; m.google.com / utos &lt;/ a&gt;), (b) Política de privacitat de Google (&lt;a href = "http: / / www.google.com / policies / privacy "&gt; http://www.google.com/policies/privacy &lt;/ a&gt;), i (c) els termes de servei específic aplicable Google de les polítiques de privacitat o servei. Termes de polítiques de privacitat i servei de Google poden ser actualitzades de tant en tant i sense previ avís. &lt;br&gt; Aquesta aplicació recull certa informació de com vostè l\'utilitza, fins i tot a través de Google Analytics. Política de privacitat de Google descriu com Google tracta la seva iformació i protegeix la seva privacitat quan utilitza l\'aplicació. Vostè accepta l\'ús de les seves dades d\'acord amb la política de privacitat de Google.</string>
+  <!--  Session notification  -->
+  <string name="session_notification_text_1">Comença en %1$d min</string>
+  <!-- TODO: string name="snooze_x_min" -->
+  <!--  Others  -->
+  <string name="ok">D´acord</string>
+  <string name="loading">Carregant ...</string>
+  <string name="retry">Reintenta</string>
+  <string name="stream_error">No s\'ha pogut carregar el flux de Google+.</string>
+  <!-- TODO: string name="stream_originally_shared" -->
+  <string name="empty_widget_text">No hi ha més sessions properes. \nConsulti l\'any que ve!</string>
+  <string name="empty_widget_text_signed_out">Toca al logo de Dev Fest 2013 per ingressar i començar a utilitzar l\'aplicació.</string>
+  <string name="now_playing_badge">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;small&gt;&lt;b&gt;ARA&lt;/ b&gt;&lt;/ small&gt;&lt;/ font&gt;</string>
+  <string name="live_available_badge">&lt;![CDATA[&lt;font color="#999999"&gt;&lt;small&gt;&lt;b&gt;EN VIU&lt;/b&gt;&lt;/small&gt;&lt;/font&gt;</string>
+  <string name="live_now_badge">&lt;![CDATA[&lt;font color="#ff4444"&gt;&lt;small&gt;&lt;b&gt;EN VIU&lt;/b&gt;&lt;/small&gt;&lt;/font&gt;</string>
+  <string name="session_finished">Finalitzat</string>
+  <!--  Strings only used for accessibility  -->
+  <string name="speaker_googleplus_profile">Google+ : %1$s</string>
+  <string name="close_detail_pane">Tancar panell de detalls</string>
+  <string name="more_sessions">Més sessions</string>
+  <string name="more_announcements">Més notificies</string>
+  <string name="plus_one_description_standard">Toca per sumar un.</string>
+  <!--  Preferences  -->
+  <string name="pref_local_times_title">Mostra l\'hora local</string>
+  <string name="pref_local_times_description">Quan s\'activa, mostra les hores locals en lloc de temps del Pacífic (la zona horària en la conferència)</string>
+  <string name="pref_attendee_at_venue_title">Seré al Dev Fest!</string>
+  <string name="pref_attendee_at_venue_description">Quan s\'activa, es mostraran totes les sessions i esdeveniments al lloc. En cas contrari, només es mostraran sessions d\'estreaming en viu.</string>
+  <string name="wifi_install_error_message">Ho sentim, no pot actualitzar la configuració Wi-Fi</string>
+  <!--  Feedback  -->
+  <string name="session_feedback_submitlink">Enviar comentaris</string>
+  <string name="session_rating_label">Valorar aquesta sessió general:</string>
+  <string name="session_feedback_relevance">Com de rellevant va ser aquesta sessió als teus projectes?</string>
+  <string name="session_feedback_notgreat">No és tan impressionant</string>
+  <string name="session_feedback_great">Impressionant</string>
+  <string name="session_feedback_notrel">No relevant</string>
+  <string name="session_feedback_rel">Relevant</string>
+  <string name="session_feedback_content">El contingut era:</string>
+  <string name="session_feedback_basic">Molt bàsic</string>
+  <string name="session_feedback_advanced">Massa avançada</string>
+  <string name="session_feedback_speaker_quality">La qualitat del conferenciant:</string>
+  <string name="session_feedback_poor">Pobre</string>
+  <string name="session_feedback_outstanding">Excepcional</string>
+  <string name="session_feedback_tell_us">Explica\'ns!</string>
+  <string name="session_feedback_6months">Utilitzarà la tecnologia d\'aquesta secció en els propers 6 mesos?</string>
+  <string name="session_feedback_probably">Probablement</string>
+  <string name="session_feedback_probnot">Probablement no</string>
+  <string name="number_1">1</string>
+  <string name="number_2">2</string>
+  <string name="number_3">3</string>
+  <string name="number_4">4</string>
+  <string name="number_5">5</string>
+  <string name="session_feedback_other">Hi ha alguna cosa més que hauríem de saber?</string>
+  <!--  More Misc DevFest -->
+  <string name="dashclock_extension_description">Mostrar els pròxims articles al calendari de Dev Fest 2013.</string>
+</resources>

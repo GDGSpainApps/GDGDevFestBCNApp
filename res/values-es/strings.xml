@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="app_name">GDG DevFest BCN</string>
+  <string name="description_search">Buscar</string>
+  <string name="description_map">Mapa</string>
+  <string name="description_refresh">Refrescar</string>
+  <string name="description_share">Compartir</string>
+  <string name="description_add_schedule">Agregar a la Agenda</string>
+  <string name="description_remove_schedule">Eliminar de la agenda</string>
+  <string name="description_social_stream">Ver publicaciones Google+</string>
+  <string name="description_compose">Nuevo mensaje</string>
+  <string name="description_add_account">Añadir cuenta</string>
+  <string name="description_about">Acerca de</string>
+  <string name="description_configure_wifi">Configuración de Wi-Fi</string>
+  <string name="description_settings">Configuración</string>
+  <string name="description_sign_out">Desconectar</string>
+  <string name="description_captions">Etiquetas</string>
+  <string name="description_presentation">Cambiar pantalla</string>
+  <string name="title_sessions">Sesiones</string>
+  <string name="title_session_detail">Información de la sesión</string>
+  <string name="title_session_feedback">Feedback de la sesión</string>
+  <string name="title_tracks">Tracks</string>
+  <string name="title_office_hours">Horas lectivas</string>
+  <string name="title_sandbox">Sandbox</string>
+  <string name="title_sandbox_detail">Información de la empresa</string>
+  <string name="title_map">Información de la empresa</string>
+  <string name="title_tagstream">Mensajes de Google+</string>
+  <string name="title_announcements">Noticias</string>
+  <string name="title_about">Acerca de</string>
+  <string name="title_settings">Configuración</string>
+  <string name="title_share">Comparte con</string>
+  <string name="title_search">Buscar</string>
+  <string name="title_search_query">Buscar  \"&lt;b&gt;%1$s&lt;b&gt;\"</string>
+  <string name="title_my_schedule">Programar</string>
+  <string name="title_explore">Explorar</string>
+  <string name="title_stream">Publicación</string>
+  <string name="session_subtitle">%1$s en %2$s</string>
+  <string name="all_tracks">Todos los tracks</string>
+  <string name="all_tracks_sessions">Todas las sesiones</string>
+  <string name="all_tracks_office_hours">Todas las horas lectivas</string>
+  <string name="all_tracks_sandbox">Todas las empresas</string>
+  <string name="all_tracks_subtitle_sessions">Todas las sesiones de Dev. Fest 2013.</string>
+  <string name="all_tracks_subtitle_office_hours">Todas las horas lectivas en Dev. Fest 2013.</string>
+  <string name="all_tracks_subtitle_sandbox">Todos los sandbox de desarrolladores en Dev. Fest 2013.</string>
+  <string name="other_tracks">Otros tracks</string>
+  <string name="empty_sessions">No se han encontrado sesiones.</string>
+  <string name="empty_live_streamed_sessions">No se han encontrado sesiones por streaming en vivo.</string>
+  <string name="empty_session_detail">No se han encontrado los detalles de la sesión.</string>
+  <string name="empty_sandbox">No se han encontrado empresas de desarrolladores de sandbox.</string>
+  <string name="empty_social_stream">No se encontraron artículos.</string>
+  <string name="empty_announcements">Las notificaciones aparecerán aquí.</string>
+  <string name="empty_waiting_for_sync">Esperando sincronización ...</string>
+  <string name="empty_captions">No se encontraron etiquetas para esta sesión.</string>
+  <string name="unknown_room">(Sala sin especificar)</string>
+  <string name="codelab_room">Code Labs (Planta 2)</string>
+  <string name="keynote_room">Planta 3</string>
+  <string name="session_links">Más</string>
+  <string name="session_requirements">Requisitos</string>
+  <string name="session_speakers">Conferenciantes</string>
+  <string name="session_link_main">Enlace Web</string>
+  <string name="session_link_youtube">Vídeo en YouTube</string>
+  <string name="session_link_moderator">Moderador</string>
+  <string name="session_link_pdf">Diapositivas (PDF)</string>
+  <string name="session_link_notes">Notas oficiales</string>
+  <string name="session_link_livestream">Ver en DevFest en vivo</string>
+  <string name="session_livestream_title">DevFest en vivo</string>
+  <string name="session_livestream_track_title">%s Track</string>
+  <string name="session_livestream_info">Información</string>
+  <string name="session_livestream_captions">Etiquetas</string>
+  <string name="session_livestream_error_init">Lo sentimos, se produjo un error al inicializar el reproductor de YouTube ( {0/} )</string>
+  <string name="session_livestream_error_playback">Lo sentimos, se produjo un error al cargar la transmisión en vivo, por favor inténtelo de nuevo más tarde</string>
+  <string name="session_livestream_keynote_title">Dev Fest - %s</string>
+  <string name="session_livestream_keynote_desc">Los eventos en primicia del DevFest le convertirán en unos de los primeros desarrolladores en conocer en lo que se está trabajando. Coge palomitas, ponte cómodo y disfruta el espectáculo directamente desde tu dispositivo Android.</string>
+  <string name="session_livestream_play_pause">Reproducir / Pausa</string>
+  <string name="codelab_title_template">Code Lab: %1$s</string>
+  <string name="search_label">Sesiones Dev Fest</string>
+  <string name="search_hint">Buscar sesiones</string>
+  <string name="share_template">Checking out \'%1$s\' at %2$s %3$s</string>
+  <string name="share_livestream_template">DevFest Live: \'%1$s\' at %2$s %3$s</string>
+  <string name="add_to_schedule">Agregar a la Agenda</string>
+  <string name="remove_from_schedule">Agregado a la agenda</string>
+  <string name="add_to_schedule_desc">Agregar a la Agenda</string>
+  <string name="remove_from_schedule_desc">Eliminar de la agenda</string>
+  <!--  Announcements  -->
+  <string name="whats_on_countdown_title_0">%1$s\nhasta Dev Fest</string>
+  <string name="whats_on_thank_you_short">¡Gracias!</string>
+  <string name="whats_on_thank_you_title">Nos vemos el próximo año!</string>
+  <string name="whats_on_thank_you_subtitle">Dev. Fest 2013 ha terminado.</string>
+  <string name="news_will_appear_here">Las notificaciones aparecerán aquí</string>
+  <string name="welcome_to_google_i_o">Bienvenido a Google Dev. Fest!</string>
+  <string name="permission_write">Modificar los datos de programación del Dev Fest</string>
+  <!--  Schedule  -->
+  <string name="schedule_empty_slot_title_template">Explorar%1$s…</string>
+  <string name="schedule_empty_slot_subtitle">Slot libre</string>
+  <!-- TODO: string name="schedule_conflict_title" -->
+  <string name="schedule_conflict_subtitle">Conflicto en el horario</string>
+  <string name="schedule_block_title_sessions">Sesiones</string>
+  <string name="schedule_block_title_code_labs">Code Labs</string>
+  <string name="schedule_block_title_office_hours">Horas lectivas</string>
+  <string name="schedule_block_title_keynote">Presentación</string>
+  <string name="schedule_block_title_sandbox">Sandbox</string>
+  <!--  Map  -->
+  <string name="map_floorcontrol_1">1.0</string>
+  <string name="map_floorcontrol_2">2.0</string>
+  <string name="map_floorcontrol_3">3.0</string>
+  <string name="map_touch_to_see_session">Toque para ver las sesiones</string>
+  <string name="map_at">En %1$s:&lt;br&gt;&lt;b&gt;%2$s&lt;/b&gt;</string>
+  <string name="map_now_playing">Ahora:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;</string>
+  <string name="map_touch_to_see_sandbox">Toque para ver las sesiones</string>
+  <string name="map_now_sandbox">Ahora en el sandbox:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;</string>
+  <string name="map_infowindow_text_empty">-</string>
+  <!--  EULA, login, and about  -->
+  <string name="description_choose_account">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;b&gt;Seleccione una cuenta a continuación. Si se inscribió para participar en el Dev Fest asegúrese de utilizar la misma cuenta. &lt;/b&gt;&lt;/font&gt;</string>
+  <string name="description_setup_attendee_mode_header">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;b&gt;¿Este año está usted asistiendo al Dev Fest en persona? &lt;/b&gt;&lt;/ font&gt;&lt;br&gt;</string>
+  <string name="description_setup_attendee_mode_body">&lt;![CDATA[Si no es así, sólo le mostraremos sesiones con streaming en vivo. Se puede cambiar esto en Configuración.</string>
+  <string name="description_sign_in_main">&lt;![CDATA[Bienvenido a la aplicación del Dev Fest, su compañero oficial para la conferencia Dev Fest que tiene lugar en Barcelona 11 de octubre 2013. &lt;br&gt; Sólo tenemos que hacerle un par de preguntas rápidas. Pulse el botón "Sign-in" para empezar.</string>
+  <string name="empty_accounts">No hay cuentas Google disponibles. Añadir una cuenta para continuar.</string>
+  <string name="no_connection_cant_login">No se puede iniciar sesión Comprueba tu conexión de red.</string>
+  <string name="taking_a_while">Esto va a tardar un poco ...</string>
+  <string name="about_eula">Acuerdo de licencia de usuario final</string>
+  <string name="about_licenses">Licencias Open Source</string>
+  <string name="about_body">
+        &lt;b&gt;Dev Fest 2013&lt;/b&gt;&lt;br&gt;
+        Version %s&lt;br&gt;&lt;br&gt;
+        &lt;a href="http://m.google.com/utos"&gt;Terms of Service&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+        &lt;a href="http://www.google.com/policies/privacy/"&gt;Privacy Policy&lt;/a&gt;
+    </string>
+  <!-- suppress AndroidLintTypographyOther  -->
+  <string name="eula_text">&lt;[CDATA[Al descargar, instalar o utilizar esta aplicación o cualquier parte del mismo ("Aplicación"), usted está de acuerdo con estos términos y condiciones: su mejor uso de esta aplicación se rige por:. (A) la Google Términos de Servicio (&lt;a href="http://m.google.com/utos"&gt; m.google.com / utos &lt;/ a&gt;), (b) Política de privacidad de Google (&lt;a href="http://www.google.com/policies/privacy"&gt; http://www.google.com/policies/privacy&lt;/ a&gt;), y (c) los términos de servicio específico aplicable Google de las políticas de privacidad o servicio. Los términos de políticas de privacidad y servicio de Google pueden ser actualizadas de vez en cuando y sin previo aviso. &lt;br&gt; Esta aplicación recoge cierta información como usted lo utiliza, incluso a través de Google Analytics. Política de privacidad de Google describe cómo Google trata su información y protege su privacidad cuando utiliza la aplicación. Usted acepta el uso de sus datos de acuerdo con la política de privacidad de Google.</string>
+  <!--  Session notification  -->
+  <string name="session_notification_text_1">Comienza en %1$d min</string>
+  <!-- TODO: string name="snooze_x_min" -->
+  <!--  Others  -->
+  <string name="ok">De acuerdo</string>
+  <string name="loading">Cargando ...</string>
+  <string name="retry">Reintentar</string>
+  <string name="stream_error">No se pudo cargar el flujo de Google+.</string>
+  <!-- TODO: string name="stream_originally_shared" -->
+  <string name="empty_widget_text">No hay más sesiones próximas.\n¡Nos vemos el año que viene!</string>
+  <string name="empty_widget_text_signed_out">Pulse el logo de Dev Fest 2013 para ingresar y comenzar a utilizar la aplicación.</string>
+  <string name="now_playing_badge">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;small&gt;&lt;b&gt;AHORA&lt;/b&gt;&lt;/small&gt;&lt;/font&gt;</string>
+  <string name="live_available_badge">&lt;![CDATA[&lt;font color="#999999"&gt;&lt;small&gt;&lt;b&gt;EN VIVO&lt;/b&gt;&lt;/small&gt;&lt;/font&gt;</string>
+  <string name="live_now_badge">&lt;![CDATA[&lt;font color="#999999"&gt;&lt;small&gt;&lt;b&gt;EN VIVO&lt;/b&gt;&lt;/small&gt;&lt;/font&gt;</string>
+  <string name="session_finished">Finalizado</string>
+  <!--  Strings only used for accessibility  -->
+  <string name="speaker_googleplus_profile">Google+ : %1$s</string>
+  <string name="close_detail_pane">Cerrar panel detallado</string>
+  <string name="more_sessions">Más sesiones</string>
+  <string name="more_announcements">Más noticias</string>
+  <string name="plus_one_description_standard">Toque para añadir uno.</string>
+  <!--  Preferences  -->
+  <string name="pref_local_times_title">Mostrar hora local</string>
+  <string name="pref_local_times_description">Cuando se activa, muestra las horas locales en lugar de tiempo del Pacífico (la zona horaria en la conferencia)</string>
+  <string name="pref_attendee_at_venue_title">¡Estaré en el Dev Fest!</string>
+  <string name="pref_attendee_at_venue_description">Cuando se activa, se mostrarán todas las sesiones y eventos en el lugar. De lo contrario, sólo se mostrarán sesiones con streaming en vivo.</string>
+  <string name="wifi_install_error_message">Lo sentimos, no puede actualizar la configuración de Wi-Fi</string>
+  <!--  Feedback  -->
+  <string name="session_feedback_submitlink">Enviar comentarios</string>
+  <string name="session_rating_label">Valorar esta sesión en general:</string>
+  <string name="session_feedback_relevance">¿Cómo de relevante fue esta sesión para sus proyectos?</string>
+  <string name="session_feedback_notgreat">No es tan impresionante</string>
+  <string name="session_feedback_great">Impresionante</string>
+  <string name="session_feedback_notrel">No procede</string>
+  <string name="session_feedback_rel">Pertinente</string>
+  <string name="session_feedback_content">El contenido era:</string>
+  <string name="session_feedback_basic">Muy básico</string>
+  <string name="session_feedback_advanced">Demasiado avanzado</string>
+  <string name="session_feedback_speaker_quality">La calidad del conferenciante:</string>
+  <string name="session_feedback_poor">Pobre</string>
+  <string name="session_feedback_outstanding">Excepcional</string>
+  <string name="session_feedback_tell_us">¡Cuéntanos!</string>
+  <string name="session_feedback_6months">¿Va a utilizar la tecnología presentada en esta sesión en los próximos 6 meses?</string>
+  <string name="session_feedback_probably">Probablemente</string>
+  <string name="session_feedback_probnot">Probablemente no</string>
+  <string name="number_1">1</string>
+  <string name="number_2">2</string>
+  <string name="number_3">3</string>
+  <string name="number_4">4</string>
+  <string name="number_5">5</string>
+  <string name="session_feedback_other">¿Hay algo más que deberíamos saber?</string>
+  <!--  More Misc  DevFest-->
+  <string name="dashclock_extension_description">Muestra los próximos artículos en su calendario de Dev Fest 2013.</string>
+</resources>
