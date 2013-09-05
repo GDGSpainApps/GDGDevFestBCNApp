@@ -31,7 +31,7 @@
   <string name="title_share">Comparte con</string>
   <string name="title_search">Buscar</string>
   <string name="title_search_query">Buscar  \"&lt;b&gt;%1$s&lt;b&gt;\"</string>
-  <string name="title_my_schedule">Programar</string>
+  <string name="title_my_schedule">Programa</string>
   <string name="title_explore">Explorar</string>
   <string name="title_stream">Publicación</string>
   <string name="session_subtitle">%1$s en %2$s</string>
@@ -110,11 +110,19 @@
   <string name="map_now_sandbox">Ahora en el sandbox:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;</string>
   <string name="map_infowindow_text_empty">-</string>
   <!--  EULA, login, and about  -->
-  <string name="description_choose_account">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;b&gt;Seleccione una cuenta a continuación. Si se inscribió para participar en el Dev Fest asegúrese de utilizar la misma cuenta. &lt;/b&gt;&lt;/font&gt;</string>
-  <string name="description_setup_attendee_mode_header">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;b&gt;¿Este año está usted asistiendo al Dev Fest en persona? &lt;/b&gt;&lt;/ font&gt;&lt;br&gt;</string>
-  <string name="description_setup_attendee_mode_body">&lt;![CDATA[Si no es así, sólo le mostraremos sesiones con streaming en vivo. Se puede cambiar esto en Configuración.</string>
-  <string name="description_sign_in_main">&lt;![CDATA[Bienvenido a la aplicación del Dev Fest, su compañero oficial para la conferencia Dev Fest que tiene lugar en Barcelona 11 de octubre 2013. &lt;br&gt; Sólo tenemos que hacerle un par de preguntas rápidas. Pulse el botón "Sign-in" para empezar.</string>
-  <string name="empty_accounts">No hay cuentas Google disponibles. Añadir una cuenta para continuar.</string>
+  <string name="description_choose_account"><![CDATA[ Seleccione una cuenta a continuación. Si se inscribió para participar en el Dev Fest asegúrese de utilizar la misma cuenta. </font]]></string>
+  <string name="description_setup_attendee_mode_header"><![CDATA[ ¿Este año está usted asistiendo al Dev Fest Barcelona en persona?   ]]></string>
+  <string name="description_setup_attendee_mode_body"><![CDATA[
+          Si no es así, sólo le mostraremos sesiones con streaming en vivo. Se puede cambiar esto en Configuración.]]></string>
+  <string name="description_sign_in_main"><![CDATA[ Bienvenido a la aplicación del Dev Fest, su compañero oficial para la conferencia Dev Fest que tiene lugar en Barcelona 11 de octubre 2013
+       Sólo tenemos que hacerle un par de preguntas rápidas. Pulse el botón "Sign-in" para empezar.]]></string>
+  <string name="empty_accounts"><![CDATA[ No hay cuentas Google disponibles. Añadir una cuenta para continuar.]]></string>
+ 
+      <string-array name="selection_setup_attendee">
+        <item>Sí estaré presente en Barcelona</item>
+        <item>No.</item>
+    </string-array>
+  
   <string name="no_connection_cant_login">No se puede iniciar sesión Comprueba tu conexión de red.</string>
   <string name="taking_a_while">Esto va a tardar un poco ...</string>
   <string name="about_eula">Acuerdo de licencia de usuario final</string>

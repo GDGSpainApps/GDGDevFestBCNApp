@@ -110,20 +110,24 @@
   <string name="map_now_sandbox">Ara en el sandbox:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;</string>
   <string name="map_infowindow_text_empty">-</string>
   <!--  EULA, login, and about  -->
-  <string name="description_choose_account">&lt;! [CDATA [&lt;font color="#4d90fe"&gt; &lt;b&gt; Seleccioneu un compte a continuació. Si es va inscriure per participar al Dev Fest, assegureu-vos d\'utilitzar el mateix compte. &lt;/ B&gt; &lt;/ font&gt;</string>
-  <string name="description_setup_attendee_mode_header">&lt;![CDATA[&lt;font color="#4d90fe"&gt;&lt;b&gt;Està vostè assistint al Dev Fest en persona aquest any? &lt;/ B&gt; &lt;/ font&gt; &lt;br&gt;</string>
-  <string name="description_setup_attendee_mode_body">&lt;! [CDATA [Si no és així, només li mostrarem sessions d\'estreaming en viu. Sempre es pot canviar això a la Configuració.</string>
-  <string name="description_sign_in_main">&lt;! [CDATA [Benvingut a Google Dev Fest App, el seu company oficial a la conferència Dev Fest que té lloc a Barcelona 11 octubre 2013. &lt;br&gt; Només hem de fer-li un parell de preguntes ràpides. Premeu el botó "Sign-in" per començar.</string>
-  <string name="calltoaction_wifi_configure">&lt;![CDATA[&lt;br&gt;Tap \'Add Wi-Fi Network\' per procedir.</string>
+  <string name="description_choose_account"><![CDATA[ <font color="#4d90fe"> Seleccioneu un compte a continuació. Si es va inscriure per participar al Dev Fest, assegureu-vos d\'utilitzar el mateix compte. &lt;/ </font> ]]></string>
+  <string name="description_setup_attendee_mode_header"><![CDATA[ <font color="#4d90fe">Està vostè assistint al Dev Fest en persona aquest any?    ]]></string>
+  <string name="description_setup_attendee_mode_body"><![CDATA[ Si no és així, només li mostrarem sessions d\'estreaming en viu. Sempre es pot canviar això a la Configuració. ]]></string>
+  <string name="description_sign_in_main"><![CDATA[ Benvingut a Google Dev Fest Barcelona App , el seu company oficial a la conferència Dev Fest que té lloc a Barcelona 11 octubre 2013. &lt;br&gt; Només hem de fer-li un parell de preguntes ràpides. Premeu el botó "Sign-in" per començar. ]]></string>
+  <string name="calltoaction_wifi_configure"><![CDATA[ Tap \'Add Wi-Fi Network\' per procedir. ]]></string>
   <string name="calltoaction_wifi_settings">&lt;!\'Obrir Configuració Wi-Fi "[CDATA[&lt;br&gt;toc per activar el Wi-Fi.</string>
   <string name="empty_accounts">No hi ha comptes de Google disponibles. Afegeix un compte per continuar.</string>
   <string name="no_connection_cant_login">No es pot entrar, comprova la connexió de xarxa.</string>
   <string name="taking_a_while">Carregant...</string>
   <string name="about_eula">Acord de llicència d\'usuari final</string>
   <string name="about_licenses">Open Source Licenses</string>
+    <string-array name="selection_setup_attendee">
+        <item>Sí estaré present a Barcelona</item>
+        <item>No.</item>
+    </string-array>
   <string name="about_body">
         &lt;b&gt;Dev Fest 2013&lt;/b&gt;&lt;br&gt;
-        Version %s&lt;br&gt;&lt;br&gt;
+        Version %s&lt;br&gt;&lt;br&gt;z
         &lt;a href="http://m.google.com/utos"&gt;Terms of Service&lt;/a&gt;&lt;br&gt;&lt;br&gt;
         &lt;a href="http://www.google.com/policies/privacy/"&gt;Privacy Policy&lt;/a&gt;
     </string>
