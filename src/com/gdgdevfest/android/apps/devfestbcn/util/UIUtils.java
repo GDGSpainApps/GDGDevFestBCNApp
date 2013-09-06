@@ -86,14 +86,14 @@ public class UIUtils {
      * Time zone to use when formatting all session times. To always use the
      * phone local time, use {@link TimeZone#getDefault()}.
      */
-    public static final TimeZone CONFERENCE_TIME_ZONE = TimeZone.getTimeZone("America/Los_Angeles");
+    public static final TimeZone CONFERENCE_TIME_ZONE = TimeZone.getTimeZone("Europe/Madrid");
 
     public static final long CONFERENCE_START_MILLIS = ParserUtils.parseTime(
-            "2013-05-15T09:00:00.000-07:00");
+            "2013-10-11T08:30:00.000-07:00");
     public static final long CONFERENCE_END_MILLIS = ParserUtils.parseTime(
-            "2013-05-17T16:00:00.000-07:00");
+            "2013-10-11T21:00:00.000-07:00");
 
-    public static final String CONFERENCE_HASHTAG = "#io13";
+    public static final String CONFERENCE_HASHTAG = "#DevFest Barcelona";
 
     public static final String TARGET_FORM_FACTOR_ACTIVITY_METADATA =
             "com.gdgdevfest.android.apps.devfestbcn.meta.TARGET_FORM_FACTOR";
