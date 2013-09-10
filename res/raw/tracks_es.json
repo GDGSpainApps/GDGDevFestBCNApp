@@ -1,0 +1,36 @@
+{
+ "track": [
+   {
+     "id": "496738724",
+     "name": "Móvil",
+     "level": 1,
+     "meta": 2,
+     "color": "#993366",
+     "abstract": "Cosas de moviles"
+   },
+   {
+     "id": "324437288",
+     "name": "Web",
+     "level": 1,
+     "order_in_level": 1,
+     "color": "#99cc00",
+     "abstract": "Cosas de webs y eso"
+   },
+   {
+     "id": "324543074",
+     "name": "Nube",
+     "level": 1,
+     "order_in_level": 2,
+     "color": "#0294c7",
+     "abstract": "¿A qué huelen las nubes?"
+   },
+   {
+     "id": "CODE_LABS",
+     "name": "Emprendimiento",
+     "level": 1,
+     "meta": 1,
+     "color": "#666699",
+     "abstract": "Startups y esas mandangas"
+   }
+ ]
+}

@@ -321,4 +321,16 @@
     <!-- More Misc -->
     <string name="dashclock_extension_description">        Displays the next few items in your DevFest BCN 2013 schedule.</string>
 
+    
+    <!-- App data -->
+    <string name="json_rooms">rooms_en</string>
+    <string name="json_common_slots">common_slots_en</string>
+    <string name="json_tracks">tracks_en</string>
+    <string name="json_speakers">speakers_en</string>
+    <string name="json_sessions">sessions_en</string>
+    <string name="json_session_tracks">session_tracks_en</string>
+    <string name="json_search_suggest">search_suggest_en</string>
+    <string name="json_map">map_en</string>
+    
+    
 </resources>

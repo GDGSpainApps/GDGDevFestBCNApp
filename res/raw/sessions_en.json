@@ -1,0 +1,48 @@
+{
+ "sessions": [
+  {
+   "description": "World Domination description",
+   "title": "World domination",
+   "startTimestamp": 1378306800,
+   "presenterIds": [
+    "113761022442439780609",
+    "113841534482981360303"
+   ],
+   "endTimestamp": 1378317600,
+   "subtype": "SESSION",
+   "location": "Sala de estar",
+   "isLivestream": false,
+   "id": "258451203"
+  },
+  {
+   "description": "Cocina de pastelitos con sabores graciosos",
+   "title": "Cocina divertida",
+   "startTimestamp": 1380906000,
+   "youtubeUrl": "FDEMA6OhvGo",
+   "presenterIds": [
+    "113761022442439780609"
+   ],
+   "endTimestamp": 1380909600,
+   "subtype": "SESSION",
+   "location": "Room 10",
+   "isLivestream": true,
+   "id": "318907648"
+  },
+  {
+   "description": "Clases de dormir en horas de trabajo",
+   "title": "Dormir en horario laboral",
+   "startTimestamp": 1380906000,
+   "youtubeUrl": "FDEMA6OhvGo",
+   "presenterIds": [
+    "113841534482981360303"
+   ],
+   "endTimestamp": 1380909600,
+   "subtype": "SESSION",
+   "location": "Room 10",
+   "isLivestream": true,
+   "id": "324149970"
+  }
+ ],
+ "kind": "googledevelopers#sessionsItem",
+ "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/yGQ5LTk-TDzmactpsrhDg2XAgvc\""
+}
