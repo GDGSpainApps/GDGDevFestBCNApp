@@ -1,0 +1,27 @@
+{
+  "day": [
+    {
+      "date": "2013-10-11",
+      "slot": [
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "title": "Entrada al evento",
+          "meta": "UPC"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "title": "Comida",
+          "meta": "UPC"
+        },
+        {
+          "start": "20:00",
+          "end": "23:00",
+          "title": "Clausura",
+          "meta": "Mobile World Centre"
+        }
+      ]
+    }
+  ]
+}
