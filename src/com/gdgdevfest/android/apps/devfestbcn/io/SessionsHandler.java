@@ -66,7 +66,6 @@ public class SessionsHandler {
             = "https://developers.google.com/events/io/sessions/";
 
     private static final String EVENT_TYPE_KEYNOTE = Sessions.SESSION_TYPE_KEYNOTE;
-    private static final String EVENT_TYPE_OFFICE_HOURS = Sessions.SESSION_TYPE_OFFICE_HOURS;
     private static final String EVENT_TYPE_CODELAB = Sessions.SESSION_TYPE_CODELAB;
     private static final String EVENT_TYPE_SANDBOX = Sessions.SESSION_TYPE_SANDBOX;
 
@@ -317,11 +316,7 @@ public class SessionsHandler {
                             blockType = ScheduleContract.Blocks.BLOCK_TYPE_CODELAB;
                             blockTitle = mContext.getString(
                                     R.string.schedule_block_title_code_labs);
-                        } else if (EVENT_TYPE_OFFICE_HOURS.equals(sessionSubtype)) {
-                            blockType = ScheduleContract.Blocks.BLOCK_TYPE_OFFICE_HOURS;
-                            blockTitle = mContext.getString(
-                                    R.string.schedule_block_title_office_hours);
-                        } else {
+                        }  else {
                             blockType = ScheduleContract.Blocks.BLOCK_TYPE_SESSION;
                             blockTitle = mContext.getString(
                                     R.string.schedule_block_title_sessions);

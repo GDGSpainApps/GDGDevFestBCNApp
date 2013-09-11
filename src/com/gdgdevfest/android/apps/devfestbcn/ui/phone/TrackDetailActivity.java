@@ -59,7 +59,6 @@ public class TrackDetailActivity extends BaseActivity implements
         TrackInfoHelperFragment.Callbacks {
 
     private static final int TAB_SESSIONS = 100;
-    private static final int TAB_OFFICE_HOURS = 101;
     private static final int TAB_SANDBOX = 102;
 
     private ViewPager mViewPager;
@@ -162,19 +161,7 @@ public class TrackDetailActivity extends BaseActivity implements
                     )));
                     return fragment;
                 }
-                case TAB_OFFICE_HOURS: {
-                    Fragment fragment = new SessionsFragment();
-                    fragment.setArguments(BaseActivity.intentToFragmentArguments(new Intent(
-                            Intent.ACTION_VIEW,
-                            (allTracks
-                                    ? ScheduleContract.Sessions.CONTENT_URI
-                                    : ScheduleContract.Tracks.buildSessionsUri(mTrackId))
-                                    .buildUpon()
-                                    .appendQueryParameter(QUERY_PARAMETER_FILTER,
-                                            QUERY_VALUE_FILTER_OFFICE_HOURS_ONLY)
-                                    .build())));
-                    return fragment;
-                }
+               
                 case TAB_SANDBOX:
                 default: {
                     Fragment fragment = new SandboxFragment();
@@ -226,18 +213,13 @@ public class TrackDetailActivity extends BaseActivity implements
                 break;
 
             case ScheduleContract.Tracks.TRACK_META_SANDBOX_OFFICE_HOURS_ONLY:
-                mTabs.add(TAB_OFFICE_HOURS);
                 mTabs.add(TAB_SANDBOX);
                 break;
 
-            case ScheduleContract.Tracks.TRACK_META_OFFICE_HOURS_ONLY:
-                mTabs.add(TAB_OFFICE_HOURS);
-                break;
-
+          
             case ScheduleContract.Tracks.TRACK_META_NONE:
             default:
                 mTabs.add(TAB_SESSIONS);
-                mTabs.add(TAB_OFFICE_HOURS);
                 mTabs.add(TAB_SANDBOX);
                 break;
         }
@@ -255,10 +237,7 @@ public class TrackDetailActivity extends BaseActivity implements
                         titleResId = R.string.title_sandbox;
                         break;
 
-                    case TAB_OFFICE_HOURS:
-                        titleResId = R.string.title_office_hours;
-                        break;
-
+          
                     case TAB_SESSIONS:
                     default:
                         titleResId = R.string.title_sessions;

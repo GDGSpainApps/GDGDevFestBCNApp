@@ -35,7 +35,6 @@
     <string name="title_my_schedule">Programar</string>
     <string name="title_explore">Explorar</string>
     <string name="title_stream">Publicacions</string>
-    <string name="session_subtitle">%1$s a %2$s</string>
     <string name="all_tracks">Tots els tracks</string>
     <string name="all_tracks_sessions">Totes les sessions</string>
     <string name="all_tracks_office_hours">Totes les hores lectives</string>
@@ -73,7 +72,6 @@
     <string name="session_livestream_keynote_title">Dev Fest - %s</string>
     <string name="session_livestream_keynote_desc">Els esdeveniments en primicia del DevFest el convertiran en un dels primers desenvolupadors a conéixer. Agafa les teves crispetes, acomoda\'t i disfruta de l\'espectacle directament des del teu dispositiu Android.</string>
     <string name="session_livestream_play_pause">Reproduir / Pausa</string>
-    <string name="codelab_title_template">Code Lab: %1$s</string>
     <string name="search_label">Dev Fest Sessions</string>
     <string name="search_hint">Cercar sessions</string>
     <string name="share_template">Checking out \'%1$s\' at %2$s %3$s</string>
@@ -120,28 +118,26 @@
     <string name="description_choose_account"><![CDATA[ <font color="#4d90fe"> Seleccioneu un compte a continuació. Si es va inscriure per participar al Dev Fest, assegureu-vos d\'utilitzar el mateix compte. &lt;/ </font> ]]></string>
     <string name="description_setup_attendee_mode_header"><![CDATA[ <font color="#4d90fe">Està vostè assistint al Dev Fest en persona aquest any?    ]]></string>
     <string name="description_setup_attendee_mode_body"><![CDATA[ Si no és així, només li mostrarem sessions d\'estreaming en viu. Sempre es pot canviar això a la Configuració. ]]></string>
-    <string name="description_sign_in_main"><![CDATA[ Benvingut a Google Dev Fest Barcelona App , el seu company oficial a la conferència Dev Fest que té lloc a Barcelona 11 octubre 2013. &lt;br&gt; Només hem de fer-li un parell de preguntes ràpides. Premeu el botó "Sign-in" per començar. ]]></string>
+    <string name="description_sign_in_main"><![CDATA[ Benvingut a Google Dev Fest Barcelona App , el seu company oficial a la conferència Dev Fest que té lloc a Barcelona 11 octubre 2013.]]></string>
     <string name="calltoaction_wifi_configure"><![CDATA[ Tap \'Add Wi-Fi Network\' per procedir. ]]></string>
     <string name="calltoaction_wifi_settings">&lt;!\'Obrir Configuració Wi-Fi "[CDATA[&lt;br&gt;toc per activar el Wi-Fi.</string>
     <string name="empty_accounts">No hi ha comptes de Google disponibles. Afegeix un compte per continuar.</string>
     <string name="no_connection_cant_login">No es pot entrar, comprova la connexió de xarxa.</string>
     <string name="taking_a_while">Carregant...</string>
-    <string name="about_eula">Acord de llicència d\'usuari final</string>
-    <string name="about_licenses">Open Source Licenses</string>
-
+  
     <string-array name="selection_setup_attendee">
         <item>Sí estaré present a Barcelona</item>
         <item>No.</item>
     </string-array>
 
-    <string name="about_body">        &lt;b&gt;Dev Fest 2013&lt;/b&gt;&lt;br&gt;
-        Version %s&lt;br&gt;&lt;br&gt;z
-        &lt;a href="http://m.google.com/utos"&gt;Terms of Service&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-        &lt;a href="http://www.google.com/policies/privacy/"&gt;Privacy Policy&lt;/a&gt;</string>
-    <!-- suppress AndroidLintTypographyOther -->
-    <string name="eula_text">&lt;[CDATA [En descarregar, instal·lar o utilitzar aquesta aplicació o qualsevol part de la mateixa ("Aplicació"), vostè està d\'acord amb aquests termes i condicions: el seu millor ús d\'aquesta aplicació es regeix per:. (A) la Google Termes de Servei (&lt;a href="http://m.google.com/utos"&gt; m.google.com / utos &lt;/ a&gt;), (b) Política de privacitat de Google (&lt;a href = "http: / / www.google.com / policies / privacy "&gt; http://www.google.com/policies/privacy &lt;/ a&gt;), i (c) els termes de servei específic aplicable Google de les polítiques de privacitat o servei. Termes de polítiques de privacitat i servei de Google poden ser actualitzades de tant en tant i sense previ avís. &lt;br&gt; Aquesta aplicació recull certa informació de com vostè l\'utilitza, fins i tot a través de Google Analytics. Política de privacitat de Google descriu com Google tracta la seva iformació i protegeix la seva privacitat quan utilitza l\'aplicació. Vostè accepta l\'ús de les seves dades d\'acord amb la política de privacitat de Google.</string>
+       <string name="about_body">
+<![CDATA[
+        <b>DevFest BCN 2013</b><br>
+        Version %s<br><br>
+    ]]>
+    </string>
+       <!-- suppress AndroidLintTypographyOther -->
     <!-- Session notification -->
-    <string name="session_notification_text_1">Comença en %1$d min</string>
     <!-- TODO: string name="snooze_x_min" -->
     <!-- Others -->
     <string name="ok">D´acord</string>
@@ -156,7 +152,6 @@
     <string name="live_now_badge">&lt;![CDATA[&lt;font color="#ff4444"&gt;&lt;small&gt;&lt;b&gt;EN VIU&lt;/b&gt;&lt;/small&gt;&lt;/font&gt;</string>
     <string name="session_finished">Finalitzat</string>
     <!-- Strings only used for accessibility -->
-    <string name="speaker_googleplus_profile">Google+ : %1$s</string>
     <string name="close_detail_pane">Tancar panell de detalls</string>
     <string name="more_sessions">Més sessions</string>
     <string name="more_announcements">Més notificies</string>
@@ -211,11 +206,7 @@
         <item quantity="one">1 sessió és a punt de Començar.</item>
         <item quantity="other">%d sessions estan a punt de començar.</item>
     </plurals>
-    <plurals name="session_notification_ticker">
-        <item quantity="one">1 sessió és a punt de començar.</item>
-        <item quantity="other">%d sessions estan a punt de començar.</item>
-    </plurals>
-
+  
     <string name="session_notification_text_1">Comença a <xliff:g id="remaining_time">%1$d</xliff:g> min.</string>
 
     <plurals name="session_notification_text">

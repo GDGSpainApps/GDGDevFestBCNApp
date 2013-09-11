@@ -35,7 +35,6 @@
     <string name="title_my_schedule">Programa</string>
     <string name="title_explore">Explorar</string>
     <string name="title_stream">Publicación</string>
-    <string name="session_subtitle">%1$s en %2$s</string>
     <string name="all_tracks">Todos los tracks</string>
     <string name="all_tracks_sessions">Todas las sesiones</string>
     <string name="all_tracks_office_hours">Todas las horas lectivas</string>
@@ -73,7 +72,6 @@
     <string name="session_livestream_keynote_title">Dev Fest - %s</string>
     <string name="session_livestream_keynote_desc">Los eventos en primicia del DevFest le convertirán en unos de los primeros desarrolladores en conocer en lo que se está trabajando. Coge palomitas, ponte cómodo y disfruta el espectáculo directamente desde tu dispositivo Android.</string>
     <string name="session_livestream_play_pause">Reproducir / Pausa</string>
-    <string name="codelab_title_template">Code Lab: %1$s</string>
     <string name="search_label">Sesiones Dev Fest</string>
     <string name="search_hint">Buscar sesiones</string>
     <string name="share_template">Checking out \'%1$s\' at %2$s %3$s</string>
@@ -125,8 +123,7 @@
           Si no es así, sólo le mostraremos sesiones con streaming en vivo. Se puede cambiar esto en Configuración.]]>
     </string>
     <string name="description_sign_in_main">
-<![CDATA[ Bienvenido a la aplicación del Dev Fest, su compañero oficial para la conferencia Dev Fest que tiene lugar en Barcelona 11 de octubre 2013
-       Sólo tenemos que hacerle un par de preguntas rápidas. Pulse el botón "Sign-in" para empezar.]]>
+<![CDATA[ Bienvenido a la aplicación del Dev Fest, su compañero oficial para la conferencia Dev Fest que tiene lugar en Barcelona 11 de octubre 2013.]]>
     </string>
     <string name="empty_accounts"><![CDATA[ No hay cuentas Google disponibles. Añadir una cuenta para continuar.]]></string>
 
@@ -137,14 +134,12 @@
 
     <string name="no_connection_cant_login">No se puede iniciar sesión Comprueba tu conexión de red.</string>
     <string name="taking_a_while">Esto va a tardar un poco ...</string>
-    <string name="about_eula">Acuerdo de licencia de usuario final</string>
-    <string name="about_licenses">Licencias Open Source</string>
-    <string name="about_body">        &lt;b&gt;Dev Fest 2013&lt;/b&gt;&lt;br&gt;
-        Version %s&lt;br&gt;&lt;br&gt;
-        &lt;a href="http://m.google.com/utos"&gt;Terms of Service&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-        &lt;a href="http://www.google.com/policies/privacy/"&gt;Privacy Policy&lt;/a&gt;</string>
-    <!-- suppress AndroidLintTypographyOther -->
-    <string name="eula_text">&lt;[CDATA[Al descargar, instalar o utilizar esta aplicación o cualquier parte del mismo ("Aplicación"), usted está de acuerdo con estos términos y condiciones: su mejor uso de esta aplicación se rige por:. (A) la Google Términos de Servicio (&lt;a href="http://m.google.com/utos"&gt; m.google.com / utos &lt;/ a&gt;), (b) Política de privacidad de Google (&lt;a href="http://www.google.com/policies/privacy"&gt; http://www.google.com/policies/privacy&lt;/ a&gt;), y (c) los términos de servicio específico aplicable Google de las políticas de privacidad o servicio. Los términos de políticas de privacidad y servicio de Google pueden ser actualizadas de vez en cuando y sin previo aviso. &lt;br&gt; Esta aplicación recoge cierta información como usted lo utiliza, incluso a través de Google Analytics. Política de privacidad de Google describe cómo Google trata su información y protege su privacidad cuando utiliza la aplicación. Usted acepta el uso de sus datos de acuerdo con la política de privacidad de Google.</string>
+    <string name="about_body">
+<![CDATA[
+        <b>DevFest BCN 2013</b><br>
+        Version %s<br><br>
+    ]]>
+    </string> <!-- suppress AndroidLintTypographyOther -->
     <!-- Session notification -->
     <!-- TODO: string name="snooze_x_min" -->
     <!-- Others -->
@@ -160,7 +155,6 @@
     <string name="live_now_badge">&lt;![CDATA[&lt;font color="#999999"&gt;&lt;small&gt;&lt;b&gt;EN VIVO&lt;/b&gt;&lt;/small&gt;&lt;/font&gt;</string>
     <string name="session_finished">Finalizado</string>
     <!-- Strings only used for accessibility -->
-    <string name="speaker_googleplus_profile">Google+ : %1$s</string>
     <string name="close_detail_pane">Cerrar panel detallado</string>
     <string name="more_sessions">Más sesiones</string>
     <string name="more_announcements">Más noticias</string>
@@ -231,7 +225,7 @@
     <string name="stream_originally_shared">Originalmente compartido por  <xliff:g id="name">%s</xliff:g></string>
     <string name="speaker_googleplus_profile">Perfil Google+: <xliff:g id="speakername">%1$s</xliff:g></string>
 
-     <!-- App data -->
+    <!-- App data -->
     <string name="json_rooms">rooms_es</string>
     <string name="json_common_slots">common_slots_es</string>
     <string name="json_tracks">tracks_es</string>
@@ -240,5 +234,5 @@
     <string name="json_session_tracks">session_tracks_es</string>
     <string name="json_search_suggest">search_suggest_es</string>
     <string name="json_map">map_es</string>
-    
+
 </resources>

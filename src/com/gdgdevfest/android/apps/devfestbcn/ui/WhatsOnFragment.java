@@ -151,7 +151,7 @@ public class WhatsOnFragment extends Fragment implements
             mCountdownTextView.setText(str);
 
             // Repost ourselves to keep updating countdown
-            mHandler.postDelayed(mCountdownRunnable, 1000);
+            mHandler.postDelayed(mCountdownRunnable, 800);
         }
     };
 
