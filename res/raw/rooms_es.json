@@ -1,0 +1,43 @@
+{
+  "rooms": [
+
+
+    {
+      "id": "lunchroom",
+      "name":"Comedor",
+      "floor": "1"
+    },
+
+
+    {
+      "id": "room1",
+      "name":"Sala 1",
+      "floor": "1"
+    },
+    {
+      "id": "room2",
+      "name":"Sala 2",
+      "floor": "1"
+    },
+    {
+      "id": "room3",
+      "name":"Sala 3",
+      "floor": "1"
+    },
+    {
+      "id": "room4",
+      "name":"Sala 4",
+      "floor": "1"
+    },
+    {
+      "id": "sandbox1",
+      "name":"Liquid Galaxy",
+      "floor": "1"
+    },
+    {
+      "id": "keynote",
+      "name":"Sala de Prensa",
+      "floor": "1"
+    }
+  ]
+}

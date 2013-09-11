@@ -27,6 +27,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
+import java.text.Format.Field;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -90,7 +91,7 @@ public class SyncHelper {
     private static final String TAG = makeLogTag(SyncHelper.class);
 
     public static final int FLAG_SYNC_LOCAL = 0x1;
-    public static final int FLAG_SYNC_REMOTE = 0x2;
+    public static final int FLAG_SYNC_REMOTE = 0;//0x2;
 
     private static final int LOCAL_VERSION_CURRENT = 25;
     private static final String LOCAL_MAPVERSION_CURRENT = "\"vlh7Ig\"";
@@ -137,30 +138,52 @@ public class SyncHelper {
             // Only run local sync if there's a newer version of data available
             // than what was last locally-sync'd.
             if (localParse) {
+            	int json_rooms = R.raw.rooms_es;
+            	int json_common_slots = R.raw.common_slots_es;
+            	int json_tracks = R.raw.tracks_es;
+            	int json_speakers = R.raw.speakers_es;
+            	int json_sessions = R.raw.sessions_es;
+            	int json_session_tracks = R.raw.session_tracks_es;
+            	int json_search_suggest = R.raw.search_suggest_es;
+            	int json_map = R.raw.map_es;
+            	try{
+                    Class res = R.raw.class;
+                    json_rooms = res.getField(mContext.getResources().getString(R.string.json_rooms)).getInt(null);
+                    json_common_slots = res.getField(mContext.getResources().getString(R.string.json_common_slots)).getInt(null);
+                    json_tracks = res.getField(mContext.getResources().getString(R.string.json_tracks)).getInt(null);
+                    json_speakers = res.getField(mContext.getResources().getString(R.string.json_speakers)).getInt(null);
+                    json_sessions = res.getField(mContext.getResources().getString(R.string.json_sessions)).getInt(null);
+                    json_session_tracks = res.getField(mContext.getResources().getString(R.string.json_session_tracks)).getInt(null);
+                    json_search_suggest = res.getField(mContext.getResources().getString(R.string.json_search_suggest)).getInt(null);
+                    json_map = res.getField(mContext.getResources().getString(R.string.json_map)).getInt(null);
+            	} catch (Exception e){
+            		LOGI(TAG, "Error al recuperar los raws localizados: "+e.getMessage());
+            	}
+            	
                 // Load static local data
                 LOGI(TAG, "Local syncing rooms");
                 batch.addAll(new RoomsHandler(mContext).parse(
-                        JSONHandler.parseResource(mContext, R.raw.rooms)));
+                        JSONHandler.parseResource(mContext, json_rooms)));
                 LOGI(TAG, "Local syncing blocks");
                 batch.addAll(new BlocksHandler(mContext).parse(
-                        JSONHandler.parseResource(mContext, R.raw.common_slots)));
+                        JSONHandler.parseResource(mContext, json_common_slots)));
                 LOGI(TAG, "Local syncing tracks");
                 batch.addAll(new TracksHandler(mContext).parse(
-                        JSONHandler.parseResource(mContext, R.raw.tracks)));
+                        JSONHandler.parseResource(mContext, json_tracks)));
                 LOGI(TAG, "Local syncing speakers");
                 batch.addAll(new SpeakersHandler(mContext).parseString(
-                        JSONHandler.parseResource(mContext, R.raw.speakers)));
+                        JSONHandler.parseResource(mContext, json_speakers)));
                 LOGI(TAG, "Local syncing sessions");
                 batch.addAll(new SessionsHandler(mContext).parseString(
-                        JSONHandler.parseResource(mContext, R.raw.sessions),
-                        JSONHandler.parseResource(mContext, R.raw.session_tracks)));
+                        JSONHandler.parseResource(mContext, json_sessions),
+                        JSONHandler.parseResource(mContext, json_session_tracks)));
                 LOGI(TAG, "Local syncing search suggestions");
                 batch.addAll(new SearchSuggestHandler(mContext).parse(
-                        JSONHandler.parseResource(mContext, R.raw.search_suggest)));
+                        JSONHandler.parseResource(mContext, json_search_suggest)));
                 LOGI(TAG, "Local syncing map");
                 MapPropertyHandler mapHandler = new MapPropertyHandler(mContext);
                 batch.addAll(mapHandler.parse(
-                        JSONHandler.parseResource(mContext, R.raw.map)));
+                        JSONHandler.parseResource(mContext, json_map)));
                 //need to sync tile files before data is updated in content provider
                 syncMapTiles(mapHandler.getTiles());
 

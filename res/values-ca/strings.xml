@@ -231,4 +231,14 @@
     <string name="stream_originally_shared">Originalment compartit per <xliff:g id="name">%s</xliff:g></string>
     <string name="speaker_googleplus_profile">Perfil Google+: <xliff:g id="speakername">%1$s</xliff:g></string>
 
+    <!-- App data -->
+    <string name="json_rooms">rooms_ca</string>
+    <string name="json_common_slots">common_slots_ca</string>
+    <string name="json_tracks">tracks_ca</string>
+    <string name="json_speakers">speakers_ca</string>
+    <string name="json_sessions">sessions_ca</string>
+    <string name="json_session_tracks">session_tracks_ca</string>
+    <string name="json_search_suggest">search_suggest_ca</string>
+    <string name="json_map">map_ca</string>
+    
 </resources>

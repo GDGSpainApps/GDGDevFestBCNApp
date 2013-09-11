@@ -1,0 +1,38 @@
+{
+ "tracks": [
+  {
+   "description": "Desc track tralará",
+   "title": "Mobile",
+   "id": "496738724",
+   "sessions": [
+    "324149970"
+   ]
+  },
+  {
+   "description": "Cosicas de web",
+   "title": "Web",
+   "id": "324543074",
+   "sessions": [
+    "000000002"
+   ]
+  },
+  {
+   "description": "Cloudeate",
+   "title": "Cloud",
+   "id": "324543074",
+   "sessions": [
+    "318907648"
+   ]
+  },
+  {
+   "description": "Enterprendimiento",
+   "title": "Enterpreneurship",
+   "id": "CODE_LABS",
+   "sessions": [
+    "258451203"
+   ]
+  }
+ ],
+ "kind": "googledevelopers#tracksItem",
+ "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/WVA3sZItXgheWnnHEcLInWZzq-0\""
+}
