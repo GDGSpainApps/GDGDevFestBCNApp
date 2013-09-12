@@ -163,7 +163,7 @@
     <string name="plus_one_description_standard">Toca per sumar un.</string>
     <!-- Preferences -->
     <string name="pref_local_times_title">Mostra l\'hora local</string>
-    <string name="pref_local_times_description">Quan s\'activa, mostra les hores locals en lloc de temps del Pacífic (la zona horària en la conferència)</string>
+    <string name="pref_local_times_description">Quan s\'activa, mostra les hores locals en lloc de l\'hora CEST (la zona horària en la conferència)</string>
     <string name="pref_attendee_at_venue_title">Seré al Dev Fest!</string>
     <string name="pref_attendee_at_venue_description">Quan s\'activa, es mostraran totes les sessions i esdeveniments al lloc. En cas contrari, només es mostraran sessions d\'estreaming en viu.</string>
     <string name="wifi_install_error_message">Ho sentim, no pot actualitzar la configuració Wi-Fi</string>

@@ -89,9 +89,9 @@ public class UIUtils {
     public static final TimeZone CONFERENCE_TIME_ZONE = TimeZone.getTimeZone("Europe/Madrid");
 
     public static final long CONFERENCE_START_MILLIS = ParserUtils.parseTime(
-            "2013-10-11T08:30:00.000-07:00");
+            "2013-10-11T08:30:00.000+02:00");
     public static final long CONFERENCE_END_MILLIS = ParserUtils.parseTime(
-            "2013-10-11T21:00:00.000-07:00");
+            "2013-10-11T21:00:00.000+02:00");
 
     public static final String CONFERENCE_HASHTAG = "#DevFest Barcelona";
 
