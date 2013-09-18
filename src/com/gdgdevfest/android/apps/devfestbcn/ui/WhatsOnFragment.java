@@ -121,8 +121,7 @@ public class WhatsOnFragment extends Fragment implements
     private Runnable mCountdownRunnable = new Runnable() {
         public void run() {
             int remainingSec = (int) Math.max(0,
-                    (UIUtils.CONFERENCE_START_MILLIS - UIUtils
-                            .getCurrentTime(getActivity())) / 1000);
+                    (UIUtils.CONFERENCE_START_MILLIS - System.currentTimeMillis()) / 1000);
             final boolean conferenceStarted = remainingSec == 0;
 
             if (conferenceStarted) {

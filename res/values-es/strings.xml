@@ -167,7 +167,7 @@
     <string name="plus_one_description_standard">Toque para añadir uno.</string>
     <!-- Preferences -->
     <string name="pref_local_times_title">Mostrar hora local</string>
-    <string name="pref_local_times_description">Cuando se activa, muestra las horas locales en lugar de tiempo del Pacífico (la zona horaria en la conferencia)</string>
+    <string name="pref_local_times_description">Cuando se activa, muestra las horas locales en lugar de la hora en CEST (la zona horaria en la conferencia)</string>
     <string name="pref_attendee_at_venue_title">¡Estaré en el Dev Fest!</string>
     <string name="pref_attendee_at_venue_description">Cuando se activa, se mostrarán todas las sesiones y eventos en el lugar. De lo contrario, sólo se mostrarán sesiones con streaming en vivo.</string>
     <string name="wifi_install_error_message">Lo sentimos, no puede actualizar la configuración de Wi-Fi</string>

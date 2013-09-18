@@ -106,11 +106,9 @@ public class AccountActivity extends ActionBarActivity
                         .add(R.id.root_container, new SignInMainFragment(), "signin_main")
                         .commit();
             } else {
-                mChosenAccount = new Account(AccountUtils.getChosenAccountName(this), "com.google");
-                getSupportFragmentManager().beginTransaction()
-                        .add(R.id.root_container,
-                                SignInSetupFragment.makeFragment(SETUP_ATTENDEE), "setup_attendee")
-                        .commit();
+                PrefUtils.setAttendeeAtVenue(this, true);
+                PrefUtils.setUsingLocalTime(this, false);
+                finishSetup();
             }
         } else {
             String accountName = savedInstanceState.getString(KEY_CHOSEN_ACCOUNT);
@@ -504,14 +502,9 @@ public class AccountActivity extends ActionBarActivity
         // Cancel progress fragment.
         // Create set up fragment.
         mAuthInProgress = false;
-        if (mAuthProgressFragmentResumed) {
-            getSupportFragmentManager().popBackStack();
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.root_container,
-                            SignInSetupFragment.makeFragment(SETUP_ATTENDEE), "setup_attendee")
-                    .addToBackStack("signin_main")
-                    .commit();
-        }
+        PrefUtils.setAttendeeAtVenue(this, true);
+        PrefUtils.setUsingLocalTime(this, false);
+        finishSetup();
     }
 
     private void finishSetup() {
