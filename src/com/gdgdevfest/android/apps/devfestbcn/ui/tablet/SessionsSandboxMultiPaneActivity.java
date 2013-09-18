@@ -239,7 +239,7 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
     private SpinnerAdapter mActionBarSpinnerAdapter = new BaseAdapter() {
         @Override
         public int getCount() {
-            return 3;
+            return 2;
         }
 
         @Override
@@ -256,8 +256,6 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
             switch (position) {
                 case TracksDropdownFragment.VIEW_TYPE_SESSIONS:
                     return R.string.title_sessions;
-                case TracksDropdownFragment.VIEW_TYPE_OFFICE_HOURS:
-                    return R.string.title_office_hours;
                 case TracksDropdownFragment.VIEW_TYPE_SANDBOX:
                     return R.string.title_sandbox;
             }
@@ -465,17 +463,7 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
                         .build(), null);
                 break;
 
-            case TracksDropdownFragment.VIEW_TYPE_OFFICE_HOURS:
-                loadSessionList((allTracks
-                        ? ScheduleContract.Sessions.CONTENT_URI
-                        : ScheduleContract.Tracks.buildSessionsUri(trackId))
-                        .buildUpon()
-                        .appendQueryParameter(
-                                ScheduleContract.Sessions.QUERY_PARAMETER_FILTER,
-                                ScheduleContract.Sessions.QUERY_VALUE_FILTER_OFFICE_HOURS_ONLY)
-                        .build(), null);
-                break;
-
+          
             case TracksDropdownFragment.VIEW_TYPE_SANDBOX:
                 loadSandboxList(allTracks
                         ? ScheduleContract.Sandbox.CONTENT_URI
@@ -528,16 +516,7 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
                         .build(), mTrackInfoLoadCookie);
                 break;
 
-            case TracksDropdownFragment.VIEW_TYPE_OFFICE_HOURS:
-                loadSessionList((allTracks
-                        ? ScheduleContract.Sessions.CONTENT_URI
-                        : ScheduleContract.Tracks.buildSessionsUri(trackId))
-                        .buildUpon()
-                        .appendQueryParameter(
-                                ScheduleContract.Sessions.QUERY_PARAMETER_FILTER,
-                                ScheduleContract.Sessions.QUERY_VALUE_FILTER_OFFICE_HOURS_ONLY)
-                        .build(), mTrackInfoLoadCookie);
-                break;
+          
 
             case TracksDropdownFragment.VIEW_TYPE_SANDBOX:
                 loadSandboxList(allTracks
