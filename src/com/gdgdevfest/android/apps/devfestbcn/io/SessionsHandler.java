@@ -63,7 +63,8 @@ public class SessionsHandler {
     private static final String TAG = makeLogTag(SessionsHandler.class);
 
     private static final String BASE_SESSION_URL
-            = "https://developers.google.com/events/io/sessions/";
+            = "http://bcn.gdgdevfest.com/";
+            		
 
     private static final String EVENT_TYPE_KEYNOTE = Sessions.SESSION_TYPE_KEYNOTE;
     private static final String EVENT_TYPE_CODELAB = Sessions.SESSION_TYPE_CODELAB;
@@ -449,7 +450,7 @@ public class SessionsHandler {
             return null;
         }
 
-        return BASE_SESSION_URL + sessionId;
+        return BASE_SESSION_URL;// + sessionId;
     }
 
 }

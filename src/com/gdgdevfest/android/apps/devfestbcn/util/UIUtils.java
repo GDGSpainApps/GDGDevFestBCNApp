@@ -93,7 +93,7 @@ public class UIUtils {
     public static final long CONFERENCE_END_MILLIS = ParserUtils.parseTime(
             "2013-10-11T21:00:00.000+02:00");
 
-    public static final String CONFERENCE_HASHTAG = "#DevFest Barcelona";
+    public static final String CONFERENCE_HASHTAG = "#DevFestBCN";
 
     public static final String TARGET_FORM_FACTOR_ACTIVITY_METADATA =
             "com.gdgdevfest.android.apps.devfestbcn.meta.TARGET_FORM_FACTOR";
