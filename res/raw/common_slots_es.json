@@ -1,23 +1,28 @@
 {
   "day": [
     {
+      "date": "2013-10-10",
+      "slot": [
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "title": "Entrada al evento",
+          "meta": "UPC Campus Nord"
+        }
+       ]
+    },
+    {
       "date": "2013-10-11",
       "slot": [
         {
-          "start": "08:00",
-          "end": "09:00",
-          "title": "Entrada al evento",
-          "meta": "UPC"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00",
+          "start": "05:00",
+          "end": "06:00",
           "title": "Comida",
-          "meta": "UPC"
+          "meta": "UPC Campus Nord"
         },
         {
-          "start": "20:00",
-          "end": "23:00",
+          "start": "13:00",
+          "end": "16:00",
           "title": "Clausura",
           "meta": "Mobile World Centre"
         }
