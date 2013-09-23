@@ -2,11 +2,11 @@
  "track": [
    {
      "id": "496738724",
-     "name": "Mobile",
+     "name": "Mòbil",
      "level": 1,
      "meta": 2,
      "color": "#993366",
-     "abstract": "Cosas de moviles"
+     "abstract": "Mòbil"
    },
    {
      "id": "324437288",
@@ -14,7 +14,7 @@
      "level": 1,
      "order_in_level": 1,
      "color": "#99cc00",
-     "abstract": "Cosas de webs y eso"
+     "abstract": "Web"
    },
    {
      "id": "324543074",
@@ -22,15 +22,15 @@
      "level": 1,
      "order_in_level": 2,
      "color": "#0294c7",
-     "abstract": "Que bonita la nube"
+     "abstract": "Cloud"
    },
    {
      "id": "CODE_LABS",
-     "name": "Enterpreneurship",
+     "name": "Emprendedoria",
      "level": 1,
      "meta": 1,
      "color": "#666699",
-     "abstract": "Enterprenalimitiento"
+     "abstract": "Emprendedoria"
    }
  ]
 }

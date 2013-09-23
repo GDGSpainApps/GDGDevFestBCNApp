@@ -5,70 +5,360 @@
    "title": "Dominación mundial",
    "startTimestamp": 1378306800,
    "presenterIds": [
-    "113761022442439780609",
-    "113841534482981360303"
+    "cyril_mottier",
+    "andreu_ibanez",
+    "ines_goncalves",
+    "jorge_juan_barroso_carmona",
+    "patrick_heneise",
+    "andres_leonardo_martinez",
+    "jordi_gerona",
+    "david_gonzalez",
+    "jorge_galindo_cruces",
+    "hermes_pique",
+    "txus_ballesteros",
+    "fernando_cejas",
+    "ignacio_cougil"
    ],
    "endTimestamp": 1378317600,
    "subtype": "SESSION",
-   "location": "Sala de estar",
-   "isLivestream": false,
-   "id": "258451203"
-  },
-  {
-   "description": "Maquetación con tablas",
-   "title": "Maquetación con tablas",
-   "startTimestamp": 1378306800,
-   "presenterIds": [
-    "113812464225961962994"
-   ],
-   "endTimestamp": 1378317600,
-   "subtype": "SESSION",
-   "location": "Sala de estar",
-   "isLivestream": false,
-   "id": "000000002"
-  },
-  {
-   "description": "Dominación mundial y sus cosas",
-   "title": "Dominación mundial",
-   "startTimestamp": 1378306800,
-   "presenterIds": [
-    "113761022442439780609",
-    "113841534482981360303"
-   ],
-   "endTimestamp": 1378317600,
-   "subtype": "SESSION",
-   "location": "Sala de estar",
-   "isLivestream": false,
-   "id": "258451203"
-  },
-  {
-   "description": "Cocina de pastelitos con sabores graciosos",
-   "title": "Cocina divertida",
-   "startTimestamp": 1380906000,
-   "youtubeUrl": "FDEMA6OhvGo",
-   "presenterIds": [
-    "113761022442439780609"
-   ],
-   "endTimestamp": 1380909600,
-   "subtype": "SESSION",
-   "location": "Room 10",
+   "location": "auditori",
    "isLivestream": true,
-   "id": "318907648"
+   "id": "dominacion_mundial"
+  },
+
+
+  {
+   "description": "desc Sesión Móvil 1",
+   "title": "Sesión Móvil 1",
+   "startTimestamp": 1381478400,
+   "presenterIds": [
+    "jorge_juan_barroso_carmona"
+   ],
+   "endTimestamp": 1381482000,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_1"
   },
   {
-   "description": "Clases de dormir en horas de trabajo",
-   "title": "Dormir en horario laboral",
-   "startTimestamp": 1380906000,
-   "youtubeUrl": "FDEMA6OhvGo",
+   "description": "desc Sesión Móvil 2",
+   "title": "Sesión Móvil 2",
+   "startTimestamp": 1381482000,
    "presenterIds": [
-    "113841534482981360303",
-    "flipper83"
+    "cyril_mottier"
    ],
-   "endTimestamp": 1380909600,
+   "endTimestamp": 1381485600,
    "subtype": "SESSION",
-   "location": "Room 10",
+   "location": "sala_dactes",
    "isLivestream": true,
-   "id": "324149970"
+   "id": "movil_2"
+  },
+  {
+   "description": "desc Sesión Móvil 3",
+   "title": "Sesión Móvil 3",
+   "startTimestamp": 1381485600,
+   "presenterIds": [
+    "fernando_cejas"
+   ],
+   "endTimestamp": 1381489200,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_3"
+  },
+  {
+   "description": "desc Sesión Móvil 4",
+   "title": "Sesión Móvil 4",
+   "startTimestamp": 1381489200,
+   "presenterIds": [
+    "david_gonzalez"
+   ],
+   "endTimestamp": 1381492800,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_4"
+  },
+  {
+   "description": "desc Sesión Móvil 5",
+   "title": "Sesión Móvil 5",
+   "startTimestamp": 1381500000,
+   "presenterIds": [
+    "cyril_mottier"
+   ],
+   "endTimestamp": 1381503600,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_5"
+  },
+  {
+   "description": "desc Sesión Móvil 6",
+   "title": "Sesión Móvil 6",
+   "startTimestamp": 1381503600,
+   "presenterIds": [
+    "cyril_mottier"
+   ],
+   "endTimestamp": 1381507200,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_6"
+  },
+
+
+  {
+   "description": "desc Sesión Web 1",
+   "title": "Sesión Web 1",
+   "startTimestamp": 1381478400,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381482000,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_1"
+  },
+  {
+   "description": "desc Sesión Web 2",
+   "title": "Sesión Web 2",
+   "startTimestamp": 1381482000,
+   "presenterIds": [
+    "patrick_heneise"
+   ],
+   "endTimestamp": 1381485600,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_2"
+  },
+  {
+   "description": "desc Sesión Web 3",
+   "title": "Sesión Web 3",
+   "startTimestamp": 1381485600,
+   "presenterIds": [
+    "cyril_mottier"
+   ],
+   "endTimestamp": 1381489200,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_3"
+  },
+  {
+   "description": "desc Sesión Web 4",
+   "title": "Sesión Web 4",
+   "startTimestamp": 1381489200,
+   "presenterIds": [
+    "cyril_mottier"
+   ],
+   "endTimestamp": 1381492800,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_4"
+  },
+  {
+   "description": "desc Sesión Web 5",
+   "title": "Sesión Web 5",
+   "startTimestamp": 1381500000,
+   "presenterIds": [
+    "cyril_mottier"
+   ],
+   "endTimestamp": 1381503600,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_5"
+  },
+  {
+   "description": "desc Sesión Web 6",
+   "title": "Sesión Web 6",
+   "startTimestamp": 1381503600,
+   "presenterIds": [
+    "cyril_mottier"
+   ],
+   "endTimestamp": 1381507200,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_6"
+  },
+
+
+  {
+   "description": "desc Sesión Nube 1",
+   "title": "Sesión Nube 1",
+   "startTimestamp": 1381478400,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381482000,
+   "subtype": "SESSION",
+   "location": "quatre_camins",
+   "isLivestream": true,
+   "id": "cloud_1"
+  },
+  {
+   "description": "desc Sesión Nube 2",
+   "title": "Sesión Nube 2",
+   "startTimestamp": 1381482000,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381485600,
+   "subtype": "SESSION",
+   "location": "quatre_camins",
+   "isLivestream": true,
+   "id": "cloud_2"
+  },
+  {
+   "description": "desc Sesión Nube 3",
+   "title": "Sesión Nube 3",
+   "startTimestamp": 1381485600,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381489200,
+   "subtype": "SESSION",
+   "location": "quatre_camins",
+   "isLivestream": true,
+   "id": "cloud_3"
+  },
+  {
+   "description": "desc Sesión Nube 4",
+   "title": "Sesión Nube 4",
+   "startTimestamp": 1381489200,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381492800,
+   "subtype": "SESSION",
+   "location": "quatre_camins",
+   "isLivestream": true,
+   "id": "cloud_4"
+  },
+  {
+   "description": "desc Sesión Nube 5",
+   "title": "Sesión Nube 5",
+   "startTimestamp": 1381500000,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381503600,
+   "subtype": "SESSION",
+   "location": "quatre_camins",
+   "isLivestream": true,
+   "id": "cloud_5"
+  },
+  {
+   "description": "desc Sesión Nube 6",
+   "title": "Sesión Nube 6",
+   "startTimestamp": 1381503600,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381507200,
+   "subtype": "SESSION",
+   "location": "quatre_camins",
+   "isLivestream": true,
+   "id": "cloud_6"
+  },
+
+
+  {
+   "description": "desc Sesión Emprendimiento 1",
+   "title": "Sesión Emprendimiento 1",
+   "startTimestamp": 1381478400,
+   "presenterIds": [
+    "ines_goncalves"
+   ],
+   "endTimestamp": 1381482000,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_1"
+  },
+  {
+   "description": "desc Sesión Emprendimiento 2",
+   "title": "Sesión Emprendimiento 2",
+   "startTimestamp": 1381482000,
+   "presenterIds": [
+    "andres_leonardo_martinez"
+   ],
+   "endTimestamp": 1381485600,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_2"
+  },
+  {
+   "description": "desc Sesión Emprendimiento 3",
+   "title": "Sesión Emprendimiento 3",
+   "startTimestamp": 1381485600,
+   "presenterIds": [
+    "hermes_pique"
+   ],
+   "endTimestamp": 1381489200,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_3"
+  },
+  {
+   "description": "desc Sesión Emprendimiento 4",
+   "title": "Sesión Emprendimiento 4",
+   "startTimestamp": 1381489200,
+   "presenterIds": [
+    "txus_ballesteros"
+   ],
+   "endTimestamp": 1381492800,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_4"
+  },
+  {
+   "description": "desc Sesión Emprendimiento 5",
+   "title": "Sesión Emprendimiento 5",
+   "startTimestamp": 1381500000,
+   "presenterIds": [
+    "jorge_galindo_cruces"
+   ],
+   "endTimestamp": 1381503600,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_5"
+  },
+  {
+   "description": "desc Sesión Emprendimiento 6",
+   "title": "Sesión Emprendimiento 6",
+   "startTimestamp": 1381503600,
+   "presenterIds": [
+    "cyril_mottier"
+   ],
+   "endTimestamp": 1381507200,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_6"
+  },
+
+  {
+   "description": "desc Liquid Galaxy",
+   "title": "Liquid Galaxy",
+   "startTimestamp": 1381474800,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381507200,
+   "iconUrl": "http://www.google.com/earth/images/liquidgalaxy.jpg",
+   "subtype": "DEVELOPER_SANDBOX",
+   "location": "sandbox",
+   "isLivestream": true,
+   "id": "sandbox_1"
   }
  ],
  "kind": "googledevelopers#sessionsItem",
