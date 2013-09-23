@@ -57,8 +57,7 @@ public class TracksDropdownFragment extends Fragment implements
         PopupWindow.OnDismissListener {
 
     public static final int VIEW_TYPE_SESSIONS = 0;
-    public static final int VIEW_TYPE_OFFICE_HOURS = 1;
-    public static final int VIEW_TYPE_SANDBOX = 2;
+    public static final int VIEW_TYPE_SANDBOX = 1;
 
     private static final String STATE_VIEW_TYPE = "viewType";
     private static final String STATE_SELECTED_TRACK_ID = "selectedTrackId";
@@ -232,10 +231,6 @@ public class TracksDropdownFragment extends Fragment implements
                     mTitle.setText(R.string.all_tracks_sessions);
                     mAbstract.setText(R.string.all_tracks_subtitle_sessions);
                     break;
-                case VIEW_TYPE_OFFICE_HOURS:
-                    mTitle.setText(R.string.all_tracks_office_hours);
-                    mAbstract.setText(R.string.all_tracks_subtitle_office_hours);
-                    break;
                 case VIEW_TYPE_SANDBOX:
                     mTitle.setText(R.string.all_tracks_sandbox);
                     mAbstract.setText(R.string.all_tracks_subtitle_sandbox);
@@ -273,12 +268,7 @@ public class TracksDropdownFragment extends Fragment implements
                 selection = ScheduleContract.Tracks.SESSIONS_COUNT + ">0";
                 break;
 
-            case VIEW_TYPE_OFFICE_HOURS:
-                // Only show tracks with at least one office hours
-                projection = TracksAdapter.TracksQuery.PROJECTION_WITH_OFFICE_HOURS_COUNT;
-                selection = ScheduleContract.Tracks.OFFICE_HOURS_COUNT + ">0";
-                break;
-
+        
             case VIEW_TYPE_SANDBOX:
                 // Only show tracks with at least one company
                 projection = TracksAdapter.TracksQuery.PROJECTION_WITH_SANDBOX_COUNT;

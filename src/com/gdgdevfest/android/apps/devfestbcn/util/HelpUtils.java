@@ -76,20 +76,15 @@ public class HelpUtils {
                 versionName = VERSION_UNAVAILABLE;
             }
 
-            // Build the about body view and append the link to see OSS licenses
-            SpannableStringBuilder aboutBody = new SpannableStringBuilder();
-            aboutBody.append(Html.fromHtml(getString(R.string.about_body, versionName)));
-
-          
+      
+            
             LayoutInflater layoutInflater = (LayoutInflater) getActivity().getSystemService(
                     Context.LAYOUT_INFLATER_SERVICE);
-            TextView aboutBodyView = (TextView) layoutInflater.inflate(R.layout.dialog_about, null);
-            aboutBodyView.setText(aboutBody);
-            aboutBodyView.setMovementMethod(new LinkMovementMethod());
-
+            View v = layoutInflater.inflate(R.layout.custom_dialog_about, null);
+   
             return new AlertDialog.Builder(getActivity())
                     .setTitle(R.string.title_about)
-                    .setView(aboutBodyView)
+                    .setView(v)
                     .setPositiveButton(R.string.ok,
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int whichButton) {
