@@ -16,6 +16,7 @@
 
 package com.gdgdevfest.android.apps.devfestbcn.ui.tablet;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGD;
 import android.annotation.TargetApi;
 import android.app.SearchManager;
 import android.content.Intent;
@@ -26,6 +27,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.support.v7.app.ActionBar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -48,7 +50,6 @@ import com.gdgdevfest.android.apps.devfestbcn.util.BeamUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.ImageLoader;
 import com.gdgdevfest.android.apps.devfestbcn.util.UIUtils;
 import com.google.analytics.tracking.android.EasyTracker;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.*;
 
 /**
  * A multi-pane activity, consisting of a {@link TracksDropdownFragment}, a
@@ -256,9 +257,11 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
             switch (position) {
                 case TracksDropdownFragment.VIEW_TYPE_SESSIONS:
                     return R.string.title_sessions;
+             
                 case TracksDropdownFragment.VIEW_TYPE_SANDBOX:
                     return R.string.title_sandbox;
             }
+            Log.e("inaki","position" +position);
             return 0;
         }
 
@@ -269,6 +272,7 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
                         android.R.layout.simple_spinner_item,
                         container, false);
             }
+            Log.e("inaki","posss  "+position);
             ((TextView) convertView.findViewById(android.R.id.text1)).setText(
                     getLabelResId(position));
             return convertView;
@@ -366,7 +370,7 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
     private void updateDetailBackground() {
         if (mDetailFragment == null) {
             if (TracksDropdownFragment.VIEW_TYPE_SESSIONS == mViewType
-                    || TracksDropdownFragment.VIEW_TYPE_OFFICE_HOURS == mViewType) {
+                   ) {
                 findViewById(R.id.fragment_container_detail).setBackgroundResource(
                         R.drawable.grey_frame_on_white_empty_sessions);
             } else {
@@ -435,9 +439,6 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
         switch (mViewType) {
             case TracksDropdownFragment.VIEW_TYPE_SESSIONS:
                 trackType = getString(R.string.title_sessions);
-                break;
-            case TracksDropdownFragment.VIEW_TYPE_OFFICE_HOURS:
-                trackType = getString(R.string.title_office_hours);
                 break;
             case TracksDropdownFragment.VIEW_TYPE_SANDBOX:
                 trackType = getString(R.string.title_sandbox);
