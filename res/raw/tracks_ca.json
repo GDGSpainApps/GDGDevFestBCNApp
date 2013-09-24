@@ -1,34 +1,26 @@
 {
  "track": [
    {
-     "id": "496738724",
+     "id": "movil",
      "name": "Mòbil",
      "level": 1,
-     "meta": 2,
-     "color": "#993366",
+     "color": "#99cc00",
+      "order_in_level": 1,
      "abstract": "Mòbil"
    },
-   {
-     "id": "324437288",
-     "name": "Web",
+     {
+     "id": "web",
+     "name": "Web/Cloud",
      "level": 1,
-     "order_in_level": 1,
-     "color": "#99cc00",
+     "color": "#993366",
+     "order_in_level": 2,
      "abstract": "Web"
    },
    {
-     "id": "324543074",
-     "name": "Cloud",
-     "level": 1,
-     "order_in_level": 2,
-     "color": "#0294c7",
-     "abstract": "Cloud"
-   },
-   {
-     "id": "CODE_LABS",
+     "id": "emprendimiento",
      "name": "Emprendedoria",
      "level": 1,
-     "meta": 1,
+      "order_in_level": 3,
      "color": "#666699",
      "abstract": "Emprendedoria"
    }

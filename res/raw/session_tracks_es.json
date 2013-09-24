@@ -10,12 +10,13 @@
     "movil_3",
     "movil_4",
     "movil_5",
-    "movil_6"
+    "movil_6",
+    "sandbox_1"
    ]
   },
   {
-   "description": "Web",
-   "title": "Web",
+   "description": "Web/Cloud",
+   "title": "Web/Cloud",
    "id": "web",
    "sessions": [
     "web_1",
@@ -26,19 +27,7 @@
     "web_6"
    ]
   },
-  {
-   "description": "Nube",
-   "title": "Nube",
-   "id": "nube",
-   "sessions": [
-    "cloud_1",
-    "cloud_2",
-    "cloud_3",
-    "cloud_4",
-    "cloud_5",
-    "cloud_6"
-   ]
-  },
+ 
   {
    "description": "Enterprendimiento",
    "title": "Enterprendimiento",

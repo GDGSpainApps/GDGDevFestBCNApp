@@ -63,6 +63,7 @@ import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -73,8 +74,8 @@ import com.gdgdevfest.android.apps.devfestbcn.R;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract.Blocks;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract.Rooms;
-import com.gdgdevfest.android.apps.devfestbcn.ui.tablet.MapMultiPaneActivity;
 import com.gdgdevfest.android.apps.devfestbcn.ui.phone.MapActivity;
+import com.gdgdevfest.android.apps.devfestbcn.ui.tablet.MapMultiPaneActivity;
 
 /**
  * An assortment of UI helpers.
@@ -351,12 +352,13 @@ public class UIUtils {
         canvas.drawCircle(iconSize / 2, iconSize / 2, iconSize / 2, paint);
 
         String trackSinAcentos = trackName;
-        String original = "aáàeééiíïoòóuüúnAÁÀEÉÈIÍÏOÓÒUÚÜ";
-        String ascii = "aaaeeeiiiooouuunAAAEEEIIIOOOUUUNcC";
+        Log.e("inaki","   "+trackName);
+        String original = "aáàeééiíïoòóuüúnAÁÀEÉÈIÍÏOÓÒUÚÜ/";
+        String ascii = "aaaeeeiiiooouuunAAAEEEIIIOOOUUU_";
         for (int i=0; i<original.length(); i++) {
         	trackSinAcentos = trackSinAcentos.replace(original.charAt(i), ascii.charAt(i));
         }
-        
+        Log.e("inaki",ParserUtils.sanitizeId(trackSinAcentos));
         int iconResId = res.getIdentifier(
                 "track_" + ParserUtils.sanitizeId(trackSinAcentos),
                 "drawable", context.getPackageName());

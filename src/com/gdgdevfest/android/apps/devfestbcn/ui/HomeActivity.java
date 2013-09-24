@@ -80,7 +80,8 @@ public class HomeActivity extends BaseActivity implements
         UIUtils.enableDisableActivitiesByFormFactor(this);
         setContentView(R.layout.activity_home);
         FragmentManager fm = getSupportFragmentManager();
-
+        setTitle(R.string.app_name);
+        
         mViewPager = (ViewPager) findViewById(R.id.pager);
         String homeScreenLabel;
         if (mViewPager != null) {
