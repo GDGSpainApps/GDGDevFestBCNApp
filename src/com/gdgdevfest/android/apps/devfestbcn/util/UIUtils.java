@@ -351,7 +351,7 @@ public class UIUtils {
         canvas.drawCircle(iconSize / 2, iconSize / 2, iconSize / 2, paint);
 
         String trackSinAcentos = trackName;
-        String original = "áàäéèëíìïóòöúùuñÁÀÄÉÈËÍÌÏÓÒÖÚÙÜÑçÇ";
+        String original = "aÃ¡Ã eÃ©Ã©iÃ­Ã¯oÃ²Ã³uÃ¼ÃºnAÃÃ€EÃ‰ÃˆIÃÃOÃ“Ã’UÃšÃœ";
         String ascii = "aaaeeeiiiooouuunAAAEEEIIIOOOUUUNcC";
         for (int i=0; i<original.length(); i++) {
         	trackSinAcentos = trackSinAcentos.replace(original.charAt(i), ascii.charAt(i));
