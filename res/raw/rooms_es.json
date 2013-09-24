@@ -1,42 +1,48 @@
 {
   "rooms": [
-
-
     {
-      "id": "lunchroom",
-      "name":"Comedor",
-      "floor": "1"
-    },
-
-
-    {
-      "id": "room1",
-      "name":"Sala 1",
+      "id": "bar",
+      "name":"Bar",
       "floor": "1"
     },
     {
-      "id": "room2",
-      "name":"Sala 2",
+      "id": "auditori",
+      "name":"Auditori",
       "floor": "1"
     },
     {
-      "id": "room3",
-      "name":"Sala 3",
+      "id": "sala_dactes",
+      "name":"Sala d\'Actes",
       "floor": "1"
     },
     {
-      "id": "room4",
-      "name":"Sala 4",
+      "id": "sala_dactes_fib",
+      "name":"Sala d\'Actes de la FIB",
       "floor": "1"
     },
     {
-      "id": "sandbox1",
+      "id": "quatre_camins",
+      "name":"Quatre Camins",
+      "floor": "1"
+    },
+    {
+      "id": "agora",
+      "name":"Àgora",
+      "floor": "1"
+    },
+    {
+      "id": "sandbox",
       "name":"Liquid Galaxy",
       "floor": "1"
     },
     {
-      "id": "keynote",
-      "name":"Sala de Prensa",
+      "id": "hackaton",
+      "name":"Hackaton",
+      "floor": "1"
+    },
+    {
+      "id": "codelab",
+      "name":"Codelab",
       "floor": "1"
     }
   ]

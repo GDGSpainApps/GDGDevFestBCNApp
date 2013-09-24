@@ -350,8 +350,15 @@ public class UIUtils {
         paint.setColor(trackColor);
         canvas.drawCircle(iconSize / 2, iconSize / 2, iconSize / 2, paint);
 
+        String trackSinAcentos = trackName;
+        String original = "aáàeééiíïoòóuüúnAÁÀEÉÈIÍÏOÓÒUÚÜ";
+        String ascii = "aaaeeeiiiooouuunAAAEEEIIIOOOUUUNcC";
+        for (int i=0; i<original.length(); i++) {
+        	trackSinAcentos = trackSinAcentos.replace(original.charAt(i), ascii.charAt(i));
+        }
+        
         int iconResId = res.getIdentifier(
-                "track_" + ParserUtils.sanitizeId(trackName),
+                "track_" + ParserUtils.sanitizeId(trackSinAcentos),
                 "drawable", context.getPackageName());
         if (iconResId != 0) {
             Drawable sourceIconDrawable = res.getDrawable(iconResId);
