@@ -36,6 +36,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
 import android.support.v7.app.ActionBarActivity;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,16 +58,15 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.plus.PlusClient;
 import com.google.android.gms.plus.model.people.Person;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.*;
 
 public class AccountActivity extends ActionBarActivity
         implements AccountUtils.AuthenticateCallback, GooglePlayServicesClient.ConnectionCallbacks,
         GooglePlayServicesClient.OnConnectionFailedListener, PlusClient.OnPersonLoadedListener {
 
-    private static final String TAG = makeLogTag(AccountActivity.class);
+    private static final String TAG = ""+AccountActivity.class;
 
     public static final String EXTRA_FINISH_INTENT
-            = "com.gdgdevfest.android.apps.devfestbcn.extra.FINISH_INTENT";
+            = "com.google.android.iosched.extra.FINISH_INTENT";
 
     private static final int SETUP_ATTENDEE = 1;
     private static final int SETUP_WIFI = 2;
@@ -79,7 +79,7 @@ public class AccountActivity extends ActionBarActivity
     private static final int REQUEST_PLAY_SERVICES_ERROR_DIALOG = 103;
 
     private static final String POST_AUTH_CATEGORY
-            = "com.gdgdevfest.android.apps.devfestbcn.category.POST_AUTH";
+            = "com.google.android.iosched.category.POST_AUTH";
 
     private Account mChosenAccount;
     private Intent mFinishIntent;
@@ -106,9 +106,11 @@ public class AccountActivity extends ActionBarActivity
                         .add(R.id.root_container, new SignInMainFragment(), "signin_main")
                         .commit();
             } else {
-                PrefUtils.setAttendeeAtVenue(this, true);
-                PrefUtils.setUsingLocalTime(this, false);
-                finishSetup();
+                mChosenAccount = new Account(AccountUtils.getChosenAccountName(this), "com.google");
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.root_container,
+                                SignInSetupFragment.makeFragment(SETUP_ATTENDEE), "setup_attendee")
+                        .commit();
             }
         } else {
             String accountName = savedInstanceState.getString(KEY_CHOSEN_ACCOUNT);
@@ -138,7 +140,7 @@ public class AccountActivity extends ActionBarActivity
 
     @Override
     public void onUnRecoverableException(final String errorMessage) {
-        LOGW(TAG, "Encountered unrecoverable exception: " + errorMessage);
+        Log.w(TAG, "Encountered unrecoverable exception: " + errorMessage);
     }
 
     @Override
@@ -188,7 +190,7 @@ public class AccountActivity extends ActionBarActivity
                 AccountUtils.setPlusProfileId(this, person.getId());
             }
         } else {
-            LOGE(TAG, "Got " + connectionResult.getErrorCode() + ". Could not load plus profile.");
+            Log.e(TAG, "Got " + connectionResult.getErrorCode() + ". Could not load plus profile.");
         }
     }
 
@@ -268,18 +270,22 @@ public class AccountActivity extends ActionBarActivity
                     R.layout.fragment_login_setup, container, false);
             final TextView descriptionView = (TextView) rootView.findViewById(
                     R.id.login_setup_desc);
-            descriptionView.setText(Html.fromHtml(getString(mDescriptionHeaderResId) +
-                    getString(mDescriptionBodyResId)));
+            descriptionView.setText("");
             return rootView;
         }
 
         @Override
         public void onResume() {
             super.onResume();
-            setListAdapter(
-                    new ArrayAdapter<String> (getActivity(),
-                            R.layout.list_item_login_option,
-                            getResources().getStringArray(mSelectionResId)));
+            final Activity activity = getActivity();
+            PrefUtils.setAttendeeAtVenue(activity, true);
+            PrefUtils.setUsingLocalTime(activity, false);
+            // If WiFi has already been configured, set up is complete.  Otherwise,
+            // show the WiFi AP configuration screen.
+            //if (WiFiUtils.shouldInstallWiFi(activity)) {
+            ((AccountActivity)activity).finishSetup();
+   
+         
         }
 
         @Override
@@ -294,10 +300,8 @@ public class AccountActivity extends ActionBarActivity
                     // If WiFi has already been configured, set up is complete.  Otherwise,
                     // show the WiFi AP configuration screen.
                     //if (WiFiUtils.shouldInstallWiFi(activity)) {
-                        ((AccountActivity)activity).finishSetup();
-                        EasyTracker.getTracker()
-                            .setCustomDimension(ATCONF_DIMEN_INDEX,"conference attendee");
-
+                    ((AccountActivity)activity).finishSetup();
+                 
                 } else if (position == 1) {
                     // Attendee is remote.  Set up is done.
                     PrefUtils.setAttendeeAtVenue(activity, false);
@@ -306,7 +310,13 @@ public class AccountActivity extends ActionBarActivity
                             .setCustomDimension(ATCONF_DIMEN_INDEX,"remote attendee");
                     ((AccountActivity)activity).finishSetup();
                 }
-            } 
+            } else if (mSetupId == SETUP_WIFI) {
+                if (position == 0) {
+        //            WiFiUtils.setWiFiConfigStatus(activity, WiFiUtils.WIFI_CONFIG_REQUESTED);
+                }
+                // Done with set up.
+                ((AccountActivity)activity).finishSetup();
+            }
         }
     }
 
@@ -502,9 +512,14 @@ public class AccountActivity extends ActionBarActivity
         // Cancel progress fragment.
         // Create set up fragment.
         mAuthInProgress = false;
-        PrefUtils.setAttendeeAtVenue(this, true);
-        PrefUtils.setUsingLocalTime(this, false);
-        finishSetup();
+        if (mAuthProgressFragmentResumed) {
+            getSupportFragmentManager().popBackStack();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.root_container,
+                            SignInSetupFragment.makeFragment(SETUP_ATTENDEE), "setup_attendee")
+                    .addToBackStack("signin_main")
+                    .commit();
+        }
     }
 
     private void finishSetup() {
@@ -520,6 +535,7 @@ public class AccountActivity extends ActionBarActivity
             mFinishIntent.addCategory(POST_AUTH_CATEGORY);
             startActivity(mFinishIntent);
         }
+        
 
         finish();
     }
@@ -543,7 +559,7 @@ public class AccountActivity extends ActionBarActivity
                 connectionResult.startResolutionForResult(this,
                         REQUEST_RECOVER_FROM_AUTH_ERROR);
             } catch (IntentSender.SendIntentException e) {
-                LOGE(TAG, "Internal error encountered: " + e.getMessage());
+               
             }
             return;
         }

@@ -14,30 +14,51 @@
    ]
   },
   {
-   "description": "Web/Cloud",
-   "title": "Web/Cloud",
+   "description": "Web",
+   "title": "Web",
    "id": "web",
    "sessions": [
     "web_1",
     "web_2",
-    "web_3",
-    "web_4",
-    "web_5",
-    "web_6"
+    "web_3"
    ]
   },
  
   {
-   "description": "Entrepreneurship",
-   "title": "Entrepreneurship",
+   "description": "Enterprendimiento",
+   "title": "Enterprendimiento",
    "id": "emprendimiento",
    "sessions": [
     "entrepreneurship_1",
     "entrepreneurship_2",
-    "entrepreneurship_3",
-    "entrepreneurship_4",
-    "entrepreneurship_5",
-    "entrepreneurship_6"
+    "entrepreneurship_3"
+   ]
+  },
+   {
+   "description": "Cloud",
+   "title": "Cloud",
+   "id": "cloud",
+   "sessions": [
+    "cloud_1",
+     "cloud_2",
+      "cloud_3"
+   ]
+  },
+   {
+   "description": "Google Glasses",
+   "title": "Google Glasses",
+   "id": "glass",
+   "sessions": [
+    "glass_1"
+   ]
+  },
+   {
+   "description": "CodeLabs",
+   "title": "CodeLabs",
+   "id": "codelabs",
+   "sessions": [
+    "codelabs_1",
+    "codelabs_2"
    ]
   }
  ],

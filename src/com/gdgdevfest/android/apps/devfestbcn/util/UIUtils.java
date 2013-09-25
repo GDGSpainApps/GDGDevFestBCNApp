@@ -352,13 +352,11 @@ public class UIUtils {
         canvas.drawCircle(iconSize / 2, iconSize / 2, iconSize / 2, paint);
 
         String trackSinAcentos = trackName;
-        Log.e("inaki","   "+trackName);
-        String original = "aáàeééiíïoòóuüúnAÁÀEÉÈIÍÏOÓÒUÚÜ/";
-        String ascii = "aaaeeeiiiooouuunAAAEEEIIIOOOUUU_";
+        String original = "aáàeééiíïoòóuüúnAÁÀEÉÈIÍÏOÓÒUÚÜ/ ";
+        String ascii = "aaaeeeiiiooouuunAAAEEEIIIOOOUUU__";
         for (int i=0; i<original.length(); i++) {
         	trackSinAcentos = trackSinAcentos.replace(original.charAt(i), ascii.charAt(i));
         }
-        Log.e("inaki",ParserUtils.sanitizeId(trackSinAcentos));
         int iconResId = res.getIdentifier(
                 "track_" + ParserUtils.sanitizeId(trackSinAcentos),
                 "drawable", context.getPackageName());

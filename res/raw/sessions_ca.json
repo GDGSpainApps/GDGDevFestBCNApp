@@ -40,8 +40,8 @@
    "id": "movil_3"
   },
   {
-   "description": "desc Sesión Móvil 4",
-   "title": "Sesión Móvil 4",
+   "description": "La Sessió proposarà les millors pràctiques i compartirà els Coneixements adquirits després d'utilitzar Gradle i Android Studio per desenvolupar Aplicacions i Llibreries en Entorns de Producció. S'abordaran Diferents Temes incloent Desenvolupament, Publicació, proves i Integració contínua.",
+   "title": "Gradle, Android Studio i la bellesa de la línia de comandes",
    "startTimestamp": 1381489200,
    "presenterIds": [
     "david_gonzalez"
@@ -97,8 +97,8 @@
    "id": "web_1"
   },
   {
-   "description": "desc Sesión Web 2",
-   "title": "Sesión Web 2",
+   "description": "desc Sesión Web 1",
+   "title": "Sesión Web 1",
    "startTimestamp": 1381482000,
    "presenterIds": [
     "patrick_heneise"
@@ -107,10 +107,10 @@
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
-   "id": "web_2"
+   "id": "web_1"
   },
   {
-   "description": "desc Sesión Web 3",
+   "description": "desc Sesión Web 2",
    "title": "Be clean, my friend",
    "startTimestamp": 1381485600,
    "presenterIds": [
@@ -120,7 +120,7 @@
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
-   "id": "web_3"
+   "id": "web_2"
   },
   {
    "description": "desc Sesión Web 4",
@@ -133,33 +133,7 @@
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
-   "id": "web_4"
-  },
-  {
-   "description": "Not Def",
-   "title": "Not Def",
-   "startTimestamp": 1381500000,
-   "presenterIds": [
-    ""
-   ],
-   "endTimestamp": 1381503600,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_5"
-  },
-  {
-   "description": "Not Def",
-   "title": "Not Def",
-   "startTimestamp": 1381503600,
-   "presenterIds": [
-    ""
-   ],
-   "endTimestamp": 1381507200,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_6"
+   "id": "web_3"
   },
 
 
@@ -206,22 +180,9 @@
    "isLivestream": true,
    "id": "entrepreneurship_3"
   },
-  {	
-   "description": "desc Sesión Emprendimiento 4",
-   "title": "Sesión Emprendimiento 4",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "jorge_galindo_cruces"
-   ],
-   "endTimestamp": 1381492800,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_4"
-  },
   {
-   "description": "Not Def",
-   "title": "Not Def",
+   "description": "A 47 Degrees la majoria d'aplicacions que realitzem són desenvolupaments nadius per plataformes iOS i Android. Veiem important a nivell d'interfície partir de zero en el prototipat de cadascuna per poder utilitzar els controladors nadius del sistema en el disseny. La usabilitat de l'aplicació ve imposada en certa mesura per les guies de bon ús del sistema ja que és, al que estan acostumat als usuaris per mitjà de les aplicacions natives. També farem un ràpid resum sobre l'evolució dels controladors nadius i donarem alguns exemples de bons usos i errors.",
+   "title": "Consideracions en el disseny d'una aplicació multiplataforma. ",
    "startTimestamp": 1381500000,
    "presenterIds": [
     "jorge_galindo_cruces"
@@ -230,49 +191,22 @@
    "subtype": "SESSION",
    "location": "agora",
    "isLivestream": true,
-   "id": "entrepreneurship_5"
+   "id": "codelabs_1"
   },
+  
+  
   {
-   "description": "Not Def",
-   "title": "Not Def",
+   "description": "Andreu Ibàñez de Glass Lleida Developers, Carlos Fernandez i Ander Martínez de Món Glass de Madrid ens faran una demostració interactiva de les Google Glass, comentant diferents aspectes tècnics i mostrant-nos algunes de les aplicacions en què treballen, com el control del Liquid Galaxy o la plataforma arqueològica Siglado.com.",
+   "title": "Google Glass hands on",
    "startTimestamp": 1381503600,
    "presenterIds": [
-    ""
+    "andreu_ibanez"
    ],
    "endTimestamp": 1381507200,
    "subtype": "SESSION",
    "location": "agora",
    "isLivestream": true,
-   "id": "entrepreneurship_6"
-  },
-
-  {
-   "description": "desc Liquid Galaxy",
-   "title": "Liquid Galaxy",
-   "startTimestamp": 1381474800,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381507200,
-   "iconUrl": "http://www.google.com/earth/images/liquidgalaxy.jpg",
-   "subtype": "DEVELOPER_SANDBOX",
-   "location": "sandbox",
-   "isLivestream": true,
-   "id": "sandbox_1"
-  },
-  {
-   "description": "desc Ekmaeno",
-   "title": "Ekameno",
-   "startTimestamp": 1381474800,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381507200,
-   "iconUrl": "http://www.google.com/earth/images/liquidgalaxy.jpg",
-   "subtype": "DEVELOPER_SANDBOX",
-   "location": "sandbox",
-   "isLivestream": true,
-   "id": "sandbox_2"
+   "id": "glass_1"
   }
  ],
  "kind": "googledevelopers#sessionsItem",

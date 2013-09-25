@@ -4,25 +4,49 @@
      "id": "movil",
      "name": "Mobile",
      "level": 1,
+     "order_in_level": 1,
      "color": "#99cc00",
-      "order_in_level": 1,
      "abstract": "Mobile"
    },
-    {
+   {
      "id": "web",
-     "name": "Web/Cloud",
+     "name": "Web",
      "level": 1,
      "order_in_level": 2,
-     "color": "#993366",
+     "color": "#0294c7",
      "abstract": "Web"
    },
    {
      "id": "emprendimiento",
-     "name": "Enterpreneurship",
+     "name": "Entrepreneurship",
+     "order_in_level": 3,
      "level": 1,
-      "order_in_level": 3,
      "color": "#666699",
-     "abstract": "Enterpreneurship"
+     "abstract": "Entrepreneurship"
+   },
+     {
+     "id": "codelabs",
+     "name": "CodeLabs",
+     "level": 1,
+     "order_in_level": 4,
+     "color": "#333333",
+     "abstract": "codelabs"
+   },
+     {
+     "id": "glass",
+     "name": "Google Glasses",
+     "level": 1,
+     "order_in_level": 5,
+     "color": "#47b7e6",
+     "abstract": "Glass"
+   },
+     {
+     "id": "cloud",
+     "name": "Cloud",
+     "level": 1,
+     "order_in_level": 6,
+     "color": "#ff8800",
+     "abstract": "Cloud"
    }
  ]
 }
