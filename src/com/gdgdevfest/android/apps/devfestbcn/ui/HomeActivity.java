@@ -16,6 +16,10 @@
 
 package com.gdgdevfest.android.apps.devfestbcn.ui;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGD;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGI;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGW;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 import android.accounts.Account;
 import android.annotation.TargetApi;
 import android.app.SearchManager;
@@ -33,6 +37,7 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
@@ -44,12 +49,10 @@ import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.sync.SyncHelper;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.HelpUtils;
-import com.gdgdevfest.android.apps.devfestbcn.util.PrefUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.UIUtils;
 import com.google.analytics.tracking.android.EasyTracker;
 import com.google.android.gcm.GCMRegistrar;
 import com.google.android.gms.auth.GoogleAuthUtil;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.*;
 
 public class HomeActivity extends BaseActivity implements
         ActionBar.TabListener,
@@ -80,7 +83,8 @@ public class HomeActivity extends BaseActivity implements
         UIUtils.enableDisableActivitiesByFormFactor(this);
         setContentView(R.layout.activity_home);
         FragmentManager fm = getSupportFragmentManager();
-
+        setTitle(R.string.app_name);
+        
         mViewPager = (ViewPager) findViewById(R.id.pager);
         String homeScreenLabel;
         if (mViewPager != null) {

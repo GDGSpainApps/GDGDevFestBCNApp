@@ -1,20 +1,108 @@
 {
  "presenters": [
   {
-   "publicPlusId": "113761022442439780609",
-   "bio": "Tralará mememe mimimi lololo",
-   "name": "Juan Miguel Liras",
-   "plusoneUrl": "https://plus.google.com/113761022442439780609",
-   "thumbnailUrl": "https://lh6.googleusercontent.com/-CexKloHBfko/AAAAAAAAAAI/AAAAAAAAAII/2GVNDkmHKSQ/s120-c/photo.jpg?sz=50",
-   "id": "113761022442439780609"
+   "publicPlusId": "118417777153109946393",
+   "bio": "Cyril és mobile developer (Android i iOS), i enginyer de UX / UI. Actualment treballa en Capitaine Train, i ha estat reconegut per segon any consecutiu com Google Developer Expert. El seu principal motivador és crear aplicacions polides, suaus, responsivas, i perfectes fins al píxel, que ajudin els usuaris a assolir els seus objectius de manera indolora, i encara més important, tan ràpid com sigui possible.",
+   "name": "Cyril Mottier",
+   "plusoneUrl": "https://plus.google.com/118417777153109946393",
+   "thumbnailUrl": "https://lh6.googleusercontent.com/-h9hYAZb2KRk/AAAAAAAAAAI/AAAAAAAAPrI/87fi15PwkMM/s120-c/photo.jpg?sz=50",
+   "id": "cyril_mottier"
   },
   {
-   "publicPlusId": "113841534482981360303",
-   "bio": "Llaisdashd asjkhd jsakdhjsak dhjkasd hasjkdha asjkdhgjsakhd jsakdhjsakdh jsakdhjsa",
-   "name": "Santi Iglesias",
-   "plusoneUrl": "https://plus.google.com/113841534482981360303",
-   "thumbnailUrl": "https://lh4.googleusercontent.com/-e3JRdjrh3rw/AAAAAAAAAAI/AAAAAAAABrI/oCca5ULGaHQ/s120-c/photo.jpg?sz=50",
-   "id": "113841534482981360303"
+   "publicPlusId": "113812464225961962994",
+   "bio": "Andreu és Project Manager a Ponent 2002, una companyia de SMB IT localitzada a Lleida. Amb 25 anys d'experiència en tecnologia, sempre ha estat involucrat amb el món IT i gaudeix innovant constantment. Actualment es dedica a la creació de noves tecnologies per a àrees com arqueologia, murs multi pantalles i drones. A més, està desenvolupant per Glass dins la iniciativa GlassLleidaDevelopers.com, i amb Google Earth per a Liquid Galaxy Lab",
+   "name": "Andreu Ibáñez",
+   "plusoneUrl": "https://plus.google.com/113812464225961962994",
+   "thumbnailUrl": "https://lh5.googleusercontent.com/-LmEmZ93mfOM/AAAAAAAAAAI/AAAAAAABJMY/WEzsW92TlRQ/s120-c/photo.jpg?sz=50",
+   "id": "andreu_ibanez"
+  },
+  {
+   "publicPlusId": "103166612842740788020",
+   "bio": "Program Manager a Google Zurich, Inês és una apassionada de la tecnologia i una treballadora incansable. Gaudeix treballant amb desenvolupadors, tant amb els integrants del seu equip a Google, com amb aquells externs a la companyia. Durant diversos anys va actuar d'enllaç amb els Google Developers Groups espanyols com a part del 20% del temps d'empresa dedicat a projectes del seu interès.",
+   "name": "Inês Gonçalves",
+   "plusoneUrl": "https://plus.google.com/103166612842740788020",
+   "thumbnailUrl": "https://lh5.googleusercontent.com/JKwtD8RwT2Dejse2PJRCWbbHt6CXOaSwbuF2g6tgsdwQNldyNU9aTVN89cClY_mxVGfWwfzctGK89OUXwIwHABZCf-AQsv4yc4AEvUPgVBPU5DqpeMejzNmc",
+   "id": "ines_goncalves"
+  },
+  {
+   "publicPlusId": "flipper83",
+   "bio": "Mobile Applications Principal Engineer a Tuenti, porta treballant en la companyia des de 2009, en diverses plataformes com ara Android, j2me o Blackberry. Abans de Tuenti, va treballar en diverses companyies de desenvolupament de videojocs per a mòbils i jocs multiplayer.",
+   "name": "Jorge Juan Barroso Carmona",
+   "plusoneUrl": "https://twitter.com/flipper83",
+   "thumbnailUrl": "http://bcn.gdgdevfest.com/wp-content/uploads/2013/09/tempJorgeJuanBarrosoCarmona-121x121.jpg",
+   "id": "jorge_juan_barroso_carmona"
+  },
+  {
+   "publicPlusId": "111829996834060777392",
+   "bio": "Patrick és expert en solucions mòbils migrant de serveis basats en cloud del costat del servidor a aplicacions mòbils en JavaScript. És organizer d'BarcelonaJS i de The Barcelona Couchbase Group, i un dels evangelistes de JavaScript.",
+   "name": "Patrick Heneise",
+   "plusoneUrl": "https://plus.google.com/111829996834060777392",
+   "thumbnailUrl": "https://lh4.googleusercontent.com/-rTx-SR78gds/AAAAAAAAAAI/AAAAAAAAAB8/Cah4taY6xpc/s120-c/photo.jpg?sz=50",
+   "id": "patrick_heneise"
+  },
+  {
+   "publicPlusId": "104070495650441591893",
+   "bio": "Andrés és Developer Relations Program Manager per a Google a Espanya. Amb una àmplia experiència en R + D i enginyeria del programari, gran part de la seva carrera professional s'ha centrat en la planificació i implementació de projectes d'innovació relacionats amb els paradigmes de OpenSource, treballant anteriorment per a empreses com Telefónica.",
+   "name": "Andrés Leonardo Martínez",
+   "plusoneUrl": "https://plus.google.com/104070495650441591893",
+   "thumbnailUrl": "https://lh4.googleusercontent.com/LkizsqLLbzhvJdh7n_ycibhf4RPptMtqLDNBTwfDFyqPzHva2bDivHuwuY11ChTUUACOThrDs1Q98GaH5iihkEdNEyMY9Qv3ATkndhfufRzq5OxDwN1LZGqU",
+   "id": "andres_leonardo_martinez"
+  },
+  {
+   "publicPlusId": "105977898531084577178",
+   "bio": "Amant de la música, emprenedor i noi orientat a java-web. En els últims anys el seu principal interès ha estat aconseguir un bon nivell de codi i definir bones APIs. Obsessionat amb Unit Testing, Dependency Injection, de manteniment del codi i descobrir bones llibreries. Abans a Eventuo i Singulari, ara passant-s'ho bé en Trovit.",
+   "name": "Jordi Gerona",
+   "plusoneUrl": "https://plus.google.com/105977898531084577178",
+   "thumbnailUrl": "https://lh4.googleusercontent.com/7hu5SLj0Pp34w2gUcer8U3FpDmVIDnCnBdvJbm_sXSMnS9cA2QcdUi_9WRn9vmOihIapGQVOjL2GCgvkgGK-sRN5UIQrTSepxsy7sMi4NHrKVNOHWCLAAEsq",
+   "id": "jordi_gerona"
+  },
+  {
+   "publicPlusId": "114150889280967406917",
+   "bio": "Amb més de 9 anys d'experiència en el desenvolupament de programari, liderant equips i sent director de projectes, les especialitats de David són el Mobile i Web Development, així com administració de bases de dades. Actualment treballa per Novoda, la primera consultora dedicada a Android del Regne Unit. A més, és un apassionat del OpenSource i de tot tipus de gadgets.",
+   "name": "David González",
+   "plusoneUrl": "https://plus.google.com/114150889280967406917",
+   "thumbnailUrl": "https://lh3.googleusercontent.com/-HblfVlytwPw/AAAAAAAAAAI/AAAAAAAADZQ/FJQbglCdVxQ/s120-c/photo.jpg?sz=50",
+   "id": "david_gonzalez"
+  },
+  {
+   "publicPlusId": "100929920665385653368",
+   "bio": "Cofundador de 47 Degrees, Jorge va viure i va treballar a Seattle fins que va obrir una nova seu a San Fernando, Cadis. Desenvolupador d'apps a les plataformes iOS i Android inicialment, és un gran emprenedor, i per això va penjar les botes del codi i treballa a obrir noves vies de negoci.",
+   "name": "Jorge Galindo Cruces",
+   "plusoneUrl": "https://plus.google.com/100929920665385653368",
+   "thumbnailUrl": "https://lh4.googleusercontent.com/-Ba4gWVQqybo/AAAAAAAAAAI/AAAAAAAAA5s/IGP7Nc82cvk/s120-c/photo.jpg?sz=50",
+   "id": "jorge_galindo_cruces"
+  },
+  {
+   "publicPlusId": "110049485834560472562",
+   "bio": "Hermes és mobile developer amb l'edició per les venes. La seva companyia Robot Media aspira a eliminar les barreres de la tecnologia i la distribució per a l'edició dels llibres digitals d'imatges, i fent això ha supervisat centenars de títols digitals, amb més de 4 milions combinats de descàrregues, i 2 Publishing Innovation Awards. Actualment treballa en Storybuilder, una eina per crear llibres per a nens per tablets i mòbils.",
+   "name": "Hermes Pique",
+   "plusoneUrl": "http://bcn.gdgdevfest.com/team-member/hermes-pique/",
+   "thumbnailUrl": "http://bcn.gdgdevfest.com/wp-content/uploads/2013/09/Hermes-Pique.jpg",
+   "id": "hermes_pique"
+  },
+  {
+   "publicPlusId": "116932157889649081059",
+   "bio": "Apassionat per Android, Txus és fundador de DesAndrOId, DesAndrOItter, i creador del ADA Framework, més que un ORM per Android. Responsable de projectes en SCA Consultors, està enganxat a la tecnologies i és un addicte al codi font, amb independència del llenguatge.",
+   "name": "Txus Ballesteros",
+   "plusoneUrl": "https://plus.google.com/116932157889649081059",
+   "thumbnailUrl": "https://lh3.googleusercontent.com/HroHDxCtuIJlWV-Ro7Y10P9ziRA8kYwt4z2Q0Qj8kfPAz9Co-RMjzzmTuhhHkcDTjlTOA1r2UZxGWlcSTBHV4K63TNGRWdRmmqHsclzV45kqIovv9dQsv-4M",
+   "id": "txus_ballesteros"
+  },
+  {
+   "publicPlusId": "113157061508283030086",
+   "bio": "Enginyer de software/mòbil,ha estat treballant en plataformes mòbils durant els últims 5 anys, principalment en projectes basats en tecnologies RFID i NFC. Actualment treballa a Tuenti com Android Developer i és organitzador del Google Developers Group a Barcelona (GDG).",
+   "name": "Fernando Cejas",
+   "plusoneUrl": "https://plus.google.com/113157061508283030086",
+   "thumbnailUrl": "https://lh5.googleusercontent.com/DfxEqp7V_XNdRQ8n7WEDy-DnxRelyCL86GnlumR_T72q0XDrpEp32qUgw8mXFgQPISVzJC2L1Nx2hilN_xo4SvftXVkDLKk7cOJUXKw-DFv1WohDOpkIIOA6",
+   "id": "fernando_cejas"
+  },
+  {
+   "publicPlusId": "icougil",
+   "bio": "Arquitecte de software centrat en projectes desenvolupats amb tecnologies Java, amb experiència en direcció i gestió d'equips i projectes de software amb fortes habilitats analítiques i de disseny. Apassionat dels projectes de recerca i innovadors de TI.",
+   "name": "Ignacio Cougil",
+   "plusoneUrl": "https://twitter.com/icougil",
+   "thumbnailUrl": "https://lh6.googleusercontent.com/x8BLyyEUIDySLVuqb7q70dXhyf3ToHYMcS5xbO2bF46aqO-ATn6A9dYJyKC_G_GUYG3LE1__lZ-pl8zJieEEAnxJ1G6mf5YrupHRZGLQVqlFIzhWj-_RBVX6",
+   "id": "ignacio_cougil"
   }
  ],
  "kind": "gdgmembers#presentersItem",

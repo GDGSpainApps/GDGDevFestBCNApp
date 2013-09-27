@@ -1,47 +1,229 @@
 {
  "sessions": [
-  {
-   "description": "World Domination description",
-   "title": "World domination",
-   "startTimestamp": 1378306800,
+    {
+   "description": "desc Sesión Móvil 1",
+   "title": "Sesión Móvil 1",
+   "startTimestamp": 1381478400,
    "presenterIds": [
-    "113761022442439780609",
-    "113841534482981360303"
+    "jorge_juan_barroso_carmona"
    ],
-   "endTimestamp": 1378317600,
+   "endTimestamp": 1381482000,
    "subtype": "SESSION",
-   "location": "Sala de estar",
-   "isLivestream": false,
-   "id": "258451203"
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_1"
   },
   {
-   "description": "Cocina de pastelitos con sabores graciosos",
-   "title": "Cocina divertida",
-   "startTimestamp": 1380906000,
-   "youtubeUrl": "FDEMA6OhvGo",
+   "description": "desc Sesión Móvil 2",
+   "title": "Sesión Móvil 2",
+   "startTimestamp": 1381482000,
    "presenterIds": [
-    "113761022442439780609"
+    "cyril_mottier"
    ],
-   "endTimestamp": 1380909600,
+   "endTimestamp": 1381485600,
    "subtype": "SESSION",
-   "location": "Room 10",
+   "location": "sala_dactes",
    "isLivestream": true,
-   "id": "318907648"
+   "id": "movil_2"
   },
   {
-   "description": "Clases de dormir en horas de trabajo",
-   "title": "Dormir en horario laboral",
-   "startTimestamp": 1380906000,
-   "youtubeUrl": "FDEMA6OhvGo",
+   "description": "desc Sesión Móvil 3",
+   "title": "Inside Android Testing",
+   "startTimestamp": 1381485600,
    "presenterIds": [
-    "113841534482981360303"
+    "fernando_cejas"
    ],
-   "endTimestamp": 1380909600,
+   "endTimestamp": 1381489200,
    "subtype": "SESSION",
-   "location": "Room 10",
+   "location": "sala_dactes",
    "isLivestream": true,
-   "id": "324149970"
+   "id": "movil_3"
+  },
+  {
+   "description": "This session will propose some best practices, tips and tricks learned from using Gradle and Android Studio for releasing production environment applications and libraries. Topics will involve development, deployment, testing and continuous integration.",
+   "title": "Gradle, Android Studio and the beauty of the command line",
+   "startTimestamp": 1381489200,
+   "presenterIds": [
+    "david_gonzalez"
+   ],
+   "endTimestamp": 1381492800,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_4"
+  },
+  {
+   "description": "Not Def",
+   "title": "Not Def",
+   "startTimestamp": 1381500000,
+   "presenterIds": [
+    ""
+   ],
+   "endTimestamp": 1381503600,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_5"
+  },
+  {
+   "description": "Not Def",
+   "title": "Not Def",
+   "startTimestamp": 1381503600,
+   "presenterIds": [
+    ""
+   ],
+   "endTimestamp": 1381507200,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "movil_6"
+  },
+
+
+
+
+
+  {
+   "description": "Andreu of Ponent 2002/Liquid Ibàñez Galaxy LAB. He will show us technology of Google Liquid Galaxy. This allows you to display content environments of Google Earth and Google maps so interactive, immersive and large size. His talk will focus on the technique behind the system-way interaction, different working models and some use cases with the Liquid Galaxy.",
+   "title": "Technology Liquid Galaxy",
+   "startTimestamp": 1381478400,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381482000,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "cloud_1"
+  },
+  {
+   "description": "desc Sesión Web 1",
+   "title": "Sesión Web 1",
+   "startTimestamp": 1381482000,
+   "presenterIds": [
+    "patrick_heneise"
+   ],
+   "endTimestamp": 1381485600,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_1"
+  },
+  {
+   "description": "desc Sesión Web 2",
+   "title": "Be clean, my friend",
+   "startTimestamp": 1381485600,
+   "presenterIds": [
+    "ignacio_cougil"
+   ],
+   "endTimestamp": 1381489200,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_2"
+  },
+  {
+   "description": "desc Sesión Web 3",
+   "title": "Sesión Web 3",
+   "startTimestamp": 1381489200,
+   "presenterIds": [
+    "jordi_gerona"
+   ],
+   "endTimestamp": 1381492800,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_3"
+  },
+  {
+   "description": "Not Def",
+   "title": "Not Def",
+   "startTimestamp": 1381503600,
+   "presenterIds": [
+    ""
+   ],
+   "endTimestamp": 1381507200,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_6"
+  },
+
+
+
+ 
+ 
+ 
+  {
+   "description": "desc Sesión Emprendimiento 1",
+   "title": "Sesión Emprendimiento 1",
+   "startTimestamp": 1381478400,
+   "presenterIds": [
+    "ines_goncalves"
+   ],
+   "endTimestamp": 1381482000,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_1"
+  },
+  {
+   "description": "During the workshop, aimed at new startups and entrepreneurs, will review the basics of Customer Development processes, as well as the main features of Google tools that allow you to set them up. Incorporates business metrics to your startup implemented a lean strategy, taking advantage of the freemium model available with tools like Google Analytics, Google Trends or Google Apps.",
+   "title": "Customer Development with Google tools",
+   "startTimestamp": 1381482000,
+   "presenterIds": [
+    "andres_leonardo_martinez"
+   ],
+   "endTimestamp": 1381485600,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_2"
+  },
+  {
+   "description": "Android has inspired thousands of developers to become entrepreneurs. But does being a good programmer does make you a good CEO? In the experience of first-time founder Hermes Pique (Robot Media, Barcelona.IO) it was quite the opposite. Come share Hermés growing pains and most stupid mistakes, from using Android in the company name, getting screwed by Amazon, building products no-one cares about, to letting go of your entire team.",
+   "title": "Confessions of a Developer Entrepreneur",
+   "startTimestamp": 1381485600,
+   "presenterIds": [
+    "hermes_pique"
+   ],
+   "endTimestamp": 1381489200,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "entrepreneurship_3"
   }
+  ,
+  {
+   "description": "In 47 Degrees most applications we make are native development for iOS and Android platforms. We apply across from zero interface prototyping each to use native drivers in the design system. The usability of the application is dictated to some extent by the guidelines of proper use of the system as it is, to what users are used through native applications. We will also make a quick survey of the development of native drivers and give some examples of good uses, and errors.",
+   "title": "Considerations in the design of an application platform.",
+   "startTimestamp": 1381500000,
+   "presenterIds": [
+    "jorge_galindo_cruces"
+   ],
+   "endTimestamp": 1381503600,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "codelabs_1"
+  },
+  
+  
+  {
+   "description": "Andreu Ibàñez of Glass Developers Lleida, Carlos Fernandez and Ander Martinez from Madrid Mundo Glass will make us an interactive demonstration of the Google Glass, commenting on technical aspects and showing some of the applications in which they work, like checking or platform Liquid Galaxy archaeological Siglado.com.",
+   "title": "Google Glass hands on",
+   "startTimestamp": 1381503600,
+   "presenterIds": [
+    "andreu_ibanez"
+   ],
+   "endTimestamp": 1381507200,
+   "subtype": "SESSION",
+   "location": "agora",
+   "isLivestream": true,
+   "id": "glass_1"
+  }
+
+
  ],
  "kind": "googledevelopers#sessionsItem",
  "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/yGQ5LTk-TDzmactpsrhDg2XAgvc\""

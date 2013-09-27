@@ -15,6 +15,12 @@
  */
 package com.gdgdevfest.android.apps.devfestbcn.gcm;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGD;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGE;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGI;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGV;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGW;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
@@ -27,15 +33,11 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-
 import com.gdgdevfest.android.apps.devfestbcn.Config;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
-
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.*;
 
 /**
  * Helper class used to communicate with the demo server.

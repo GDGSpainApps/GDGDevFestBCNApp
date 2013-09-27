@@ -1,35 +1,64 @@
 {
  "tracks": [
   {
-   "description": "Desc track tralará",
+   "description": "Mobile",
    "title": "Mobile",
-   "id": "496738724",
+   "id": "movil",
    "sessions": [
-    "324149970"
+    "movil_1",
+    "movil_2",
+    "movil_3",
+    "movil_4",
+    "movil_5",
+    "movil_6"
    ]
   },
   {
-   "description": "Cosicas de web",
+   "description": "Web",
    "title": "Web",
-   "id": "324543074",
+   "id": "web",
    "sessions": [
+    "web_1",
+    "web_2",
+    "web_3"
    ]
   },
-  {
-   "description": "Cloudeate",
-   "title": "Cloud",
-   "id": "324543074",
-   "sessions": [
-    "318907648",
-    "258451203"
-   ]
-  },
+ 
   {
    "description": "Enterprendimiento",
-   "title": "Enterpreneurship",
-   "id": "CODE_LABS",
+   "title": "Enterprendimiento",
+   "id": "emprendimiento",
    "sessions": [
-    "258451203"
+    "entrepreneurship_1",
+    "entrepreneurship_2",
+    "entrepreneurship_3"
+   ]
+  },
+   {
+   "description": "Cloud",
+   "title": "Cloud",
+   "id": "cloud",
+   "sessions": [
+    "cloud_1",
+     "cloud_2",
+      "cloud_3"
+   ]
+  },
+   {
+   "description": "Google Glasses",
+   "title": "Google Glasses",
+   "id": "glass",
+   "sessions": [
+    "glass_1"
+   ]
+  },
+   {
+   "description": "CodeLabs",
+   "title": "CodeLabs",
+   "id": "codelabs",
+   "sessions": [
+    "codelabs_1",
+    "codelabs_2"
    ]
   }
  ],

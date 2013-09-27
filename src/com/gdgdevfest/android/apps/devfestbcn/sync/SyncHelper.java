@@ -91,7 +91,6 @@ public class SyncHelper {
     private static final String TAG = makeLogTag(SyncHelper.class);
 
     public static final int FLAG_SYNC_LOCAL = 0x1;
-    public static final int FLAG_SYNC_REMOTE = 0;//0x2;
 
     private static final int LOCAL_VERSION_CURRENT = 25;
     private static final String LOCAL_MAPVERSION_CURRENT = "\"vlh7Ig\"";
@@ -209,43 +208,7 @@ public class SyncHelper {
             batch = new ArrayList<ContentProviderOperation>();
         }
 
-        if ((flags & FLAG_SYNC_REMOTE) != 0 && isOnline()) {
-            try {
-                Googledevelopers conferenceAPI = getConferenceAPIClient();
-                final long startRemote = System.currentTimeMillis();
-                LOGI(TAG, "Remote syncing announcements");
-                batch.addAll(new AnnouncementsFetcher(mContext).fetchAndParse());
-                LOGI(TAG, "Remote syncing speakers");
-                batch.addAll(new SpeakersHandler(mContext).fetchAndParse(conferenceAPI));
-                LOGI(TAG, "Remote syncing sessions");
-                batch.addAll(new SessionsHandler(mContext).fetchAndParse(conferenceAPI));
-                // Map sync
-                batch.addAll(remoteSyncMapData(Config.GET_MAP_URL,prefs));
-                LOGD(TAG, "Remote sync took " + (System.currentTimeMillis() - startRemote) + "ms");
-                if (syncResult != null) {
-                    ++syncResult.stats.numUpdates; // TODO: better way of indicating progress?
-                    ++syncResult.stats.numEntries;
-                }
-                GAServiceManager.getInstance().dispatch();
-
-                // Sync feedback stuff
-                LOGI(TAG, "Syncing session feedback");
-                batch.addAll(new FeedbackHandler(mContext).uploadNew(conferenceAPI));
-
-            } catch (GoogleJsonResponseException e) {
-                if (e.getStatusCode() == 401) {
-                    LOGI(TAG, "Unauthorized; getting a new auth token.", e);
-                    if (syncResult != null) {
-                        ++syncResult.stats.numAuthExceptions;
-                    }
-                    AccountUtils.refreshAuthToken(mContext);
-
-
-                }
-            }
-            // all other IOExceptions are thrown
-            LOGI(TAG, "Sync complete");
-        }
+     
 
         try {
             // Apply all queued up remaining batch operations (only remote content at this point).

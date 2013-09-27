@@ -1,24 +1,31 @@
 {
   "day": [
+   
     {
       "date": "2013-10-11",
       "slot": [
         {
-          "start": "08:00",
-          "end": "09:00",
-          "title": "Entrada al evento",
-          "meta": "UPC"
+          "start": "00:00",
+          "end": "01:00",
+          "title": "Inauguració i Keynote",
+          "meta": "UPC Campus Nord"
         },
         {
-          "start": "14:00",
-          "end": "15:00",
-          "title": "Comida",
-          "meta": "UPC"
+          "start": "05:00",
+          "end": "06:00",
+          "title": "Temps per dinar",
+          "meta": "UPC Campus Nord"
         },
         {
-          "start": "20:00",
-          "end": "23:00",
-          "title": "Clausura",
+          "start": "09:00",
+          "end": "09:15",
+          "title": "Tancament a la UPC",
+          "meta": "UPC Campus Nord"
+        },
+        {
+          "start": "11:00",
+          "end": "16:00",
+          "title": "Cloenda",
           "meta": "Mobile World Centre"
         }
       ]
