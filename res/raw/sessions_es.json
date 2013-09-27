@@ -1,33 +1,6 @@
 {
  "sessions": [
-  {
-   "description": "Dominación mundial y sus cosas",
-   "title": "Dominación mundial",
-   "startTimestamp": 1378306800,
-   "presenterIds": [
-    "cyril_mottier",
-    "andreu_ibanez",
-    "ines_goncalves",
-    "jorge_juan_barroso_carmona",
-    "patrick_heneise",
-    "andres_leonardo_martinez",
-    "jordi_gerona",
-    "david_gonzalez",
-    "jorge_galindo_cruces",
-    "hermes_pique",
-    "txus_ballesteros",
-    "fernando_cejas",
-    "ignacio_cougil"
-   ],
-   "endTimestamp": 1378317600,
-   "subtype": "SESSION",
-   "location": "auditori",
-   "isLivestream": true,
-   "id": "dominacion_mundial"
-  },
-
-
-  {
+    {
    "description": "desc Sesión Móvil 1",
    "title": "Sesión Móvil 1",
    "startTimestamp": 1381478400,
@@ -55,7 +28,7 @@
   },
   {
    "description": "desc Sesión Móvil 3",
-   "title": "Sesión Móvil 3",
+   "title": "Testing Android desde dentro",
    "startTimestamp": 1381485600,
    "presenterIds": [
     "fernando_cejas"
@@ -67,8 +40,8 @@
    "id": "movil_3"
   },
   {
-   "description": "desc Sesión Móvil 4",
-   "title": "Sesión Móvil 4",
+   "description": "La sesión propondrá best practices y compartirá los conocimientos adquiridos después de utilizar Gradle y Android Studio para desarrollar aplicaciones y librerías en entornos de producción. Se abordarán diferentes temas incluyendo desarrollo, publicación, testing e integración continua.",
+   "title": "Gradle, Android Studio y la belleza de la línea de comandos",
    "startTimestamp": 1381489200,
    "presenterIds": [
     "david_gonzalez"
@@ -80,11 +53,11 @@
    "id": "movil_4"
   },
   {
-   "description": "desc Sesión Móvil 5",
-   "title": "Sesión Móvil 5",
+   "description": "Not Def",
+   "title": "Not Def",
    "startTimestamp": 1381500000,
    "presenterIds": [
-    "cyril_mottier"
+    ""
    ],
    "endTimestamp": 1381503600,
    "subtype": "SESSION",
@@ -93,11 +66,11 @@
    "id": "movil_5"
   },
   {
-   "description": "desc Sesión Móvil 6",
-   "title": "Sesión Móvil 6",
+   "description": "Not Def",
+   "title": "Not Def",
    "startTimestamp": 1381503600,
    "presenterIds": [
-    "cyril_mottier"
+    ""
    ],
    "endTimestamp": 1381507200,
    "subtype": "SESSION",
@@ -107,9 +80,12 @@
   },
 
 
+
+
+
   {
-   "description": "desc Sesión Web 1",
-   "title": "Sesión Web 1",
+   "description": "Andreu Ibàñez de Ponent 2002/Liquid Galaxy LAB nos presentará la tecnología Liquid Galaxy de Google. Esta permite mostrar entornos con contenidos de Google Earth y Google maps de forma interactivo, immersiva y de gran tamaño. Su charla versará sobre la técnica detrás del sistema, vías de interacción, los diferentes modelos en que trabajan y algunos casos de uso con el Liquid Galaxy.",
+   "title": "Tecnología Liquid Galaxy",
    "startTimestamp": 1381478400,
    "presenterIds": [
     "andreu_ibanez"
@@ -118,7 +94,7 @@
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
-   "id": "web_1"
+   "id": "cloud_1"
   },
   {
    "description": "desc Sesión Web 2",
@@ -131,142 +107,34 @@
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
+   "id": "web_1"
+  },
+  {
+   "description": "desc Sesión Web 3",
+   "title": "Be clean, my friend",
+   "startTimestamp": 1381485600,
+   "presenterIds": [
+    "ignacio_cougil"
+   ],
+   "endTimestamp": 1381489200,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
    "id": "web_2"
   },
   {
    "description": "desc Sesión Web 3",
    "title": "Sesión Web 3",
-   "startTimestamp": 1381485600,
+   "startTimestamp": 1381489200,
    "presenterIds": [
-    "cyril_mottier"
+    "jordi_gerona"
    ],
-   "endTimestamp": 1381489200,
+   "endTimestamp": 1381492800,
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
    "id": "web_3"
   },
-  {
-   "description": "desc Sesión Web 4",
-   "title": "Sesión Web 4",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "cyril_mottier"
-   ],
-   "endTimestamp": 1381492800,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_4"
-  },
-  {
-   "description": "desc Sesión Web 5",
-   "title": "Sesión Web 5",
-   "startTimestamp": 1381500000,
-   "presenterIds": [
-    "cyril_mottier"
-   ],
-   "endTimestamp": 1381503600,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_5"
-  },
-  {
-   "description": "desc Sesión Web 6",
-   "title": "Sesión Web 6",
-   "startTimestamp": 1381503600,
-   "presenterIds": [
-    "cyril_mottier"
-   ],
-   "endTimestamp": 1381507200,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_6"
-  },
-
-
-  {
-   "description": "desc Sesión Nube 1",
-   "title": "Sesión Nube 1",
-   "startTimestamp": 1381478400,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381482000,
-   "subtype": "SESSION",
-   "location": "quatre_camins",
-   "isLivestream": true,
-   "id": "cloud_1"
-  },
-  {
-   "description": "desc Sesión Nube 2",
-   "title": "Sesión Nube 2",
-   "startTimestamp": 1381482000,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381485600,
-   "subtype": "SESSION",
-   "location": "quatre_camins",
-   "isLivestream": true,
-   "id": "cloud_2"
-  },
-  {
-   "description": "desc Sesión Nube 3",
-   "title": "Sesión Nube 3",
-   "startTimestamp": 1381485600,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381489200,
-   "subtype": "SESSION",
-   "location": "quatre_camins",
-   "isLivestream": true,
-   "id": "cloud_3"
-  },
-  {
-   "description": "desc Sesión Nube 4",
-   "title": "Sesión Nube 4",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381492800,
-   "subtype": "SESSION",
-   "location": "quatre_camins",
-   "isLivestream": true,
-   "id": "cloud_4"
-  },
-  {
-   "description": "desc Sesión Nube 5",
-   "title": "Sesión Nube 5",
-   "startTimestamp": 1381500000,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381503600,
-   "subtype": "SESSION",
-   "location": "quatre_camins",
-   "isLivestream": true,
-   "id": "cloud_5"
-  },
-  {
-   "description": "desc Sesión Nube 6",
-   "title": "Sesión Nube 6",
-   "startTimestamp": 1381503600,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381507200,
-   "subtype": "SESSION",
-   "location": "quatre_camins",
-   "isLivestream": true,
-   "id": "cloud_6"
-  },
-
-
   {
    "description": "desc Sesión Emprendimiento 1",
    "title": "Sesión Emprendimiento 1",
@@ -281,8 +149,8 @@
    "id": "entrepreneurship_1"
   },
   {
-   "description": "desc Sesión Emprendimiento 2",
-   "title": "Sesión Emprendimiento 2",
+   "description": "Durante el workshop, dirigido a nuevas startups y emprendedores, se revisarán los fundamentos de los procesos de Customer Development, asi como las principales características de las herramientas de Google que te permitirán ponerlos en marcha. Incorpora métricas de negocio a tu startup implementado una estrategia lean, sacando partido del modelo freemium disponible con herramientas como Google Analytics, Google Trends o Google Apps. ",
+   "title": "Customer Development con herramientas de Google",
    "startTimestamp": 1381482000,
    "presenterIds": [
     "andres_leonardo_martinez"
@@ -294,8 +162,8 @@
    "id": "entrepreneurship_2"
   },
   {
-   "description": "desc Sesión Emprendimiento 3",
-   "title": "Sesión Emprendimiento 3",
+   "description": "Android ha inspirado a miles de desarrolladores para convertirse en emprendedores. Pero, ¿ser un buen desarrollador te hace un buen CEO? Con la experiencia de Hermes Pique (fundador Robot Media, Barcelona.IO) era todo lo contrario. Ven a compartir con Hermés los  dolores y errores más estúpidos, el uso de Android en el nombre de la empresa, como te puede fastidiar Amazon, desarrollar  productos que  a nadie le preocupa,  dejar ir de todo su equipo.",
+   "title": "Confesiones de un desarrollador emprendedor",
    "startTimestamp": 1381485600,
    "presenterIds": [
     "hermes_pique"
@@ -307,21 +175,8 @@
    "id": "entrepreneurship_3"
   },
   {
-   "description": "desc Sesión Emprendimiento 4",
-   "title": "Sesión Emprendimiento 4",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "txus_ballesteros"
-   ],
-   "endTimestamp": 1381492800,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_4"
-  },
-  {
-   "description": "desc Sesión Emprendimiento 5",
-   "title": "Sesión Emprendimiento 5",
+   "description": "En 47 Degrees la mayoría de aplicaciones que realizamos son desarrollos nativos para plataformas iOS y Android. Vemos importante a nivel de interfaz partir de cero en el prototipado de cada una para poder utilizar los controladores nativos del sistema en el diseño. La usabilidad de la aplicación viene impuesta en cierta medida por las guías de buen uso del sistema ya que es, a lo que están acostumbrado los usuarios por medio de las aplicaciones nativas. Tambien haremos un rápido resumen sobre la evolución de los controladores nativos y daremos algunos ejemplos de buenos usos y errores. ",
+   "title": "Consideraciones en el diseño de una aplicación multiplataforma. ",
    "startTimestamp": 1381500000,
    "presenterIds": [
     "jorge_galindo_cruces"
@@ -330,36 +185,27 @@
    "subtype": "SESSION",
    "location": "agora",
    "isLivestream": true,
-   "id": "entrepreneurship_5"
+   "id": "codelabs_1"
   },
+  
+  
   {
-   "description": "desc Sesión Emprendimiento 6",
-   "title": "Sesión Emprendimiento 6",
+   "description": "Andreu Ibàñez de Glass Lleida Developers, Carlos Fernandez y Ander Martinez de Mundo Glass de Madrid nos haran una demostración interactiva de las Google Glass, comentando diferentes aspectos técnicos y mostrándonos algunos de las aplicaciones en que trabajan, como el control del Liquid Galaxy o la plataforma arqueológica Siglado.com.",
+   "title": "Google Glass hands on",
    "startTimestamp": 1381503600,
    "presenterIds": [
-    "cyril_mottier"
+    "andreu_ibanez"
    ],
    "endTimestamp": 1381507200,
    "subtype": "SESSION",
    "location": "agora",
    "isLivestream": true,
-   "id": "entrepreneurship_6"
+   "id": "glass_1"
   },
 
-  {
-   "description": "desc Liquid Galaxy",
-   "title": "Liquid Galaxy",
-   "startTimestamp": 1381474800,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381507200,
-   "iconUrl": "http://www.google.com/earth/images/liquidgalaxy.jpg",
-   "subtype": "DEVELOPER_SANDBOX",
-   "location": "sandbox",
-   "isLivestream": true,
-   "id": "sandbox_1"
-  }
+  
+  
+
  ],
  "kind": "googledevelopers#sessionsItem",
  "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/yGQ5LTk-TDzmactpsrhDg2XAgvc\""

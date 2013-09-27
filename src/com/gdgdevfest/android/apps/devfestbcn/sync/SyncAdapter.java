@@ -99,7 +99,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
         try {
             mSyncHelper.performSync(syncResult,
-                    SyncHelper.FLAG_SYNC_LOCAL | SyncHelper.FLAG_SYNC_REMOTE);
+                    SyncHelper.FLAG_SYNC_LOCAL);
 
         } catch (IOException e) {
             ++syncResult.stats.numIoExceptions;

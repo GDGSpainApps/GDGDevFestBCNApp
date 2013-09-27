@@ -16,6 +16,7 @@
 
 package com.gdgdevfest.android.apps.devfestbcn.ui;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
@@ -23,7 +24,6 @@ import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-
 import com.gdgdevfest.android.apps.devfestbcn.R;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.LogUtils;
@@ -31,7 +31,6 @@ import com.gdgdevfest.android.apps.devfestbcn.util.PlayServicesUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.PrefUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.UIUtils;
 import com.google.analytics.tracking.android.EasyTracker;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 
 /**
  * A base activity that handles common functionality in the app.
@@ -43,7 +42,7 @@ public abstract class BaseActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EasyTracker.getInstance().setContext(this);
-        if (!AccountUtils.isAuthenticated(this) || !PrefUtils.isSetupDone(this)) {
+        if (!AccountUtils.isAuthenticated(this) ) {
             LogUtils.LOGD(TAG, "exiting:"
                     + " isAuthenticated=" + AccountUtils.isAuthenticated(this)
                     + " isSetupDone=" + PrefUtils.isSetupDone(this));
@@ -74,7 +73,7 @@ public abstract class BaseActivity extends ActionBarActivity {
      */
     protected void setActionBarTrackIcon(String trackName, int trackColor) {
         if (trackColor == 0) {
-            getSupportActionBar().setIcon(R.drawable.actionbar_icon);
+            getSupportActionBar().setIcon(R.drawable.ic_launcher);
             return;
         }
 

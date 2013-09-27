@@ -261,7 +261,6 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
                 case TracksDropdownFragment.VIEW_TYPE_SANDBOX:
                     return R.string.title_sandbox;
             }
-            Log.e("inaki","position" +position);
             return 0;
         }
 
