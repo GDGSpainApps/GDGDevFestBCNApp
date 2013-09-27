@@ -115,7 +115,7 @@
     <string name="whats_on_thank_you_title">See you next year!</string>
     <string name="whats_on_thank_you_subtitle">DevFest BCN 2013 has ended.</string>
     <string name="news_will_appear_here">Announcements will appear here</string>
-    <string name="welcome_to_google_i_o">Welcome to DevFest BCN!</string>
+    <string name="welcome_to_google_i_o">Welcome to GDG DevFest BCN!</string>
     <string name="permission_write">Modify DevFest BCN schedule data</string>
 
     <plurals name="toast_added_to_schedule">
@@ -184,7 +184,7 @@
     </string>
     <string name="description_sign_in_main">
 <![CDATA[
-        Welcome to the DevFest BCN 2013 app, your official companion to the DevFest BCN conference
+        Welcome to the GDG DevFest BCN App, your official companion to the DevFest BCN conference
         taking place in Barcelona Oct 11th, 2013.<br>
     ]]>
     </string>

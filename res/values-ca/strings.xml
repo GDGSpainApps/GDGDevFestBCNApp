@@ -118,7 +118,7 @@
     <string name="description_choose_account"><![CDATA[ <font color="#4d90fe"> Seleccioneu un compte a continuació. Si es va inscriure per participar al Dev Fest, assegureu-vos d\'utilitzar el mateix compte. &lt;/ </font> ]]></string>
     <string name="description_setup_attendee_mode_header"><![CDATA[ <font color="#4d90fe">Està vostè assistint al Dev Fest en persona aquest any?    ]]></string>
     <string name="description_setup_attendee_mode_body"><![CDATA[ Si no és així, només li mostrarem sessions d\'estreaming en viu. Sempre es pot canviar això a la Configuració. ]]></string>
-    <string name="description_sign_in_main"><![CDATA[ Benvingut a Google Dev Fest Barcelona App , el seu company oficial a la conferència Dev Fest que té lloc a Barcelona 11 octubre 2013.]]></string>
+    <string name="description_sign_in_main"><![CDATA[ Benvingut a GDG DevFest Barcelona App, el seu company oficial a la conferència DevFest que té lloc a Barcelona 11 octubre 2013.]]></string>
     <string name="calltoaction_wifi_configure"><![CDATA[ Tap \'Add Wi-Fi Network\' per procedir. ]]></string>
     <string name="calltoaction_wifi_settings">&lt;!\'Obrir Configuració Wi-Fi "[CDATA[&lt;br&gt;toc per activar el Wi-Fi.</string>
     <string name="empty_accounts">No hi ha comptes de Google disponibles. Afegeix un compte per continuar.</string>

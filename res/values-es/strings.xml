@@ -123,7 +123,7 @@
           Si no es así, sólo le mostraremos sesiones con streaming en vivo. Se puede cambiar esto en Configuración.]]>
     </string>
     <string name="description_sign_in_main">
-<![CDATA[ Bienvenido a la aplicación del Dev Fest, su compañero oficial para la conferencia Dev Fest que tiene lugar en Barcelona 11 de octubre 2013.]]>
+<![CDATA[ Bienvenido a la aplicación del GDG DevFest Barcelona, su compañero oficial para la conferencia Dev Fest que tiene lugar en Barcelona 11 de octubre 2013.]]>
     </string>
     <string name="empty_accounts"><![CDATA[ No hay cuentas Google disponibles. Añadir una cuenta para continuar.]]></string>
 

@@ -45,8 +45,8 @@
    ]
   },
    {
-   "description": "Google Glasses",
-   "title": "Google Glasses",
+   "description": "Google Glass",
+   "title": "Google Glass",
    "id": "glass",
    "sessions": [
     "glass_1"
