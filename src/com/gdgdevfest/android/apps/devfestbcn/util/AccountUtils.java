@@ -16,6 +16,12 @@
 
 package com.gdgdevfest.android.apps.devfestbcn.util;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGD;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGE;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGI;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGW;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
+
 import java.io.IOException;
 
 import android.accounts.Account;
@@ -27,7 +33,6 @@ import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
-import com.gdgdevfest.android.apps.devfestbcn.gcm.ServerUtilities;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.ui.AccountActivity;
 import com.google.android.gms.auth.GoogleAuthException;
@@ -36,7 +41,6 @@ import com.google.android.gms.auth.GooglePlayServicesAvailabilityException;
 import com.google.android.gms.auth.UserRecoverableAuthException;
 import com.google.android.gms.auth.UserRecoverableNotifiedException;
 import com.google.android.gms.common.Scopes;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.*;
 
 public class AccountUtils {
     private static final String TAG = makeLogTag(AccountUtils.class);
@@ -200,8 +204,7 @@ public class AccountUtils {
 
     public static void signOut(final Context context) {
         // Sign out of GCM message router
-        ServerUtilities.onSignOut(context);
-
+      
         // Destroy auth tokens
         invalidateAuthToken(context);
 

@@ -32,7 +32,7 @@
     <string name="title_share">Comparteix amb</string>
     <string name="title_search">Cercar</string>
     <string name="title_search_query">Cercar per \"&lt;b&gt;<xliff:g id="query">%1$s</xliff:g>&lt;b&gt;\"</string>
-    <string name="title_my_schedule">Programar</string>
+    <string name="title_my_schedule">Programa</string>
     <string name="title_explore">Explorar</string>
     <string name="title_stream">Publicacions</string>
     <string name="all_tracks">Tots els tracks</string>
@@ -48,7 +48,7 @@
     <string name="empty_session_detail">No hi ha detalls de la sessió trobades.</string>
     <string name="empty_sandbox">No hi ha empreses de desenvolupador de sandbox trobades.</string>
     <string name="empty_social_stream">No s\'han trobat articles.</string>
-    <string name="empty_announcements">Les notificacions apareixeran aquí.</string>
+    <string name="empty_announcements"></string>
     <string name="empty_waiting_for_sync">Esperant sincronització ...</string>
     <string name="empty_captions">No es van trobar títols per a aquesta sessió.</string>
     <string name="unknown_room">(Habitació sense especificar)</string>
@@ -91,7 +91,7 @@
     <string name="whats_on_thank_you_short">Gràcies!</string>
     <string name="whats_on_thank_you_title">Ens veiem el proper any!</string>
     <string name="whats_on_thank_you_subtitle">Dev Fest 2013 ha acabat.</string>
-    <string name="news_will_appear_here">Les notificacions apareixeran aquí</string>
+    <string name="news_will_appear_here"></string>
     <string name="welcome_to_google_i_o">Benvingut a la Dev Fest!</string>
     <string name="permission_write">Modificar dades de l\'agenda Dev Fest</string>
     <!-- Schedule -->
@@ -115,7 +115,7 @@
     <string name="map_now_sandbox">Ara en el sandbox:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;</string>
     <string name="map_infowindow_text_empty">-</string>
     <!-- EULA, login, and about -->
-    <string name="description_choose_account"><![CDATA[ <font color="#4d90fe"> Seleccioneu un compte a continuació. Si es va inscriure per participar al Dev Fest, assegureu-vos d\'utilitzar el mateix compte. &lt;/ </font> ]]></string>
+    <string name="description_choose_account"><![CDATA[ <font color="#4d90fe"> Seleccioneu un compte a continuació. Si es va inscriure per participar al Dev Fest, assegureu-vos d\'utilitzar el mateix compte.  </font> ]]></string>
     <string name="description_setup_attendee_mode_header"><![CDATA[ <font color="#4d90fe">Està vostè assistint al Dev Fest en persona aquest any?    ]]></string>
     <string name="description_setup_attendee_mode_body"><![CDATA[ Si no és així, només li mostrarem sessions d\'estreaming en viu. Sempre es pot canviar això a la Configuració. ]]></string>
     <string name="description_sign_in_main"><![CDATA[ Benvingut a GDG DevFest Barcelona App, el seu company oficial a la conferència DevFest que té lloc a Barcelona 11 octubre 2013.]]></string>

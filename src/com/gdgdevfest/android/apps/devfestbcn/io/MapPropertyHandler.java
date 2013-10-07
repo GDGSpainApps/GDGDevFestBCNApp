@@ -26,7 +26,6 @@ import java.util.Map.Entry;
 
 import android.content.ContentProviderOperation;
 import android.content.Context;
-import android.util.Log;
 
 import com.gdgdevfest.android.apps.devfestbcn.io.map.model.MapConfig;
 import com.gdgdevfest.android.apps.devfestbcn.io.map.model.MapResponse;
@@ -53,7 +52,7 @@ public class MapPropertyHandler extends JSONHandler {
         parseTileOverlays(mapJson.tiles, batch, mContext);
         parseMarkers(mapJson.markers, batch);
         parseConfig(mapJson.config, mContext);
-        mTiles = mapJson.tiles.values();
+     //   mTiles = mapJson.tiles.values();
         return batch;
     }
 
@@ -95,31 +94,6 @@ public class MapPropertyHandler extends JSONHandler {
 
     private void parseTileOverlays(Map<String, Tile> tiles,
             ArrayList<ContentProviderOperation> batch, Context context) {
-
-        for (Entry<String, Tile> entry : tiles.entrySet()) {
-            ContentProviderOperation.Builder builder = ContentProviderOperation
-                    .newInsert(ScheduleContract
-                            .addCallerIsSyncAdapterParameter(ScheduleContract.MapTiles.CONTENT_URI));
-
-            String floor = entry.getKey();
-            Tile value = entry.getValue();
-            builder.withValue(
-                    ScheduleContract.MapTiles.TILE_FLOOR, floor);
-            builder.withValue(
-                    ScheduleContract.MapTiles.TILE_FILE, value.filename);
-            builder.withValue(
-                    ScheduleContract.MapTiles.TILE_URL, value.url);
-
-            Log.d(TAG, "adding overlay: " + floor + ", " + value.filename);
-
-            /*
-             * Setup the tile overlay file. Copy it from the app assets or
-             * download it if it does not exist locally. This is done here to
-             * ensure that the data stored in the content provider always points
-             * to valid tile files.
-             */
-            batch.add(builder.build());
-        }
 
     }
 

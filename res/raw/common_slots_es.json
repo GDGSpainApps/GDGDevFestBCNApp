@@ -6,15 +6,22 @@
       "slot": [
         {
           "start": "00:00",
-          "end": "01:00",
-          "title": "Inauguración y Keynote",
+          "end": "00:10",
+          "title": "Inauguración",
           "meta": "UPC Campus Nord"
         },
         {
-          "start": "05:00",
-          "end": "06:00",
+          "start": "04:00",
+          "end": "05:00",
           "title": "Tiempo para comer",
           "meta": "UPC Campus Nord"
+        },
+        
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "title": "GDG Spain",
+          "meta": "Auditori"
         },
         {
           "start": "09:00",
@@ -23,8 +30,8 @@
           "meta": "UPC Campus Nord"
         },
         {
-          "start": "11:00",
-          "end": "16:00",
+          "start": "12:00",
+          "end": "13:00",
           "title": "Clausura",
           "meta": "Mobile World Centre"
         }

@@ -57,11 +57,13 @@ import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.plus.PlusClient;
+import com.google.android.gms.plus.PlusClient.OnPeopleLoadedListener;
 import com.google.android.gms.plus.model.people.Person;
+
 
 public class AccountActivity extends ActionBarActivity
         implements AccountUtils.AuthenticateCallback, GooglePlayServicesClient.ConnectionCallbacks,
-        GooglePlayServicesClient.OnConnectionFailedListener, PlusClient.OnPersonLoadedListener {
+        GooglePlayServicesClient.OnConnectionFailedListener, PlusClient.OnPersonLoadedListener  {
 
     private static final String TAG = ""+AccountActivity.class;
 
@@ -116,10 +118,10 @@ public class AccountActivity extends ActionBarActivity
             String accountName = savedInstanceState.getString(KEY_CHOSEN_ACCOUNT);
             if (accountName != null) {
                 mChosenAccount = new Account(accountName, "com.google");
-                mPlusClient = (new PlusClient.Builder(this, this, this))
-                        .setAccountName(accountName)
-                        .setScopes(AccountUtils.AUTH_SCOPES)
-                        .build();
+           //     mPlusClient = (new PlusClient.Builder(this, this, this))
+           //             .setAccountName(accountName)
+           //             .setScopes(AccountUtils.AUTH_SCOPES)
+            //            .build();
             }
         }
     }
@@ -182,18 +184,7 @@ public class AccountActivity extends ActionBarActivity
             mPlusClient.disconnect();
     }
 
-    @Override
-    public void onPersonLoaded(ConnectionResult connectionResult, Person person) {
-        if (connectionResult.isSuccess()) {
-            // Se the profile id
-            if (person != null) {
-                AccountUtils.setPlusProfileId(this, person.getId());
-            }
-        } else {
-            Log.e(TAG, "Got " + connectionResult.getErrorCode() + ". Could not load plus profile.");
-        }
-    }
-
+    
     public static class SignInMainFragment extends Fragment {
         public SignInMainFragment() {
         }
@@ -426,6 +417,7 @@ public class AccountActivity extends ActionBarActivity
                     .addToBackStack("choose_account")
                     .commit();
 
+            
             PlusClient.Builder builder = new PlusClient.Builder(activity, activity, activity);
             activity.mPlusClient = builder
                     .setScopes(AccountUtils.AUTH_SCOPES)
@@ -459,6 +451,7 @@ public class AccountActivity extends ActionBarActivity
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
+                    
                     if (!isAdded()) {
                         return;
                     }
@@ -481,6 +474,7 @@ public class AccountActivity extends ActionBarActivity
         @Override
         public void onResume() {
             super.onResume();
+            
             ((AccountActivity) getActivity()).mAuthProgressFragmentResumed = true;
             if (((AccountActivity) getActivity()).mCanRemoveAuthProgressFragment) {
                 ((AccountActivity) getActivity()).mCanRemoveAuthProgressFragment = false;
@@ -544,7 +538,7 @@ public class AccountActivity extends ActionBarActivity
     @Override
     public void onConnected(Bundle connectionHint) {
         // It is possible that the authenticated account doesn't have a profile.
-        mPlusClient.loadPerson(this, "me");
+        mPlusClient.loadPerson(this,"me");
         tryAuthenticate();
     }
 
@@ -570,4 +564,18 @@ public class AccountActivity extends ActionBarActivity
                     REQUEST_PLAY_SERVICES_ERROR_DIALOG).show();
         }
     }
+
+
+	@Override
+    public void onPersonLoaded(ConnectionResult connectionResult, Person person) {
+        if (connectionResult.isSuccess()) {
+            // Se the profile id
+            if (person != null) {
+                AccountUtils.setPlusProfileId(this, person.getId());
+            }
+        } else {
+            Log.e(TAG, "Got " + connectionResult.getErrorCode() + ". Could not load plus profile.");
+        }
+    }
+
 }

@@ -87,11 +87,11 @@ public class MapFragment extends SupportMapFragment implements
         GoogleMap.OnCameraChangeListener,
         LoaderCallbacks<Cursor> {
 
-    private static final LatLng MOSCONE = new LatLng(37.78353872135503, -122.40336209535599);
+    private static final LatLng MOSCONE = new LatLng(41.3903447723375,2.11327667468117);
 
     // Initial camera position
-    private static final LatLng CAMERA_MOSCONE = new LatLng(37.783107, -122.403789 );
-    private static final float CAMERA_ZOOM = 17.75f;
+    private static final LatLng CAMERA_MOSCONE = new LatLng(41.3903447723375,2.11327667468117);
+    private static final float CAMERA_ZOOM = 15.75f;
 
     private static final int NUM_FLOORS = 3; // number of floors
 
@@ -206,7 +206,10 @@ public class MapFragment extends SupportMapFragment implements
         mFloorButtons[0] = (Button) v.findViewById(R.id.map_floor1);
         mFloorButtons[1] = (Button) v.findViewById(R.id.map_floor2);
         mFloorButtons[2] = (Button) v.findViewById(R.id.map_floor3);
-
+        mFloorButtons[0] .setVisibility(View.GONE);
+        mFloorButtons[1].setVisibility(View.GONE);
+        mFloorButtons[2].setVisibility(View.GONE);
+        mFloorControls.setVisibility(View.GONE);
         for (int i = 0; i < mFloorButtons.length; i++) {
             final int j = i;
             mFloorButtons[i].setOnClickListener(new View.OnClickListener() {
@@ -215,6 +218,8 @@ public class MapFragment extends SupportMapFragment implements
                     showFloor(j);
                 }
             });
+          
+            
         }
 
         // get the height and width of the view
@@ -299,7 +304,7 @@ public class MapFragment extends SupportMapFragment implements
         }
 
         mMap.setIndoorEnabled(false);
-        mMap.getUiSettings().setZoomControlsEnabled(false);
+        mMap.getUiSettings().setZoomControlsEnabled(true);
 
         if (MapUtils.getMyLocationEnabled(this.getActivity())) {
             mMyLocationManager = new MyLocationManager();
@@ -880,10 +885,10 @@ public class MapFragment extends SupportMapFragment implements
             return;
         }
 
-        mShowMarkers = cameraPosition.zoom >= 17;
-        for (Marker m : mMarkersFloor.get(mFloor)) {
-            m.setVisible(mShowMarkers);
-        }
+     //   mShowMarkers = cameraPosition.zoom >= 17;
+     //   for (Marker m : mMarkersFloor.get(mFloor)) {
+     //       m.setVisible(mShowMarkers);
+     //   }
     }
 
 
@@ -959,7 +964,7 @@ public class MapFragment extends SupportMapFragment implements
         public MyLocationManager() {
             mLocationManager = (LocationManager) getActivity().getSystemService(
                     Context.LOCATION_SERVICE);
-
+            
             Intent i = new Intent();
             i.setAction(ACTION_PROXIMITY_ALERT);
             PendingIntent pendingIntent = PendingIntent.getBroadcast(getActivity()

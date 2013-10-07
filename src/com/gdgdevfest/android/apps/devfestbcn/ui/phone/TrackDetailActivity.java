@@ -206,8 +206,9 @@ public class TrackDetailActivity extends BaseActivity implements
         setTitle(track.name);
         setActionBarTrackIcon(track.name, track.color);
         mHashtag = track.hashtag;
-
-        switch (track.meta) {
+        mTabs.add(TAB_SESSIONS);
+        
+        /*switch (track.meta) {
             case ScheduleContract.Tracks.TRACK_META_SESSIONS_ONLY:
                 mTabs.add(TAB_SESSIONS);
                 break;
@@ -222,7 +223,7 @@ public class TrackDetailActivity extends BaseActivity implements
                 mTabs.add(TAB_SESSIONS);
                 mTabs.add(TAB_SANDBOX);
                 break;
-        }
+        }*/
 
         mViewPager.getAdapter().notifyDataSetChanged();
 

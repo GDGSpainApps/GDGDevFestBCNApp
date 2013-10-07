@@ -24,7 +24,7 @@
     <string name="title_office_hours">Horas lectivas</string>
     <string name="title_sandbox">Sandbox</string>
     <string name="title_sandbox_detail">Información de la empresa</string>
-    <string name="title_map">Información de la empresa</string>
+    <string name="title_map">Mapa</string>
     <string name="title_tagstream">Mensajes de Google+</string>
     <string name="title_announcements">Noticias</string>
     <string name="title_about">Acerca de</string>
@@ -48,7 +48,7 @@
     <string name="empty_session_detail">No se han encontrado los detalles de la sesión.</string>
     <string name="empty_sandbox">No se han encontrado empresas de desarrolladores de sandbox.</string>
     <string name="empty_social_stream">No se encontraron artículos.</string>
-    <string name="empty_announcements">Las notificaciones aparecerán aquí.</string>
+    <string name="empty_announcements"></string>
     <string name="empty_waiting_for_sync">Esperando sincronización ...</string>
     <string name="empty_captions">No se encontraron etiquetas para esta sesión.</string>
     <string name="unknown_room">(Sala sin especificar)</string>
@@ -92,7 +92,7 @@
     <string name="whats_on_thank_you_short">¡Gracias!</string>
     <string name="whats_on_thank_you_title">Nos vemos el próximo año!</string>
     <string name="whats_on_thank_you_subtitle">Dev. Fest 2013 ha terminado.</string>
-    <string name="news_will_appear_here">Las notificaciones aparecerán aquí</string>
+    <string name="news_will_appear_here"></string>
     <string name="welcome_to_google_i_o">Bienvenido a Google Dev. Fest!</string>
     <string name="permission_write">Modificar los datos de programación del Dev Fest</string>
     <!-- Schedule -->

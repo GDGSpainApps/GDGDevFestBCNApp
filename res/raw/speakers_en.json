@@ -98,11 +98,76 @@
   },
   {
    "publicPlusId": "icougil",
-   "bio": "Software Architect focused on projects developed with Java technologies, with experience in leadership and management of software teams and projects with strong analytical and design skills. Passionate about research projects and innovative IT.",
+   "bio": "Nacho has over ten years working in web systems developed in Java. Today he works as a software architect managing agile development teams and participating in all stages of the life cycle of a project. He is passionate about technology and innovative projects and founder of Barcelona Java Users Group (BarcelonaJUG)",
    "name": "Ignacio Cougil",
    "plusoneUrl": "https://twitter.com/icougil",
-   "thumbnailUrl": "https://lh6.googleusercontent.com/x8BLyyEUIDySLVuqb7q70dXhyf3ToHYMcS5xbO2bF46aqO-ATn6A9dYJyKC_G_GUYG3LE1__lZ-pl8zJieEEAnxJ1G6mf5YrupHRZGLQVqlFIzhWj-_RBVX6",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/cougil.png",
    "id": "ignacio_cougil"
+  },
+   {
+   "publicPlusId": "100736358515003434163",
+   "bio": "CTO Code Factory. After several years of training to programmers and managing application development projects as Ferran entered Code Factory in 2006 and has since worked to develop accessibility solutions for mobile devices. He is currently CTO of the company and works in Mobile Accessibility for Android, Product Developer Sandbox invited the 2011 and 2012 editions of Google IO.",
+   "name": "Ferran Gállego",
+   "plusoneUrl": "https://plus.google.com/100736358515003434163",
+   "thumbnailUrl": "http://bcn.gdgdevfest.com/wp-content/uploads/2013/09/ferrangallego.png",
+   "id": "ferran_gallego"
+  },
+   {
+   "publicPlusId": "107635555691483494328",
+   "bio": "Apps engineer at Mozilla, making apps and helping developers to make apps, tinkering and making toys in real time at leisure. He has many years of experience that met the pre-internet to 2400bps and survived to tell the tale -",
+   "name": "Soledad Penades",
+   "plusoneUrl": "https://plus.google.com/107635555691483494328/",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/201308.jpg",
+   "id": "soledad_penades"
+  },
+  {
+   "publicPlusId": "GinaTost",
+   "bio": "Gina Tost, a woman and communications expert specializing in technology, mobility and video games, has a professional baggage that goes from journalist, broadcaster, actress and presenter in Spain and abroad. He has worked for Catalunya Radio, TV3, IGN, Expansion, MarcaPlayer, Radio Brand or Japanese public television NHK. In addition, since recently has initiated several related adventures mobile companies.",
+   "name": "Gina Tost",
+   "plusoneUrl": "https://plus.google.com/109974507966166254232/",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/ginatost.png",
+   "id": "gina_tost"
+  },
+  {
+   "publicPlusId": "115453639179713725602",
+   "bio": "Juanjo Hierro has a long career in Telefónica I + D has always stuck to the development of software technologies and standards. Today, is Coordinator & Chief Architect FI-WARE project that aims to create an open platform in the cloud that can compete with Amazon. FI-WARE is part of the ambitious program Future Internet created by the European Commission in collaboration with major European ICT players and will help entrepreneurs develop their applications based on FI-WARE for a total amount of 100 million €.",
+   "name": "Juan Hierro",
+   "plusoneUrl": "https://plus.google.com/115453639179713725602",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/Foto-Twitter-Yammer-Facebook.jpg",
+   "id": "juan_hierro"
+  },
+  {
+   "publicPlusId": "101957952424598424873",
+   "bio": "With over 10 years experience in web development and devoting the last three years to educate and evangelize about HTML5 now works department BlackBerry Developer Relations. It also assists in # jsIO talking about Javascript DesarrolloWeb.com",
+   "name": "Jorge del Casar",
+   "plusoneUrl": "https://plus.google.com/101957952424598424873",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/jorgedelcasar.png",
+   "id": "jorge_del_casar"
+  },
+  
+  {
+   "publicPlusId": "111904334543242956049",
+   "bio": "Professionally tied to Java, but also with PHP. With Barcelona JUG they trying to bring these technologies JUG conferences and workshops via fortnightly, so I encourage you to contact us and participate.",
+   "name": "Esteve Camps Chust",
+   "plusoneUrl": "https://plus.google.com/111904334543242956049",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/tete_mini2.png",
+   "id": "esteve_camps"
+  },
+  {
+   "publicPlusId": "JaumeF",
+   "bio": "Jaume Figueras, Professor at the UPC, Project Manager GIS & Mobile development of FIB inLab. Teacher, trainer and developer. James began to develop a mobile handset Cassiopeia E10 (4 shades of gray). Since then (years and gray) has accumulated experience as a teacher, researcher and developer that led him to join IBF inLab responsible for GIS projects and collaborate actively in FOSS projects and Open Data.",
+   "name": "Jaume Figueras",
+   "plusoneUrl": "https://twitter.com/JaumeF",
+   "thumbnailUrl":"http://inlab.fib.upc.edu/sites/default/files/styles/foto-perfil/public/pictures/picture-70-1334828375.jpg?itok=qffF3VQW",
+   "id": "fib"
+  },
+  {
+   "publicPlusId": "eth0lo",
+   "bio": "Jean is a full-time developer, currently working on XING AG as frontend developer, also is a lover of web technologies and especially Javascript even before it was cool. During the past four years has been devoted to the development of single page applications, for various types of devices. Additionally Barcelona organizes JS.",
+   "name": "Jean Carlos Meninno",
+   "plusoneUrl": "https://twitter.com/eth0lo",
+   "thumbnailUrl":"http://ladies.barcelonajs.org/images/727f3c5c.jean.jpg",
+   "id": "jean_meninno"
   }
  ],
  "kind": "gdgmembers#presentersItem",
