@@ -16,6 +16,7 @@
 
 package com.gdgdevfest.android.apps.devfestbcn.appwidget;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 import android.accounts.Account;
 import android.annotation.TargetApi;
 import android.app.PendingIntent;
@@ -33,8 +34,6 @@ import com.gdgdevfest.android.apps.devfestbcn.sync.SyncHelper;
 import com.gdgdevfest.android.apps.devfestbcn.ui.HomeActivity;
 import com.gdgdevfest.android.apps.devfestbcn.ui.TaskStackBuilderProxyActivity;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
-
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 
 /**
  * The app widget's AppWidgetProvider.

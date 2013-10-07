@@ -1,0 +1,196 @@
+
+
+
+  {
+   "description":"Andreu Ibàñez de Ponent 2002/Liquid Galaxy LAB nos presentará la tecnología Liquid Galaxy de Google. Esta permite mostrar entornos con contenidos de Google Earth y Google maps de forma interactivo, immersiva y de gran tamaño. Su charla versará sobre la técnica detrás del sistema, vías de interacción, los diferentes modelos en que trabajan y algunos casos de uso con el Liquid Galaxy.",
+   "title": "Tecnología Liquid Galaxy",
+   "startTimestamp": 1380877200,
+   "presenterIds": [ "andreu_ibanez"],
+   "endTimestamp": 1380879900,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "cloud_1"
+  },
+    {
+   "description": "Juanjo Hierro nos presentará la plataforma FI-WARE, iniciativa cofinanciada por la Comunidad Europea y con un potente pool de partners a todos los niveles, que pretende presentar una alternativa desde europa en servicios y productos en el área del Cloud Computing. Aparte de una introducción a la plataforma y sus posibilidades nos explicará la gran dotación económica para proyectos y premios que hay dispuesta para desarrolladores y empresas.",
+   "title": "Fi-WARE",
+   "startTimestamp": 1380898800,
+   "presenterIds": [ "juan_hierro"],
+   "endTimestamp": 1380901500,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "cloud_2"
+  },
+  
+    {
+   "description": "En este Codelab podrás conocer de primera mano de lo que es capaz ADA Framework y de como puede ayudarte a reducir los costes de implementación en tus proyectos Android, con esta librería podrás reducir el código fuente de tus aplicaciones de una manera sustancial y mejorar el mantenimiento así como reducir el nivel de Bugs. No te pierdas este taller porque tenemos mucho que enseñar.",
+   "title": "ADA Framework, mucho más que un ORM",
+   "startTimestamp": 1380873600,
+   "presenterIds": [ "txus_ballesteros"],
+   "endTimestamp": 1380883500,
+   "subtype": "SESSION",
+   "location": "vertex_1",
+   "isLivestream": true,
+   "id": "codelab_1"
+  },
+  
+    {
+   "description": "Cordova es un  de desarrollo móvil de código abierto que permite usar tecnologías web standard como HTML5, CSS3 y Javascript para el desarrollo multiplataforma, evitando un desarrollar en el lenguaje nativo de cada plataforma. La nueva Command Line Interface (CLI) desarrollada en Node.js te permite automatizar la creación de proyectos, adición de plataformas y plugins así como la construir la app y probarla en simuladores y dispositivos reales.",
+   "title": "Pendiente Confirmar",
+   "startTimestamp": 1380891600,
+   "presenterIds": [ "soledad_penades"],
+   "endTimestamp": 1380901500,
+   "subtype": "SESSION",
+   "location": "vertex_2",
+   "isLivestream": true,
+   "id": "codelab_2"
+  },
+   
+    {
+   "description": "Andreu Ibàñez de Glass Lleida Developers, Carlos Fernandez y Ander Martinez de Mundo Glass de Madrid nos haran una demostración interactiva de las Google Glass, comentando diferentes aspectos técnicos y mostrándonos algunos de las aplicaciones en que trabajan, como el control del Liquid Galaxy o la plataforma arqueológica Siglado.com.",
+   "title": "Google Glass hands on",
+   "startTimestamp": 1380891600,
+   "presenterIds": [ "andreu_ibanez","ander_martinez","carlos_fernandez"],
+   "endTimestamp": 1380894300,
+   "subtype": "SESSION",
+   "location": "auditori",
+   "isLivestream": true,
+   "id": "glasses_1"
+  },
+   
+
+
+
+
+
+*********************************
+
+  {
+   "description":"Andreu Ibàñez de Ponent 2002/Liquid Galaxy LAB ens mostrarà la tecnologia Liquid Galaxy de Google. Aquesta permet mostrar entorns amb continguts de Google Earth i Google maps de manera interactiu, immersiva i de grans dimensions. La seva xerrada versarà sobre la tècnica darrere del sistema, vies d'interacció, els diferents models en què treballen i alguns casos d'ús amb el Liquid Galaxy.",
+   "title": "Tecnologia Liquid Galaxy",
+   "startTimestamp": 1380877200,
+   "presenterIds": [ "andreu_ibanez"],
+   "endTimestamp": 1380879900,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "cloud_1"
+  },
+    {
+   "description": "Juanjo Ferro ens presentarà la plataforma FI-WARE, iniciativa cofinançada per la Comunitat Europea i amb un potent pool de partners a tots els nivells, que pretén presentar una alternativa des europa en serveis i productes en l'àrea del Cloud Computing. A part d'una introducció a la plataforma i les seves possibilitats ens explicarà la gran dotació econòmica per a projectes i premis que hi ha disposada per a desenvolupadors i empreses.",
+   "title": "Fi-WARE",
+   "startTimestamp": 1380898800,
+   "presenterIds": [ "juan_hierro"],
+   "endTimestamp": 1380901500,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "cloud_2"
+  },
+  
+    {
+   "description": "En aquest Codelab podràs conèixer de primera mà del que és capaç ADA Framework i de com pot ajudar-te a reduir els costos d'implementació en els teus projectes Android, amb aquesta llibreria podràs reduir el codi font de les teves aplicacions d'una manera substancial i millorar el manteniment així com reduir el nivell de Bugs. No et perdis aquest taller perquè tenim molt per ensenyar.",
+   "title": "ADA Framework, molt més que un ORM",
+   "startTimestamp": 1380873600,
+   "presenterIds": [ "txus_ballesteros"],
+   "endTimestamp": 1380883500,
+   "subtype": "SESSION",
+   "location": "vertex_1",
+   "isLivestream": true,
+   "id": "codelab_1"
+  },
+  
+    {
+   "description": "",
+   "title": "Soledad Penales",
+   "startTimestamp": 1380891600,
+   "presenterIds": [ "soledad_penades"],
+   "endTimestamp": 1380901500,
+   "subtype": "SESSION",
+   "location": "vertex_2",
+   "isLivestream": true,
+   "id": "codelab_2"
+  },
+   
+    {
+   "description": "Andreu Ibàñez de Glass Lleida Developers, Carlos Fernandez i Ander Martínez de Món Glass de Madrid ens faran una demostració interactiva de les Google Glass, comentant diferents aspectes tècnics i mostrant-nos algunes de les aplicacions en què treballen, com el control del Liquid Galaxy o la plataforma arqueològica Siglado.com.",
+   "title": "Google Glass hands on",
+   "startTimestamp": 1380891600,
+   "presenterIds": [ "andreu_ibanez","ander_martinez","carlos_fernandez"],
+   "endTimestamp": 1380894300,
+   "subtype": "SESSION",
+   "location": "auditori",
+   "isLivestream": true,
+   "id": "glasses_1"
+  },
+   
+
+
+
+*********************************
+  
+
+  {
+   "description":"Andreu Ibàñez of Ponent 2002/Liquid Galaxy LAB  will show us technology of Google Liquid Galaxy. This allows you to display content environments of Google Earth and Google maps so interactive, immersive and large size. His talk will focus on the technique behind the system-way interaction, different working models and some use cases with the Liquid Galaxy.".
+   "title": "Technology Liquid Galaxy",
+   "startTimestamp": 1380877200,
+   "presenterIds": [ "andreu_ibanez"],
+   "endTimestamp": 1380879900,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "cloud_1"
+  },
+    {
+   "description": "Juanjo Hierro will present FI-WARE platform, an initiative co-funded by the European Community with a strong pool of partners at all levels, which aims to present an alternative from europe in services and products in the area of ​​Cloud Computing. Apart from an introduction to the platform and its possibilities will explain the large cash prize and awards for projects that are ready for developers and businesses.",
+   "title": "Fi-WARE",
+   "startTimestamp": 1380898800,
+   "presenterIds": [ "juan_hierro"],
+   "endTimestamp": 1380901500,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "cloud_2"
+  },
+  
+    {
+   "description": "In this codelab can see first hand what it is capable ADA Framework and how it can help you reduce your implementation costs in Android projects, with this program you can reduce your application source code in a substantial way and improve maintenance and reduce the level of Bugs. Do not miss this workshop because we have much to teach.",
+   "title": "ADA Framework, much more than an ORM",
+   "startTimestamp": 1380873600,
+   "presenterIds": [ "txus_ballesteros"],
+   "endTimestamp": 1380883500,
+   "subtype": "SESSION",
+   "location": "vertex_1",
+   "isLivestream": true,
+   "id": "codelab_1"
+  },
+  
+    {
+   "description": "",
+   "title": "Soledad Penales",
+   "startTimestamp": 1380891600,
+   "presenterIds": [ "soledad_penades"],
+   "endTimestamp": 1380901500,
+   "subtype": "SESSION",
+   "location": "vertex_2",
+   "isLivestream": true,
+   "id": "codelab_2"
+  },
+   
+    {
+   "description": "Andreu Ibàñez of Glass Developers Lleida, Carlos Fernandez and Ander Martinez from Madrid Mundo Glass will make us an interactive demonstration of the Google Glass, commenting on technical aspects and showing some of the applications in which they work, like checking or platform Liquid Galaxy archaeological Siglado.com.",
+   "title": "Google Glass hands on",
+   "startTimestamp": 1380891600,
+   "presenterIds": [ "andreu_ibanez","ander_martinez","carlos_fernandez"],
+   "endTimestamp": 1380894300,
+   "subtype": "SESSION",
+   "location": "auditori",
+   "isLivestream": true,
+   "id": "glasses_1"
+  },
+   
+
+
+        

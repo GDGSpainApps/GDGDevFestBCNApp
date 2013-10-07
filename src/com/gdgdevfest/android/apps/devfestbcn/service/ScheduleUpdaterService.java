@@ -16,6 +16,10 @@
 
 package com.gdgdevfest.android.apps.devfestbcn.service;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGE;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGI;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -30,15 +34,7 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
 
-import com.gdgdevfest.android.apps.devfestbcn.Config;
-import com.gdgdevfest.android.apps.devfestbcn.gcm.ServerUtilities;
 import com.gdgdevfest.android.apps.devfestbcn.sync.SyncHelper;
-import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
-import com.turbomanage.httpclient.AsyncCallback;
-import com.turbomanage.httpclient.HttpResponse;
-import com.turbomanage.httpclient.ParameterMap;
-import com.turbomanage.httpclient.android.AndroidHttpClient;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.*;
 
 /**
  * Background {@link android.app.Service} that adds or removes sessions from your calendar via the
@@ -77,7 +73,6 @@ public class ScheduleUpdaterService extends Service {
             }
 
             if (numRemainingUpdates == 0) {
-                notifyGcmDevices();
                 stopSelf();
             } else {
                 // More updates were added since the current pending set was processed. Reschedule
@@ -108,34 +103,7 @@ public class ScheduleUpdaterService extends Service {
 //        }
 //    }
 
-    private void notifyGcmDevices() {
-        String plusID = AccountUtils.getPlusProfileId(getApplicationContext());
-        if (plusID != null) {
-            LOGI(TAG, "Sending device sync notification");
-            AndroidHttpClient httpClient = new AndroidHttpClient(Config.GCM_SERVER_URL);
-            httpClient.setMaxRetries(1);
-            ParameterMap params = httpClient.newParams()
-                    .add("key", Config.GCM_API_KEY)
-                    .add("squelch", ServerUtilities.getGcmId(this));
-            String path = "/send/" + plusID + "/sync_user";
-            httpClient.post(path, params, new AsyncCallback() {
-                @Override
-                public void onComplete(HttpResponse httpResponse) {
-                    LOGI(TAG, "Device sync notification sent");
-                }
-
-                @Override
-                public void onError(Exception e) {
-                    LOGW(TAG, "Device sync notification failed", e);
-                }
-            });
-
-
-        } else {
-            LOGI(TAG, "No gPlusID, skipping device sync notification");
-        }
-    }
-
+   
     public ScheduleUpdaterService() {
     }
 

@@ -1,5 +1,10 @@
 {
   "rooms": [
+  {
+      "id": "mwc",
+      "name":"Mobile World Center",
+      "floor": "1"
+    },
     {
       "id": "bar",
       "name":"Bar",
@@ -38,6 +43,11 @@
     {
       "id": "hackaton",
       "name":"Hackaton",
+      "floor": "1"
+    },
+    {
+      "id": "vortex",
+      "name":"Vx208",
       "floor": "1"
     },
     {

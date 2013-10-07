@@ -16,5 +16,5 @@
 
 <resources>
     <!-- TODO: Add your Maps API key here. -->
-    <string name="maps_api_key" translatable="false">YOUR_MAPS_API_KEY_HERE</string>
+    <string name="maps_api_key">AIzaSyD9PV6_YDo_K4BsXNHkcjtrCG0Bnt-sj44</string>
 </resources>

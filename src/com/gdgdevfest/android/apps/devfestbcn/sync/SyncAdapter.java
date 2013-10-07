@@ -16,6 +16,11 @@
 
 package com.gdgdevfest.android.apps.devfestbcn.sync;
 
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGE;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGI;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGW;
+import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
+
 import java.io.IOException;
 import java.util.regex.Pattern;
 
@@ -30,7 +35,6 @@ import android.text.TextUtils;
 
 import com.gdgdevfest.android.apps.devfestbcn.BuildConfig;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.*;
 
 /**
  * Sync adapter for Google I/O data
@@ -66,19 +70,15 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
         final boolean uploadOnly = extras.getBoolean(ContentResolver.SYNC_EXTRAS_UPLOAD, false);
         final boolean manualSync = extras.getBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, false);
         final boolean initialize = extras.getBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, false);
-
         final String logSanitizedAccountName = sSanitizeAccountNamePattern
                 .matcher(account.name).replaceAll("$1...$2@");
 
-        if (uploadOnly) {
-            return;
-        }
 
         LOGI(TAG, "Beginning sync for account " + logSanitizedAccountName + "," +
                 " uploadOnly=" + uploadOnly +
                 " manualSync=" + manualSync +
                 " initialize=" + initialize);
-
+ 
         String chosenAccountName = AccountUtils.getChosenAccountName(mContext);
         boolean isAccountSet = !TextUtils.isEmpty(chosenAccountName);
         boolean isChosenAccount = isAccountSet && chosenAccountName.equals(account.name);

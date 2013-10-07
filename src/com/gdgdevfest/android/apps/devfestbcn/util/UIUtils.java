@@ -90,7 +90,7 @@ public class UIUtils {
     public static final TimeZone CONFERENCE_TIME_ZONE = TimeZone.getTimeZone("Europe/Madrid");
 
     public static final long CONFERENCE_START_MILLIS = ParserUtils.parseTime(
-            "2013-10-11T08:30:00.000+02:00");
+            "2013-10-11T08:00:00.000+02:00");
     public static final long CONFERENCE_END_MILLIS = ParserUtils.parseTime(
             "2013-10-11T21:00:00.000+02:00");
 
@@ -593,16 +593,8 @@ public class UIUtils {
     private static final long sAppLoadTime = System.currentTimeMillis();
 
     public static long getCurrentTime(final Context context) {
-        if (BuildConfig.DEBUG) {
-            return context.getSharedPreferences("mock_data", Context.MODE_PRIVATE)
-                    .getLong("mock_current_time", System.currentTimeMillis())
-                    + System.currentTimeMillis() - sAppLoadTime;
-//            return ParserUtils.parseTime("2012-06-27T09:44:45.000-07:00")
-//                    + System.currentTimeMillis() - sAppLoadTime;
-        } else {
             return System.currentTimeMillis();
-        }
-    }
+       }
 
     public static boolean shouldShowLiveSessionsOnly(final Context context) {
         return !PrefUtils.isAttendeeAtVenue(context)

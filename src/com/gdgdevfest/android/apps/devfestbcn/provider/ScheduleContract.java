@@ -366,7 +366,7 @@ public class ScheduleContract {
 
     /**
      * Tracks are overall categories for {@link Sessions} and {@link com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract.Sandbox},
-     * such as "Android" or "Enterprise."
+     * such as Android or "Enterprise."
      */
     public static class Tracks implements TracksColumns, BaseColumns {
         public static final Uri CONTENT_URI =

@@ -17,8 +17,6 @@
 package com.gdgdevfest.android.apps.devfestbcn.ui;
 
 import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGD;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGI;
-import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGW;
 import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 import android.accounts.Account;
 import android.annotation.TargetApi;
@@ -26,9 +24,9 @@ import android.app.SearchManager;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.SyncStatusObserver;
-import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -37,21 +35,17 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
 
-import com.gdgdevfest.android.apps.devfestbcn.Config;
 import com.gdgdevfest.android.apps.devfestbcn.R;
-import com.gdgdevfest.android.apps.devfestbcn.gcm.ServerUtilities;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.sync.SyncHelper;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.HelpUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.UIUtils;
 import com.google.analytics.tracking.android.EasyTracker;
-import com.google.android.gcm.GCMRegistrar;
 import com.google.android.gms.auth.GoogleAuthUtil;
 
 public class HomeActivity extends BaseActivity implements
@@ -70,8 +64,7 @@ public class HomeActivity extends BaseActivity implements
 
     private ViewPager mViewPager;
     private Menu mOptionsMenu;
-    private AsyncTask<Void, Void, Void> mGCMRegisterTask;
-
+  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,7 +72,7 @@ public class HomeActivity extends BaseActivity implements
         if (isFinishing()) {
             return;
         }
-
+        if (android.os.Build.VERSION.SDK_INT > 9) { StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build(); StrictMode.setThreadPolicy(policy); }
         UIUtils.enableDisableActivitiesByFormFactor(this);
         setContentView(R.layout.activity_home);
         FragmentManager fm = getSupportFragmentManager();
@@ -122,76 +115,19 @@ public class HomeActivity extends BaseActivity implements
             homeScreenLabel = "Home";
         }
         getSupportActionBar().setHomeButtonEnabled(false);
-
+        triggerRefresh();
+        
         EasyTracker.getTracker().sendView(homeScreenLabel);
         LOGD("Tracker", homeScreenLabel);
 
-        // Sync data on load
-        if (savedInstanceState == null) {
-            registerGCMClient();
         }
-    }
 
-    private void registerGCMClient() {
-        GCMRegistrar.checkDevice(this);
-        GCMRegistrar.checkManifest(this);
-
-        final String regId = GCMRegistrar.getRegistrationId(this);
-
-        if (TextUtils.isEmpty(regId)) {
-            // Automatically registers application on startup.
-            GCMRegistrar.register(this, Config.GCM_SENDER_ID);
-
-        } else {
-            // Device is already registered on GCM, needs to check if it is
-            // registered on our server as well.
-            if (ServerUtilities.isRegisteredOnServer(this)) {
-                // Skips registration.
-                LOGI(TAG, "Already registered on the C2DM server");
-            } else {
-                // Try to register again, but not in the UI thread.
-                // It's also necessary to cancel the thread onDestroy(),
-                // hence the use of AsyncTask instead of a raw thread.
-                mGCMRegisterTask = new AsyncTask<Void, Void, Void>() {
-                    @Override
-                    protected Void doInBackground(Void... params) {
-                        boolean registered = ServerUtilities.register(HomeActivity.this, regId);
-                        // At this point all attempts to register with the app
-                        // server failed, so we need to unregister the device
-                        // from GCM - the app will try to register again when
-                        // it is restarted. Note that GCM will send an
-                        // unregistered callback upon completion, but
-                        // GCMIntentService.onUnregistered() will ignore it.
-                        if (!registered) {
-                            GCMRegistrar.unregister(HomeActivity.this);
-                        }
-                        return null;
-                    }
-
-                    @Override
-                    protected void onPostExecute(Void result) {
-                        mGCMRegisterTask = null;
-                    }
-                };
-                mGCMRegisterTask.execute(null, null, null);
-            }
-        }
-    }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
 
-        if (mGCMRegisterTask != null) {
-            mGCMRegisterTask.cancel(true);
-        }
-
-        try {
-            GCMRegistrar.onDestroy(this);
-        } catch (Exception e) {
-            LOGW(TAG, "C2DM unregistration error", e);
-        }
-    }
+           }
 
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
@@ -342,7 +278,6 @@ public class HomeActivity extends BaseActivity implements
 
     private void triggerRefresh() {
         SyncHelper.requestManualSync(AccountUtils.getChosenAccount(this));
-
         if (mSocialStreamFragment != null) {
             mSocialStreamFragment.refresh();
         }

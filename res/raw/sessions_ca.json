@@ -1,213 +1,268 @@
 {
  "sessions": [
+  
+  {
+   "description": "Durant el workshop, dirigit a noves startups i emprenedors, es revisaran els fonaments dels processos de Customer Development, així com les principals característiques de les eines de Google que et permetran posar-los en marxa. Incorpora mètriques de negoci al teu startup implementat una estratègia llegeixin, traient partit del model freemium disponible amb eines com Google Analytics, Google Trends o Google Apps.",
+   "title": "Customer Development amb eines de Google",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "andres_leonardo_martinez"],
+   "endTimestamp": 1381481400,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_1"
+  },
     {
-   "description": "desc Sesión Móvil 1",
-   "title": "Sesión Móvil 1",
-   "startTimestamp": 1381478400,
-   "presenterIds": [
-    "jorge_juan_barroso_carmona"
-   ],
-   "endTimestamp": 1381482000,
+   "description": "",
+   "title": "Pend. Confirmar",
+   "startTimestamp": 1381482300,
+   "presenterIds": [ ""],
+   "endTimestamp": 1381485000,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_2"
+  },
+  
+    {
+   "description": "Desenvolupem projectes R+D+I col·laborant amb empreses i institucions en diferents àrees d’expertesa i amb les darreres tecnologies.",
+   "title": "Programa de Formación inLab FIB",
+   "startTimestamp": 1381485900,
+   "presenterIds": [ "fib"],
+   "endTimestamp": 1381488600,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_3"
+  },
+  
+    {
+   "description":"Android ha inspirat a milers de desenvolupadors per esdevenir emprenedors. Però, ser un bon desenvolupador us fa un bon CEO? Amb l'experiència d'Hermes Pique (fundador Robot Media, Barcelona.IO) era tot el contrari. Vine a compartir amb Hermés els dolors i errors més estúpids, l'ús de Android al nom de l'empresa, com et pot fastiguejar Amazon, desenvolupar productes que a ningú li preocupa, deixar anar de tot tu quip.",
+   "title": "Confessions d'un desenvolupador emprenedor",
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "hermes_pique"],
+   "endTimestamp": 1381499100,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_4"
+  },
+  
+   {
+   "description": "La seva xerrada versarà sobre les empreses culturals i la seva interrelació amb les apps i videojocs, sempre des d'un punt de vista dels desenvolupadors i de banda la de la premsa i les agències de màrqueting, incidint en els nous models que s'imposen.",
+   "title": "Sobre ASO i marketing d'apps i com comunicar les apps als mitjans",
+   "startTimestamp": 1381514400,
+   "presenterIds": [ "gina_tost"],
+   "endTimestamp": 1381517100,
+   "subtype": "SESSION",
+   "location": "mwc",
+   "isLivestream": true,
+   "id": "entrepreneurship_5"
+  },
+  
+  {
+   "description":"Guava conté moltes llibreries bàsiques utilitzades en tots els projectes Java de Google: collections, caching, primitives, concurrència, I / O, strings ... Veurem com utilitzar Guava en els nostres projectes del dia a dia, simplificar el codi i millorar la nostra productivitat. Segurament és millor utilitzar una llibreria ben testejada en producció per Google que reinventar la roda.",
+   "title": "Google Guava: Core libraries per Java & Android",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "jordi_gerona"],
+   "endTimestamp": 1381481400,
    "subtype": "SESSION",
    "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_1"
+  },
+    {
+   "description": "La web és més que documents i apps: com esdevenir home / dona orquestra amb Web Àudio, Web GL, controladors maquinari, node.js i algun ingredient sorpresa mes",
+   "title": "Four to the floor Javascript, vol 2",
+   "startTimestamp": 1381485900,
+   "presenterIds": [ "soledad_penades"],
+   "endTimestamp": 1381488600,
+   "subtype": "SESSION",
+   "location": "auditori",
+   "isLivestream": true,
+   "id": "web_2"
+  },
+  
+    {
+   "description": "Més enllà de 'Hello World'. Principis de aplicacions, factories, serveis i més",
+   "title": "Donar el salt de la fe en AngularJS",
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "patrick_heneise"],
+   "endTimestamp": 1381499100,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_3"
+  },
+  
+    {
+   "description": "Cordova és un framework de desenvolupament mòbil de codi obert que permet usar tecnologies web estàndard com HTML5, CSS3 i Javascript per al desenvolupament multiplataforma, evitant un desenvolupar en el llenguatge natiu de cada plataforma. La nova Command Line Interface (CLI) desenvolupada en Node.js et permet automatitzar la creació de projectes, addició de plataformes i plugins així com la construir l'app i provar-la en simuladors i dispositius reals.",
+   "title": "Desenvolupa Aplicacions Multiplataforma amb Cordova 3.0",
+   "startTimestamp": 1381500000,
+   "presenterIds": [ "jorge_del_casar"],
+   "endTimestamp": 1381502700,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_4"
+  },
+   
+    {
+   "description": "Segur que l'experiència de mals desenvolupaments t'ha portat a patir-més del compte-en algun projecte. Inexistència d'estàndards de codificació, absència de tests, duplicació de codi, excessiu acoblament entre classes, ... En aquesta xerrada farem una modesta revisió de les bones pràctiques incloses al llibre 'Clean code. A handbook of Agile Software Craftsmanship 'de Robert C. Martin que de segur us ajudaran a millorar en futures aventures tecnològiques.",
+   "title": "Be clean, my friend",
+   "startTimestamp": 1381500000,
+   "presenterIds": [ "esteve_camps","ignacio_cougil"],
+   "endTimestamp": 1381502700,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_5"
+  },
+   
+  {
+   "description": "El framework d'Android ve amb un gran conjunt UI widgets (aka Views) que es poden usar per crear interfícies d'usuari bàsic. L'ús dels widgets bàsics és sovint un bon punt de partida, però un pot ràpidament ser enfrontat a la manca de possibilitats. Afortunadament, hi ha algunes opcions i consisteixen principalment en el domini de la classe View i la seva jerarquia. En aquesta xerrada veurem com impulsar el marc d'interfície d'usuari Android al següent nivell. Demostrarem com Android li permet anar més enllà de la imaginació mitjançant la millora dels views existents, la creació de controls compostos i / o elaboració completament de noves Views. Si vols construir la interfície d'usuari increïblement innovadora i avançada en Android aquesta xerrada és per a tu!",
+   "title": "Crafting Custom Android Views",
+   "startTimestamp": 1381475400,
+   "presenterIds": [ "cyril_mottier"],
+   "endTimestamp": 1381478100,
+   "subtype": "SESSION",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_1"
   },
-  {
-   "description": "desc Sesión Móvil 2",
-   "title": "Sesión Móvil 2",
-   "startTimestamp": 1381482000,
-   "presenterIds": [
-    "cyril_mottier"
-   ],
-   "endTimestamp": 1381485600,
+    {
+   "description": "Les tecnologies mòbils han experimentat grans avenços durant els últims anys en el camp de l'accessibilitat. Els fabricants de sistemes operatius dediquen enormes esforços a garantir que les seves plataformes són accessibles i, al seu torn, ofereixen les eines necessàries perquè tercers es puguin beneficiar de l'accessibilitat nativa en el desenvolupament de les seves aplicacions. Android disposa d'una completa API d'accessibilitat i, a més, posa a disposició dels usuaris cecs i deficients visuals eines especialitzades com TalkBack, que donen accés a la interfície del sistema i pretenen fer accessibles també les aplicacions de tercers. El proper repte consisteix a difondre l'accessibilitat entre tots els desenvolupadors d'aplicacions. Hi ha encara molta feina en aquest camp, l'accessibilitat continua sent la gran desconeguda i la indústria de desenvolupament d'apps aixeca noves barreres per a usuaris amb necessitats especials. L'accessibilitat és un camp molt especialitzat en el qual l'experiència té un gran valor. Sorgeix així la figura del consultor d'accessibilitat, expert en aquest camp que garanteix als desenvolupadors d'apps que els seus productes estan dissenyats i desenvolupats per a tots els usuaris. ",
+   "title": "Accessibilitat en apps mòbils",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "ferran_gallego"],
+   "endTimestamp": 1381481400,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_2"
   },
-  {
-   "description": "desc Sesión Móvil 3",
+  
+    {
+   "description": "En aquesta xerrada parlarem de perquè s'han testejar les aplicacions, introduint en diferents eines que disposem per Android. Agenda: Why testing?, Testing on Android, Dependency Injection, Tools that can save our lives, JUnit, Mockito, Robolectric, Dagger, Instrumentation.",
    "title": "Android Testing des de dins",
-   "startTimestamp": 1381485600,
-   "presenterIds": [
-    "fernando_cejas"
-   ],
-   "endTimestamp": 1381489200,
+   "startTimestamp": 1381482300,
+   "presenterIds": [ "fernando_cejas"],
+   "endTimestamp": 1381485000,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_3"
   },
-  {
-   "description": "La Sessió proposarà les millors pràctiques i compartirà els Coneixements adquirits després d'utilitzar Gradle i Android Studio per desenvolupar Aplicacions i Llibreries en Entorns de Producció. S'abordaran Diferents Temes incloent Desenvolupament, Publicació, proves i Integració contínua.",
-   "title": "Gradle, Android Studio i la bellesa de la línia de comandes",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "david_gonzalez"
-   ],
-   "endTimestamp": 1381492800,
+  
+    {
+   "description": "A 47 Degrees la majoria d'aplicacions que realitzem són desenvolupaments nadius per plataformes iOS i Android. Veiem important a nivell d'interfície partir de zero en el prototipat de cadascuna per poder utilitzar els controladors nadius del sistema en el disseny. La usabilitat de l'aplicació ve imposada en certa mesura per les guies de bon ús del sistema ja que és, al que estan acostumat als usuaris per mitjà de les aplicacions natives. També farem un ràpid resum sobre l'evolució dels controladors nadius i donarem alguns exemples de bons usos i errors.",
+   "title": "Consideracions en el disseny d'una aplicació multiplataforma.",
+   "startTimestamp": 1381485900,
+   "presenterIds": [ "jorge_galindo_cruces"],
+   "endTimestamp": 1381488600,
    "subtype": "SESSION",
    "location": "sala_dactes",
    "isLivestream": true,
    "id": "movil_4"
   },
-  {
-   "description": "Not Def",
-   "title": "Not Def",
+  
+    {
+   "description": "La Sessió proposarà les millors pràctiques i compartirà els Coneixements adquirits després d'utilitzar Gradle i Android Studio per desenvolupar Aplicacions i Llibreries en Entorns de Producció. S'abordaran Diferents Temes incloent Desenvolupament, Publicació, proves i Integració contínua.",
+   "title": "Gradle, Android Studio i la bellesa de la línia de comandes",
    "startTimestamp": 1381500000,
-   "presenterIds": [
-    ""
-   ],
-   "endTimestamp": 1381503600,
+   "presenterIds": [ "david_gonzalez"],
+   "endTimestamp": 1381502700,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_5"
   },
-  {
-   "description": "Not Def",
-   "title": "Not Def",
+  
+    {
+   "description": "Analitzarem l'entorn en què es desenvolupa l'aplicació: com creix, com les persones involucrades treballen entre si, a més dissecció l'aplicació amb la precisió del bisturí d'un cirurgià plàstic.",
+   "title": "Anatomia d'Android messenger",
    "startTimestamp": 1381503600,
-   "presenterIds": [
-    ""
-   ],
-   "endTimestamp": 1381507200,
+   "presenterIds": [ "jorge_juan_barroso_carmona"],
+   "endTimestamp": 1381506300,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_6"
   },
-
-
-
-
+  
 
   {
-   "description": "Tecnologia Liquid Galaxy",
-   "title": "Andreu Ibàñez de Ponent 2002/Liquid Galaxy LAB ens mostrarà la tecnologia Liquid Galaxy de Google. Aquesta permet mostrar entorns amb continguts de Google Earth i Google maps de manera interactiu, immersiva i de grans dimensions. La seva xerrada versarà sobre la tècnica darrere del sistema, vies d'interacció, els diferents models en què treballen i alguns casos d'ús amb el Liquid Galaxy.",
-   "startTimestamp": 1381478400,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381482000,
+   "description":"Andreu Ibàñez de Ponent 2002/Liquid Galaxy LAB ens mostrarà la tecnologia Liquid Galaxy de Google. Aquesta permet mostrar entorns amb continguts de Google Earth i Google maps de manera interactiu, immersiva i de grans dimensions. La seva xerrada versarà sobre la tècnica darrere del sistema, vies d'interacció, els diferents models en què treballen i alguns casos d'ús amb el Liquid Galaxy.",
+   "title": "Tecnologia Liquid Galaxy",
+   "startTimestamp": 1381482300,
+   "presenterIds": [ "andreu_ibanez"],
+   "endTimestamp": 1381485000,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "cloud_1"
+  },
+    {
+   "description": "Juanjo Hierro ens presentarà la plataforma FI-WARE, iniciativa cofinançada per la Comunitat Europea i amb un potent pool de partners a tots els nivells, que pretén presentar una alternativa des europa en serveis i productes en l'àrea del Cloud Computing. A part d'una introducció a la plataforma i les seves possibilitats ens explicarà la gran dotació econòmica per a projectes i premis que hi ha disposada per a desenvolupadors i empreses.",
+   "title": "Fi-WARE",
+   "startTimestamp": 1381503600,
+   "presenterIds": [ "juan_hierro"],
+   "endTimestamp": 1381506300,
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
-   "id": "web_1"
-  },
-  {
-   "description": "desc Sesión Web 1",
-   "title": "Sesión Web 1",
-   "startTimestamp": 1381482000,
-   "presenterIds": [
-    "patrick_heneise"
-   ],
-   "endTimestamp": 1381485600,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_1"
-  },
-  {
-   "description": "desc Sesión Web 2",
-   "title": "Be clean, my friend",
-   "startTimestamp": 1381485600,
-   "presenterIds": [
-    "ignacio_cougil"
-   ],
-   "endTimestamp": 1381489200,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_2"
-  },
-  {
-   "description": "desc Sesión Web 4",
-   "title": "Sesión Web 4",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "jordi_gerona"
-   ],
-   "endTimestamp": 1381492800,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_3"
-  },
-
-
-
- 
- 
- 
-  {
-   "description": "desc Sesión Emprendimiento 1",
-   "title": "Sesión Emprendimiento 1",
-   "startTimestamp": 1381478400,
-   "presenterIds": [
-    "ines_goncalves"
-   ],
-   "endTimestamp": 1381482000,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_1"
-  },
-  {
-   "description": "Durant el workshop, dirigit a noves startups i emprenedors, es revisaran els fonaments dels processos de Customer Development, així com les principals característiques de les eines de Google que et permetran posar-los en marxa. Incorpora mètriques de negoci al teu startup implementat una estratègia llegeixin, traient partit del model freemium disponible amb eines com Google Analytics, Google Trends o Google Apps.",
-   "title": "Customer Development amb eines de Google",
-   "startTimestamp": 1381482000,
-   "presenterIds": [
-    "andres_leonardo_martinez"
-   ],
-   "endTimestamp": 1381485600,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_2"
-  },
-  {
-   "description": "Android ha inspirat a milers de desenvolupadors per esdevenir emprenedors. Però, ser un bon desenvolupador us fa un bon CEO? Amb l'experiència d'Hermes Pique (fundador Robot Media, Barcelona.IO) era tot el contrari. Vine a compartir amb Hermés els dolors i errors més estúpids, l'ús de Android  al nom de l'empresa, com et pot fastiguejar Amazon, desenvolupar productes que a ningú li preocupa, deixar anar el teu equip.",
-   "title": "Confessions d'un desenvolupador emprenedor",
-   "startTimestamp": 1381485600,
-   "presenterIds": [
-    "hermes_pique"
-   ],
-   "endTimestamp": 1381489200,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_3"
-  },
-  {
-   "description": "A 47 Degrees la majoria d'aplicacions que realitzem són desenvolupaments nadius per plataformes iOS i Android. Veiem important a nivell d'interfície partir de zero en el prototipat de cadascuna per poder utilitzar els controladors nadius del sistema en el disseny. La usabilitat de l'aplicació ve imposada en certa mesura per les guies de bon ús del sistema ja que és, al que estan acostumat als usuaris per mitjà de les aplicacions natives. També farem un ràpid resum sobre l'evolució dels controladors nadius i donarem alguns exemples de bons usos i errors.",
-   "title": "Consideracions en el disseny d'una aplicació multiplataforma. ",
-   "startTimestamp": 1381500000,
-   "presenterIds": [
-    "jorge_galindo_cruces"
-   ],
-   "endTimestamp": 1381503600,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "codelabs_1"
+   "id": "cloud_2"
   },
   
+    {
+   "description": "El CodeLab finalitzarà a les 12:45. En aquest Codelab podràs conèixer de primera mà del que és capaç ADA Framework i de com pot ajudar-te a reduir els costos d'implementació en els teus projectes Android, amb aquesta llibreria podràs reduir el codi font de les teves aplicacions d'una manera substancial i millorar el manteniment així com reduir el nivell de Bugs. No et perdis aquest taller perquè tenim molt per ensenyar.",
+   "title": "ADA Framework, molt més que un ORM",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "txus_ballesteros"],
+   "endTimestamp": 1381481400,
+   "subtype": "SESSION",
+   "location": "vertex_1",
+   "isLivestream": true,
+   "id": "codelab_1"
+  },
   
-  {
+    {
+   "description": "El CodeLab finalitzarà a les 17:45. I com no tot va a ser Google, un taller bàsic d'introducció al Firefox OS: com funciona, com programar i com provar-ho. I després, com trepitjar l'accelerador amb Brick i desenvolupar a tota velocitat.",
+   "title": "Programant Web Apps amb Brick",
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "soledad_penades"],
+   "endTimestamp": 1381499100,
+   "subtype": "SESSION",
+   "location": "vertex_2",
+   "isLivestream": true,
+   "id": "codelab_2"
+  },
+   
+    {
    "description": "Andreu Ibàñez de Glass Lleida Developers, Carlos Fernandez i Ander Martínez de Món Glass de Madrid ens faran una demostració interactiva de les Google Glass, comentant diferents aspectes tècnics i mostrant-nos algunes de les aplicacions en què treballen, com el control del Liquid Galaxy o la plataforma arqueològica Siglado.com.",
    "title": "Google Glass hands on",
-   "startTimestamp": 1381503600,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381507200,
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "andreu_ibanez","ander_martinez","carlos_fernandez"],
+   "endTimestamp": 1381499100,
    "subtype": "SESSION",
-   "location": "agora",
+   "location": "auditori",
    "isLivestream": true,
    "id": "glass_1"
   }
+,
+  
+    {
+   "description": "Les aplicacions en backbone poden sortir de control ràpidament, tenir una estratègia clara durant el procés de desenvolupament i tenir coneixement de les eines i dels conceptes darrere d'elles és fonamental per mantenir el seny, i arribar vius al dia del llançament.",
+   "title": "Arquitectura per a grans aplicacions basades en Backbone",
+   "startTimestamp": 1381503600,
+   "presenterIds": [ "jean_meninno"],
+   "endTimestamp": 1381506300,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_6"
+  }
+  
  ],
  "kind": "googledevelopers#sessionsItem",
  "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/yGQ5LTk-TDzmactpsrhDg2XAgvc\""

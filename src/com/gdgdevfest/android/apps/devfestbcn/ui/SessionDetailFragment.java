@@ -71,6 +71,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.plus.PlusClient;
 import com.google.android.gms.plus.PlusOneButton;
+import com.google.android.gms.plus.PlusOneButton.OnPlusOneClickListener;
 
 /**
  * A fragment that shows detail information for a session, including session title, abstract,
