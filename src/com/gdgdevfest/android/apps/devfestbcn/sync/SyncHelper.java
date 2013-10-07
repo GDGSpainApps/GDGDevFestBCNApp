@@ -22,12 +22,9 @@ import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.HttpURLConnection;
-import java.text.Format.Field;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -35,12 +32,10 @@ import java.util.List;
 import android.accounts.Account;
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.OperationApplicationException;
 import android.content.SharedPreferences;
 import android.content.SyncResult;
-import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.RemoteException;
@@ -48,9 +43,7 @@ import android.preference.PreferenceManager;
 
 import com.gdgdevfest.android.apps.devfestbcn.Config;
 import com.gdgdevfest.android.apps.devfestbcn.R;
-import com.gdgdevfest.android.apps.devfestbcn.io.AnnouncementsFetcher;
 import com.gdgdevfest.android.apps.devfestbcn.io.BlocksHandler;
-import com.gdgdevfest.android.apps.devfestbcn.io.FeedbackHandler;
 import com.gdgdevfest.android.apps.devfestbcn.io.JSONHandler;
 import com.gdgdevfest.android.apps.devfestbcn.io.MapPropertyHandler;
 import com.gdgdevfest.android.apps.devfestbcn.io.RoomsHandler;
@@ -62,9 +55,7 @@ import com.gdgdevfest.android.apps.devfestbcn.io.map.model.Tile;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.util.AccountUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.Lists;
-import com.gdgdevfest.android.apps.devfestbcn.util.MapUtils;
 import com.gdgdevfest.android.apps.devfestbcn.util.NetUtils;
-import com.google.analytics.tracking.android.GAServiceManager;
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.client.googleapis.services.CommonGoogleClientRequestInitializer;
@@ -73,9 +64,7 @@ import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.gson.GsonFactory;
 import com.google.api.services.googledevelopers.Googledevelopers;
-import com.larvalabs.svgandroid.SVG;
 import com.larvalabs.svgandroid.SVGParseException;
-import com.larvalabs.svgandroid.SVGParser;
 import com.turbomanage.httpclient.BasicHttpClient;
 import com.turbomanage.httpclient.ConsoleRequestLogger;
 import com.turbomanage.httpclient.HttpResponse;
@@ -92,7 +81,7 @@ public class SyncHelper {
 
     public static final int FLAG_SYNC_LOCAL = 0x1;
 
-    private static final int LOCAL_VERSION_CURRENT = 25;
+    private static final int LOCAL_VERSION_CURRENT = 46;
     private static final String LOCAL_MAPVERSION_CURRENT = "\"vlh7Ig\"";
 
     private Context mContext;
@@ -121,7 +110,6 @@ public class SyncHelper {
 
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(mContext);
         final int localVersion = prefs.getInt("local_data_version", 0);
-
         // Bulk of sync work, performed by executing several fetches from
         // local and online sources.
         final ContentResolver resolver = mContext.getContentResolver();
@@ -129,7 +117,6 @@ public class SyncHelper {
 
         LOGI(TAG, "Performing sync");
 
-        if ((flags & FLAG_SYNC_LOCAL) != 0) {
             final long startLocal = System.currentTimeMillis();
             final boolean localParse = localVersion < LOCAL_VERSION_CURRENT;
             LOGD(TAG, "found localVersion=" + localVersion + " and LOCAL_VERSION_CURRENT="
@@ -206,45 +193,14 @@ public class SyncHelper {
             }
 
             batch = new ArrayList<ContentProviderOperation>();
-        }
-
+  
      
 
-        try {
-            // Apply all queued up remaining batch operations (only remote content at this point).
-            resolver.applyBatch(ScheduleContract.CONTENT_AUTHORITY, batch);
-
-            // Update search index
-            resolver.update(ScheduleContract.SearchIndex.CONTENT_URI, new ContentValues(),
-                    null, null);
-
-            // Delete empty blocks
-            Cursor emptyBlocksCursor = resolver.query(ScheduleContract.Blocks.CONTENT_URI,
-                    new String[]{ScheduleContract.Blocks.BLOCK_ID,ScheduleContract.Blocks.SESSIONS_COUNT},
-                    ScheduleContract.Blocks.EMPTY_SESSIONS_SELECTION, null, null);
-            batch = new ArrayList<ContentProviderOperation>();
-            int numDeletedEmptyBlocks = 0;
-            while (emptyBlocksCursor.moveToNext()) {
-                batch.add(ContentProviderOperation
-                        .newDelete(ScheduleContract.Blocks.buildBlockUri(
-                                emptyBlocksCursor.getString(0)))
-                        .build());
-                ++numDeletedEmptyBlocks;
-            }
-            emptyBlocksCursor.close();
-            resolver.applyBatch(ScheduleContract.CONTENT_AUTHORITY, batch);
-            LOGD(TAG, "Deleted " + numDeletedEmptyBlocks + " empty session blocks.");
-        } catch (RemoteException e) {
-            throw new RuntimeException("Problem applying batch operation", e);
-        } catch (OperationApplicationException e) {
-            throw new RuntimeException("Problem applying batch operation", e);
         }
-    }
 
     public void addOrRemoveSessionFromSchedule(Context context, String sessionId,
             boolean inSchedule) throws IOException {
         LOGI(TAG, "Updating session on user schedule: " + sessionId);
-
         Googledevelopers conferenceAPI = getConferenceAPIClient();
         try {
             sendScheduleUpdate(conferenceAPI, context, sessionId, inSchedule);
@@ -313,10 +269,10 @@ public class SyncHelper {
      * @throws IOException
      */
     private void syncMapTiles(Collection<Tile> collection) throws IOException, SVGParseException {
-
+    }
         //keep track of used files, unused files are removed
-        ArrayList<String> usedTiles = Lists.newArrayList();
-        for(Tile tile : collection){
+   //     ArrayList<String> usedTiles = Lists.newArrayList();
+     /*   for(Tile tile : collection){
             final String filename = tile.filename;
             final String url = tile.url;
 

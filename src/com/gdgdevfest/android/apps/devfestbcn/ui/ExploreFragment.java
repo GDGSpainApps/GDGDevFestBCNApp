@@ -108,12 +108,10 @@ public class ExploreFragment extends ListFragment implements
                         UIUtils.getMapActivityClass(getActivity())));
             }
         });
-        mapHeaderContainerView.setVisibility(View.GONE);
-
-       // listView.addHeaderView(mapHeaderContainerView);
+      
+        listView.addHeaderView(mapHeaderContainerView);
         listView.setHeaderDividersEnabled(false);
-        listView.setVisibility(View.GONE);
-    }
+      }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -153,7 +151,7 @@ public class ExploreFragment extends ListFragment implements
     /** {@inheritDoc} */
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
-        final Cursor cursor = (Cursor) mAdapter.getItem(position ); // - 1 to account for header
+        final Cursor cursor = (Cursor) mAdapter.getItem(position -1); // - 1 to account for header
 
         String trackId = ScheduleContract.Tracks.ALL_TRACK_ID;
         int trackMeta = ScheduleContract.Tracks.TRACK_META_NONE;

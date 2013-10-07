@@ -271,7 +271,6 @@ public class SessionsSandboxMultiPaneActivity extends BaseActivity implements
                         android.R.layout.simple_spinner_item,
                         container, false);
             }
-            Log.e("inaki","posss  "+position);
             ((TextView) convertView.findViewById(android.R.id.text1)).setText(
                     getLabelResId(position));
             return convertView;

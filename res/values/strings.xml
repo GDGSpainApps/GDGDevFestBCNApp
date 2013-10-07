@@ -69,7 +69,7 @@
     <string name="empty_session_detail">No session details found.</string>
     <string name="empty_sandbox">No developer sandbox companies found.</string>
     <string name="empty_social_stream">No posts found.</string>
-    <string name="empty_announcements">Announcements will appear here.</string>
+    <string name="empty_announcements"></string>
     <string name="empty_waiting_for_sync">Waiting for sync&#8230;</string>
     <string name="empty_captions">No captions found for this session.</string>
     <string name="unknown_room">(Unspecified Room)</string>

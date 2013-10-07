@@ -1,229 +1,264 @@
 {
  "sessions": [
+   {
+   "description": "During the workshop, aimed at new startups and entrepreneurs, will review the basics of Customer Development processes, as well as the main features of Google tools that allow you to set them up. Incorporates business metrics to your startup implemented a lean strategy, taking advantage of the freemium model available with tools like Google Analytics, Google Trends or Google Apps.",
+   "title": "Customer Development with Google tools",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "andres_leonardo_martinez"],
+   "endTimestamp": 1381481400,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_1"
+  },
+  
     {
-   "description": "desc Sesión Móvil 1",
-   "title": "Sesión Móvil 1",
-   "startTimestamp": 1381478400,
-   "presenterIds": [
-    "jorge_juan_barroso_carmona"
-   ],
-   "endTimestamp": 1381482000,
+   "description": "Develop R & D projects in collaboration with companies and institutions in various areas of expertise and the latest technologies.",
+   "title": "Training Program inLab FIB",
+   "startTimestamp": 1381485900,
+   "presenterIds": [ "fib"],
+   "endTimestamp": 1381488600,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_3"
+  },
+    {
+   "description": "",
+   "title": "Pending",
+   "startTimestamp": 1381482300,
+   "presenterIds": [ ""],
+   "endTimestamp": 1381485000,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_2"
+  },
+  
+    {
+   "description":"Android has inspired thousands of developers to become entrepreneurs. But does being a good programmer does make you a good CEO? In the experience of first-time founder Hermes Pique (Robot Media, Barcelona.IO) it was quite the opposite. Come share Hermés growing pains and most stupid mistakes, from using Android in the company name, getting screwed by Amazon, building products no-one cares about, to letting go of your entire team.",
+   "title": "Confessions of a Developer Entrepreneur",
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "hermes_pique"],
+   "endTimestamp": 1381499100,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_4"
+  },        
+   
+   {
+   "description": "His talk will focus on cultural industries and its interrelation with the apps and games, always from the point of view of developers and  the press and marketing agencies, focusing on the new models that are imposed.",
+   "title": "About ASO and marketing of apps and media apps and communicating",
+   "startTimestamp": 1381514400,
+   "presenterIds": [ "gina_tost"],
+   "endTimestamp": 1381517100,
+   "subtype": "SESSION",
+   "location": "mwc",
+   "isLivestream": true,
+   "id": "entrepreneurship_5"
+  },
+  {
+   "description": "Guava contains many basic libraries used in all Java projects Google: collections, caching, primitives, concurrency, I / O, strings ... We'll see how to use Guava in our everyday projects, simplify the code and improve our productivity. Surely it is better to use a well-tested in production library by Google to reinvent the wheel.",
+   "title": "Google Guava: Core libraries for Java & Android",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "jordi_gerona"],
+   "endTimestamp": 1381481400,
    "subtype": "SESSION",
    "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_1"
+  },
+    {
+   "description": "The web is more than documents and apps: how to become a man / woman orchestra with Web Audio, Web GL, hardware drivers, node.js and some more surprise ingredient",
+   "title": "Four to the floor Javascript, vol 2",
+   "startTimestamp": 1381485900,
+   "presenterIds": [ "soledad_penades"],
+   "endTimestamp": 1381488600,
+   "subtype": "SESSION",
+   "location": "auditori",
+   "isLivestream": true,
+   "id": "web_2"
+  },
+  
+    {
+   "description": "Beyond 'Hello World’. Principles of single page applications, factories, services and more",
+   "title": "Taking the leap of faith into AngularJS",
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "patrick_heneise"],
+   "endTimestamp": 1381499100,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_3"
+  },
+  
+    {
+   "description": "Cordova is a mobile development framework that lets you use open source standard web technologies like HTML5, CSS3 and JavaScript for multiplatform development, preventing development in the native language of each platform. The new Command Line Interface (CLI) developed in Node.js allows you to automate the creation of projects, adding platforms and plugins as well as build the app and test it on simulators and real devices.",
+   "title": "Develop Applications Multiplatform with Cordova 3.0",
+   "startTimestamp": 1381500000,
+   "presenterIds": [ "jorge_del_casar"],
+   "endTimestamp": 1381502700,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_4"
+  },
+   
+    {
+   "description": "Sure the bad development experience has led you to suffer, more than necessary-in a project. Lack of coding standards, missing tests, code duplication, excessive coupling between classes, ... In this talk we will make a modest revision of the good practices included in the book 'Clean code. A handbook of Agile Software Craftsmanship 'by Robert C. Martin insurance that will help you to improve in future technological adventures.",
+   "title": "Be clean, my friend",
+   "startTimestamp": 1381500000,
+   "presenterIds": [ "esteve_camps","ignacio_cougil"],
+   "endTimestamp": 1381502700,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "web_5"
+  },
+ 
+  {
+   "description": "The Android framework is bundled with a large set of UI widgets (aka Views) that may be used to create basic UIs. Using the provided widgets is often a good starting point but one may rapidly be confronted to the lack of possibilities. Fortunately, some options do exist and mainly consist on mastering the View class and its hierarchy.  In this talk, we will focus on pushing the Android UI framework to the next level. We will demonstrate Android lets you go beyond your imagination by improving the existing widgets, creating compound controls and/or crafting completely new Views. If you want to build insanely innovative and advanced UI on Android and want to delight your users, this talk is definitely for you!",
+   "title": "Crafting Custom Android Views",
+   "startTimestamp": 1381475400,
+   "presenterIds": [ "cyril_mottier"],
+   "endTimestamp": 1381478100,
+   "subtype": "SESSION",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_1"
   },
-  {
-   "description": "desc Sesión Móvil 2",
-   "title": "Sesión Móvil 2",
-   "startTimestamp": 1381482000,
-   "presenterIds": [
-    "cyril_mottier"
-   ],
-   "endTimestamp": 1381485600,
+    {
+   "description": "Mobile technologies have experienced great advances in recent years in the field of accessibility. Operating system manufacturers devote enormous efforts to ensure that their platforms are accessible and, in turn, provide the tools necessary for third parties to benefit accessibility in developing native applications. has a complete Android accessibility API, and also makes available to the blind and visually impaired users specialized tools such as TalkBack, which give access to the system interface and wish to make accessible also third-party applications. The next challenge is to promote accessibility to all application developers. There are still a lot of work in this area, accessibility is still the great unknown and apps development industry raises new barriers for users with special needs. Accessibility is a very specialized field in which the experience is invaluable. Figure raises the accessibility consultant, expert in this field that apps developers guarantees that their products are designed and developed for all users. ",
+   "title": "Accessibility mobile apps",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "ferran_gallego"],
+   "endTimestamp": 1381481400,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_2"
   },
-  {
-   "description": "desc Sesión Móvil 3",
+  
+    {
+   "description": "In this talk we'll talk about because they must test applications, introducing us to various tools we have for Android. Agenda: Why testing?, Testing on Android, Dependency Injection, Tools That Can save our lives, JUnit, Mockito, Robolectric, Dagger, Instrumentation.",
    "title": "Inside Android Testing",
-   "startTimestamp": 1381485600,
-   "presenterIds": [
-    "fernando_cejas"
-   ],
-   "endTimestamp": 1381489200,
+   "startTimestamp": 1381482300,
+   "presenterIds": [ "fernando_cejas"],
+   "endTimestamp": 1381485000,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_3"
   },
-  {
-   "description": "This session will propose some best practices, tips and tricks learned from using Gradle and Android Studio for releasing production environment applications and libraries. Topics will involve development, deployment, testing and continuous integration.",
-   "title": "Gradle, Android Studio and the beauty of the command line",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "david_gonzalez"
-   ],
-   "endTimestamp": 1381492800,
+  
+    {
+   "description": "In 47 Degrees most applications we make are native development for iOS and Android platforms. We apply across from zero interface prototyping each to use native drivers in the design system. The usability of the application is dictated to some extent by the guidelines of proper use of the system as it is, to what users are used through native applications. We will also make a quick survey of the development of native drivers and give some examples of good uses, and errors.",
+   "title": "Considerations in the design of an application platform.",
+   "startTimestamp": 1381485900,
+   "presenterIds": [ "jorge_galindo_cruces"],
+   "endTimestamp": 1381488600,
    "subtype": "SESSION",
    "location": "sala_dactes",
    "isLivestream": true,
    "id": "movil_4"
   },
-  {
-   "description": "Not Def",
-   "title": "Not Def",
+  
+    {
+   "description": "This session will propose some best practices, tips and tricks learned from using Gradle and Android Studio for releasing production environment applications and libraries. Topics will involve development, deployment, testing and continuous integration.",
+   "title": "Gradle, Android Studio and the beauty of the command line",
    "startTimestamp": 1381500000,
-   "presenterIds": [
-    ""
-   ],
-   "endTimestamp": 1381503600,
+   "presenterIds": [ "david_gonzalez"],
+   "endTimestamp": 1381502700,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_5"
   },
-  {
-   "description": "Not Def",
-   "title": "Not Def",
+  
+    {
+   "description": "We´ll analyze the environment in which the application is developed: how it grows, how the people involved work between them, plus dissect the precise application of a plastic surgeon's scalpel.",
+   "title": "Android Anatomy messenger",
    "startTimestamp": 1381503600,
-   "presenterIds": [
-    ""
-   ],
-   "endTimestamp": 1381507200,
+   "presenterIds": [ "jorge_juan_barroso_carmona"],
+   "endTimestamp": 1381506300,
    "subtype": "SESSION",
-   "location": "sala_dactes",
+   "location": "auditori",
    "isLivestream": true,
    "id": "movil_6"
   },
-
-
-
-
-
+ 
   {
-   "description": "Andreu of Ponent 2002/Liquid Ibàñez Galaxy LAB. He will show us technology of Google Liquid Galaxy. This allows you to display content environments of Google Earth and Google maps so interactive, immersive and large size. His talk will focus on the technique behind the system-way interaction, different working models and some use cases with the Liquid Galaxy.",
+   "description":"Andreu Ibàñez of Ponent 2002/Liquid Galaxy LAB  will show us technology of Google Liquid Galaxy. This allows you to display content environments of Google Earth and Google maps so interactive, immersive and large size. His talk will focus on the technique behind the system-way interaction, different working models and some use cases with the Liquid Galaxy.",
    "title": "Technology Liquid Galaxy",
-   "startTimestamp": 1381478400,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381482000,
+   "startTimestamp": 1381482300,
+   "presenterIds": [ "andreu_ibanez"],
+   "endTimestamp": 1381485000,
    "subtype": "SESSION",
-   "location": "sala_dactes_fib",
+   "location": "sala_dactes",
    "isLivestream": true,
    "id": "cloud_1"
   },
-  {
-   "description": "desc Sesión Web 1",
-   "title": "Sesión Web 1",
-   "startTimestamp": 1381482000,
-   "presenterIds": [
-    "patrick_heneise"
-   ],
-   "endTimestamp": 1381485600,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_1"
-  },
-  {
-   "description": "desc Sesión Web 2",
-   "title": "Be clean, my friend",
-   "startTimestamp": 1381485600,
-   "presenterIds": [
-    "ignacio_cougil"
-   ],
-   "endTimestamp": 1381489200,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_2"
-  },
-  {
-   "description": "desc Sesión Web 3",
-   "title": "Sesión Web 3",
-   "startTimestamp": 1381489200,
-   "presenterIds": [
-    "jordi_gerona"
-   ],
-   "endTimestamp": 1381492800,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "web_3"
-  },
-  {
-   "description": "Not Def",
-   "title": "Not Def",
+    {
+   "description": "Juanjo Hierro will present FI-WARE platform, an initiative co-funded by the European Community with a strong pool of partners at all levels, which aims to present an alternative from europe in services and products in the area of ​​Cloud Computing. Apart from an introduction to the platform and its possibilities will explain the large cash prize and awards for projects that are ready for developers and businesses.",
+   "title": "Fi-WARE",
    "startTimestamp": 1381503600,
-   "presenterIds": [
-    ""
-   ],
-   "endTimestamp": 1381507200,
+   "presenterIds": [ "juan_hierro"],
+   "endTimestamp": 1381506300,
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
-   "id": "web_6"
-  },
-
-
-
- 
- 
- 
-  {
-   "description": "desc Sesión Emprendimiento 1",
-   "title": "Sesión Emprendimiento 1",
-   "startTimestamp": 1381478400,
-   "presenterIds": [
-    "ines_goncalves"
-   ],
-   "endTimestamp": 1381482000,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_1"
-  },
-  {
-   "description": "During the workshop, aimed at new startups and entrepreneurs, will review the basics of Customer Development processes, as well as the main features of Google tools that allow you to set them up. Incorporates business metrics to your startup implemented a lean strategy, taking advantage of the freemium model available with tools like Google Analytics, Google Trends or Google Apps.",
-   "title": "Customer Development with Google tools",
-   "startTimestamp": 1381482000,
-   "presenterIds": [
-    "andres_leonardo_martinez"
-   ],
-   "endTimestamp": 1381485600,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_2"
-  },
-  {
-   "description": "Android has inspired thousands of developers to become entrepreneurs. But does being a good programmer does make you a good CEO? In the experience of first-time founder Hermes Pique (Robot Media, Barcelona.IO) it was quite the opposite. Come share Hermés growing pains and most stupid mistakes, from using Android in the company name, getting screwed by Amazon, building products no-one cares about, to letting go of your entire team.",
-   "title": "Confessions of a Developer Entrepreneur",
-   "startTimestamp": 1381485600,
-   "presenterIds": [
-    "hermes_pique"
-   ],
-   "endTimestamp": 1381489200,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "entrepreneurship_3"
-  }
-  ,
-  {
-   "description": "In 47 Degrees most applications we make are native development for iOS and Android platforms. We apply across from zero interface prototyping each to use native drivers in the design system. The usability of the application is dictated to some extent by the guidelines of proper use of the system as it is, to what users are used through native applications. We will also make a quick survey of the development of native drivers and give some examples of good uses, and errors.",
-   "title": "Considerations in the design of an application platform.",
-   "startTimestamp": 1381500000,
-   "presenterIds": [
-    "jorge_galindo_cruces"
-   ],
-   "endTimestamp": 1381503600,
-   "subtype": "SESSION",
-   "location": "agora",
-   "isLivestream": true,
-   "id": "codelabs_1"
+   "id": "cloud_2"
   },
   
+    {
+   "description": "The codelab end at 12:45. In this codelab can see first hand what it is capable ADA Framework and how it can help you reduce your implementation costs in Android projects, with this program you can reduce your application source code in a substantial way and improve maintenance and reduce the level of Bugs. Do not miss this workshop because we have much to teach.",
+   "title": "ADA Framework, much more than an ORM",
+   "startTimestamp": 1381478700,
+   "presenterIds": [ "txus_ballesteros"],
+   "endTimestamp": 1381481400,
+   "subtype": "SESSION",
+   "location": "vortex",
+   "isLivestream": true,
+   "id": "codelab_1"
+  },
   
-  {
+    {
+   "description": "The codelab end at 17:45. And since not everything is going to be Google, basic introductory workshop to Firefox OS: how it works, how to program and how to prove it. And then, like stepping on the accelerator Brick and developing at full speed.",
+   "title": "Programming Web Apps with Brick",
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "soledad_penades"],
+   "endTimestamp": 1381499100,
+   "subtype": "SESSION",
+   "location": "vortex",
+   "isLivestream": true,
+   "id": "codelab_2"
+  },
+   
+    {
    "description": "Andreu Ibàñez of Glass Developers Lleida, Carlos Fernandez and Ander Martinez from Madrid Mundo Glass will make us an interactive demonstration of the Google Glass, commenting on technical aspects and showing some of the applications in which they work, like checking or platform Liquid Galaxy archaeological Siglado.com.",
    "title": "Google Glass hands on",
-   "startTimestamp": 1381503600,
-   "presenterIds": [
-    "andreu_ibanez"
-   ],
-   "endTimestamp": 1381507200,
+   "startTimestamp": 1381496400,
+   "presenterIds": [ "andreu_ibanez","ander_martinez","carlos_fernandez"],
+   "endTimestamp": 1381499100,
    "subtype": "SESSION",
-   "location": "agora",
+   "location": "auditori",
    "isLivestream": true,
    "id": "glass_1"
   }
-
-
+  ,
+  
+    {
+   "description": "The backbone applications can get out of control quickly, have a clear strategy for the development process and have knowledge of the tools and concepts behind them is key to maintaining sanity, and come alive at launch day.",
+   "title": "Architecture for large applications based on Backbone",
+   "startTimestamp": 1381503600,
+   "presenterIds": [ "jean_meninno"],
+   "endTimestamp": 1381506300,
+   "subtype": "SESSION",
+   "location": "sala_dactes",
+   "isLivestream": true,
+   "id": "web_6"
+  }
  ],
  "kind": "googledevelopers#sessionsItem",
  "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/yGQ5LTk-TDzmactpsrhDg2XAgvc\""

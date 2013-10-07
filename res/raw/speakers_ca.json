@@ -98,12 +98,78 @@
   },
   {
    "publicPlusId": "icougil",
-   "bio": "Arquitecte de software centrat en projectes desenvolupats amb tecnologies Java, amb experiència en direcció i gestió d'equips i projectes de software amb fortes habilitats analítiques i de disseny. Apassionat dels projectes de recerca i innovadors de TI.",
+   "bio": "Nacho porta més de deu anys col · laborant en sistemes web desenvolupats en Java. Avui treballa com a arquitecte de programari gestionant àgilment equips de desenvolupament i participant en totes les etapes del cicle de vida d'un projecte. És un apassionat de la tecnologia i dels projectes innovadors a més de fundador del Barcelona Java Users Group (BarcelonaJUG)",
    "name": "Ignacio Cougil",
    "plusoneUrl": "https://twitter.com/icougil",
-   "thumbnailUrl": "https://lh6.googleusercontent.com/x8BLyyEUIDySLVuqb7q70dXhyf3ToHYMcS5xbO2bF46aqO-ATn6A9dYJyKC_G_GUYG3LE1__lZ-pl8zJieEEAnxJ1G6mf5YrupHRZGLQVqlFIzhWj-_RBVX6",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/cougil.png",
    "id": "ignacio_cougil"
+  },
+   {
+   "publicPlusId": "100736358515003434163",
+   "bio": "CTO Code Factory. Tras varios años formando a programadores y gestionando proyectos de desarrollo de aplicaciones a medida, Ferran entró en Code Factory en 2006 y desde entonces ha trabajado desarrollando soluciones de accesibilidad para dispositivos móviles. Actualmente es CTO de la compañía y trabaja en Mobile Accessibility para Android, producto invitado al Developer Sandbox de las ediciones 2011 y 2012 de Google IO.",
+   "name": "Ferran Gállego",
+   "plusoneUrl": "https://plus.google.com/100736358515003434163",
+   "thumbnailUrl": "http://bcn.gdgdevfest.com/wp-content/uploads/2013/09/ferrangallego.png",
+   "id": "ferran_gallego"
+  },
+   {
+   "publicPlusId": "107635555691483494328",
+   "bio": "Apps engineer en Mozilla, fent apps i ajudant els developers a fer apps; cacharreando i fent joguines en temps real en les estones lliures. Té tants anys d'experiència que va conèixer la pre-internet a 2400bps i sobreviure per explicar",
+   "name": "Soledad Penades",
+   "plusoneUrl": "https://plus.google.com/107635555691483494328/",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/201308.jpg",
+   "id": "soledad_penades"
+  },
+  {
+   "publicPlusId": "GinaTost",
+   "bio": "Gina Tost, una dona experta en comunicació i especialitzada en tecnologia, mobilitat i videojocs, compta amb un bagatge professional que va des periodista, locutora, actriu o presentadora a Espanya ia l'estranger. Ha treballat per a Catalunya Ràdio, TV3, IGN, Expansión, MarcaPlayer, Radio Marca o la televisió pública japonesa, la NHK. A més, des de fa poc ha iniciat diverses aventures relacionades amb empreses del sector mòbil.",
+   "name": "Gina Tost",
+   "plusoneUrl": "https://plus.google.com/109974507966166254232/",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/ginatost.png",
+   "id": "gina_tost"
+  },
+  {
+   "publicPlusId": "115453639179713725602",
+   "bio": "Juanjo Hierro compta amb una dilatada carrera a Telefónica I + D sempre enganxat al desenvolupament de tecnologies i estàndards programari. En l'actualitat, és Coordinator & Chief Architect del projecte FI-WARE que persegueix la creació d'una plataforma oberta al núvol capaç de competir amb Amazon. FI-WARE s'emmarca en l'ambiciós programa Future Internet creat per la Comissió Europea en col · laboració amb grans actors TIC europeus i suposarà ajudes a emprenedors que desenvolupin les seves aplicacions basades en FI-WARE per un muntant total de 100 MM €.",
+   "name": "Juan Hierro",
+   "plusoneUrl": "https://plus.google.com/115453639179713725602",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/Foto-Twitter-Yammer-Facebook.jpg",
+   "id": "juan_hierro"
+  },
+  {
+   "publicPlusId": "101957952424598424873",
+   "bio": "Amb més de 10 anys d'experiència en el desenvolupament web i dedicant els últims 3 anys a formar i evangelitzar sobre HTML5 ara treballa el departament de Relació amb Desenvolupadors de BlackBerry. També col · labora en # jsIO parlant sobre Javascript per DesarrolloWeb.com",
+   "name": "Jorge del Casar",
+   "plusoneUrl": "https://plus.google.com/101957952424598424873",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/jorgedelcasar.png",
+   "id": "jorge_del_casar"
+  },
+  
+  {
+   "publicPlusId": "111904334543242956049",
+   "bio": "Professionalment lligat a Java, encara que PHP també té un rincocito en el meu cor. Amb el Barcelona JUG intentem apropar aquestes tecnologies via conferències i workshops quinzenals, pel que us animo a contactar-nos i participar.",
+   "name": "Esteve Camps Chust",
+   "plusoneUrl": "https://plus.google.com/111904334543242956049",
+   "thumbnailUrl":"http://bcn.gdgdevfest.com/wp-content/uploads/2013/10/tete_mini2.png",
+   "id": "esteve_camps"
+  },
+  {
+   "publicPlusId": "JaumeF",
+   "bio": "Jaume Figueras, professor de la UPC, responsable de projectes GIS & Mobile development del inLab FIB. Professor, formador i desenvolupador. Jaume va començar en el desenvolupament mòbil de mà d'una Casiopeia E10 (4 shades of gray). Des d'aleshores (anys i cabells blancs) ha acumulat experiència com a docent, investigador i desenvolupador que l'han portat a formar part de inLab FIB com a responsable de projectes GIS ia col · laborar activament en projectes FOSS i Open Data.",
+   "name": "Jaume Figueras",
+   "plusoneUrl": "https://twitter.com/JaumeF",
+   "thumbnailUrl":"http://inlab.fib.upc.edu/sites/default/files/styles/foto-perfil/public/pictures/picture-70-1334828375.jpg?itok=qffF3VQW",
+   "id": "fib"
+  },
+  {
+   "publicPlusId": "eth0lo",
+   "bio": "Jean és un desenvolupador a temps complet, actualment treballa a XING AG com a desenvolupador de frontend, a més és un amant de les tecnologies web i sobretot de Javascript inclusivament abans que fos cool. Durant els últims quatre anys s'ha dedicat al desenvolupament de single page applications, per a diversos tipus de dispositius. Addicionalment organitza Barcelona JS.",
+   "name": "Jean Carlos Meninno",
+   "plusoneUrl": "https://twitter.com/eth0lo",
+   "thumbnailUrl":"http://ladies.barcelonajs.org/images/727f3c5c.jean.jpg",
+   "id": "jean_meninno"
   }
+  
  ],
  "kind": "gdgmembers#presentersItem",
  "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/vbY-uP5U-jZQ6k5Z4qepsXyVzkQ\""
