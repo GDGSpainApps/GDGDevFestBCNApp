@@ -13,17 +13,6 @@
    "isLivestream": true,
    "id": "entrepreneurship_1"
   },
-    {
-   "description": "",
-   "title": "Pendiente Confirmar",
-   "startTimestamp": 1381482300,
-   "presenterIds": [ ""],
-   "endTimestamp": 1381485000,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "entrepreneurship_2"
-  },
   
     {
    "description": "Desarrollamos proyectos I + D + I colaborando con empresas e instituciones en diferentes áreas de especialización y con las últimas tecnologías.",
@@ -74,9 +63,9 @@
     {
    "description": "La web es mas que documentos y apps: como convertirse en hombre/mujer orquesta con Web Audio, Web GL, controladores hardware, node.js y algun ingrediente sorpresa mas ",
    "title": "Four to the floor Javascript, vol 2",
-   "startTimestamp": 1381485900,
+   "startTimestamp": 1381478700,
    "presenterIds": [ "soledad_penades"],
-   "endTimestamp": 1381488600,
+   "endTimestamp": 1381481400,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -118,30 +107,30 @@
    "isLivestream": true,
    "id": "web_5"
   },
-
-  {
-   "description": "El framework  de Android viene con un gran conjunto UI widgets (aka Views) que se pueden usar para crear interfaces de usuario básico. El uso de los widgets básicos es a menudo un buen punto de partida, pero uno puede rápidamente ser enfrentado a la falta de posibilidades. Afortunadamente, existen algunas opciones y consisten principalmente en el dominio de la clase View y su jerarquía. En esta charla veremos como  impulsar el marco de interfaz de usuario Android al siguiente nivel. Demostraremos como Android le permite ir más allá de la imaginación mediante la mejora de los views existentes, la creación de controles compuestos y / o elaboración completamente de nuevas Views. Si quieres construir la interfaz de usuario increíblemente innovadora y avanzada en Android esta charla es para ti!",
-   "title": "Crafting Custom Android Views",
+ 
+    {
+   "description": "Las tecnologías móviles han experimentado grandes avances durante los últimos años en el campo de la accesibilidad. Los fabricantes de sistemas operativos dedican enormes esfuerzos a garantizar que sus plataformas son accesibles y, a su vez, ofrecen las herramientas necesarias para que terceros se puedan beneficiar de la accesibilidad nativa en el desarrollo de sus aplicaciones. Android dispone de una completa API de accesibilidad y, además, pone a disposición de los usuarios ciegos y deficientes visuales herramientas especializadas como TalkBack, que dan acceso a la interfaz del sistema y pretenden hacer accesibles también las aplicaciones de terceros. El próximo reto consiste en difundir la accesibilidad entre todos los desarrolladores de aplicaciones. Hay todavía mucho trabajo en este campo, la accesibilidad sigue siendo la gran desconocida y la industria de desarrollo de apps levanta nuevas barreras para usuarios con necesidades especiales. La accesibilidad es un campo muy especializado en el que la experiencia tiene un gran valor. Surge así la figura del consultor de accesibilidad, experto en este campo que garantiza a desarrolladores de apps que sus productos están diseñados y desarrollados para todos los usuarios.",
+   "title": "Accesibilidad en apps móviles",
    "startTimestamp": 1381475400,
-   "presenterIds": [ "cyril_mottier"],
+   "presenterIds": [ "ferran_gallego"],
    "endTimestamp": 1381478100,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
    "id": "movil_1"
   },
-    {
-   "description": "Las tecnologías móviles han experimentado grandes avances durante los últimos años en el campo de la accesibilidad. Los fabricantes de sistemas operativos dedican enormes esfuerzos a garantizar que sus plataformas son accesibles y, a su vez, ofrecen las herramientas necesarias para que terceros se puedan beneficiar de la accesibilidad nativa en el desarrollo de sus aplicaciones. Android dispone de una completa API de accesibilidad y, además, pone a disposición de los usuarios ciegos y deficientes visuales herramientas especializadas como TalkBack, que dan acceso a la interfaz del sistema y pretenden hacer accesibles también las aplicaciones de terceros. El próximo reto consiste en difundir la accesibilidad entre todos los desarrolladores de aplicaciones. Hay todavía mucho trabajo en este campo, la accesibilidad sigue siendo la gran desconocida y la industria de desarrollo de apps levanta nuevas barreras para usuarios con necesidades especiales. La accesibilidad es un campo muy especializado en el que la experiencia tiene un gran valor. Surge así la figura del consultor de accesibilidad, experto en este campo que garantiza a desarrolladores de apps que sus productos están diseñados y desarrollados para todos los usuarios.",
-   "title": "Accesibilidad en apps móviles",
-   "startTimestamp": 1381478700,
-   "presenterIds": [ "ferran_gallego"],
-   "endTimestamp": 1381481400,
+
+  {
+   "description": "El framework  de Android viene con un gran conjunto UI widgets (aka Views) que se pueden usar para crear interfaces de usuario básico. El uso de los widgets básicos es a menudo un buen punto de partida, pero uno puede rápidamente ser enfrentado a la falta de posibilidades. Afortunadamente, existen algunas opciones y consisten principalmente en el dominio de la clase View y su jerarquía. En esta charla veremos como  impulsar el marco de interfaz de usuario Android al siguiente nivel. Demostraremos como Android le permite ir más allá de la imaginación mediante la mejora de los views existentes, la creación de controles compuestos y / o elaboración completamente de nuevas Views. Si quieres construir la interfaz de usuario increíblemente innovadora y avanzada en Android esta charla es para ti!",
+   "title": "Crafting Custom Android Views",
+   "startTimestamp": 1381503600,
+  "endTimestamp": 1381506300,
+    "presenterIds": [ "cyril_mottier"],
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
    "id": "movil_2"
-  },
-  
+  },  
     {
    "description": "En esta charla hablaremos de porque se deben testear las aplicaciones, introduciéndonos en distintas herramientas que disponemos para Android. Agenda: Why testing?, Testing on Android, Dependency Injection, Tools that can save our lives, JUnit, Mockito, Robolectric, Dagger, Instrumentation.",
    "title": "Testing Android desde dentro",
@@ -181,9 +170,9 @@
     {
    "description": "Analizaremos el entorno en el que se desarrolla la aplicación: cómo crece, cómo las personas involucradas trabajan entre si, además diseccionaremos la aplicación con la precisión del bisturí de un cirujano plástico.",
    "title": "Anatomia de Android messenger",
-   "startTimestamp": 1381503600,
+   "startTimestamp": 1381485900,
    "presenterIds": [ "jorge_juan_barroso_carmona"],
-   "endTimestamp": 1381506300,
+   "endTimestamp": 1381488600,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -207,9 +196,9 @@
     {
    "description": "Juanjo Hierro nos presentará la plataforma FI-WARE, iniciativa cofinanciada por la Comunidad Europea y con un potente pool de partners a todos los niveles, que pretende presentar una alternativa desde europa en servicios y productos en el área del Cloud Computing. Aparte de una introducción a la plataforma y sus posibilidades nos explicará la gran dotación económica para proyectos y premios que hay dispuesta para desarrolladores y empresas.",
    "title": "Fi-WARE",
-   "startTimestamp": 1381503600,
+   "startTimestamp": 1381482300,
    "presenterIds": [ "juan_hierro"],
-   "endTimestamp": 1381506300,
+   "endTimestamp": 1381485000,
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
@@ -217,7 +206,7 @@
   },
   
     {
-   "description": "El CodeLab finalizará  a  las 12:45. En este Codelab podrás conocer de primera mano de lo que es capaz ADA Framework y de como puede ayudarte a reducir los costes de implementación en tus proyectos Android, con esta librería podrás reducir el código fuente de tus aplicaciones de una manera sustancial y mejorar el mantenimiento así como reducir el nivel de Bugs. No te pierdas este taller porque tenemos mucho que enseñar.",
+   "description": "CODELAB: El CodeLab finalizará  a  las 12:45. En este Codelab podrás conocer de primera mano de lo que es capaz ADA Framework y de como puede ayudarte a reducir los costes de implementación en tus proyectos Android, con esta librería podrás reducir el código fuente de tus aplicaciones de una manera sustancial y mejorar el mantenimiento así como reducir el nivel de Bugs. No te pierdas este taller porque tenemos mucho que enseñar.",
    "title": "ADA Framework, mucho más que un ORM",
    "startTimestamp": 1381478700,
    "presenterIds": [ "txus_ballesteros"],
@@ -229,12 +218,12 @@
   },
   
     {
-   "description": "El CodeLab finalizará  a  las 17:45. Y como no todo va a ser Google, un taller básico de introducción a Firefox OS: como funciona, como programarlo y como probarlo. Y despues, como pisar el acelerador con Brick y desarrollar a toda velocidad.",
+   "description": "CODELAB: El CodeLab finalizará  a  las 17:45. Y como no todo va a ser Google, un taller básico de introducción a Firefox OS: como funciona, como programarlo y como probarlo. Y despues, como pisar el acelerador con Brick y desarrollar a toda velocidad.",
    "title": "Programando Web Apps con Brick",
    "startTimestamp": 1381496400,
    "presenterIds": [ "soledad_penades"],
    "endTimestamp": 1381499100,
-   "subtype": "CODELAB",
+   "subtype": "SESSION",
    "location": "vortex",
    "isLivestream": true,
    "id": "codelab_2"
@@ -256,13 +245,27 @@
    "description": "Las aplicaciones en backbone pueden salirse de control rápidamente, tener una estrategia clara durante el proceso de desarrollo y tener conocimiento de las herramientas y de los conceptos detrás de ellas es fundamental para mantener la cordura,  y llegar vivos al día del lanzamiento.",
    "title": "Arquitectura para grandes aplicaciones basadas en Backbone",
    "startTimestamp": 1381503600,
-   "presenterIds": [ "jean_meninno"],
+   "presenterIds": [ "jean_meninno","dias_jorge"],
    "endTimestamp": 1381506300,
    "subtype": "SESSION",
    "location": "sala_dactes",
    "isLivestream": true,
    "id": "web_6"
+  },
+  ,
+  
+    {
+   "description": "Creatividad y actitud emprendedora, claves del éxito. Desarrollar una tecnológica de cero con actitud global, haciéndola crecer en dos ecosistemas como Silicon Valley y Barcelona. Silicon Valley es un ecosistema único, dónde los emprendedores son el motor de la economía regional, con impacto global. Los elementos que hacen de ello un ecosistema especial son: cultura emprendedora, inversores, universidades, tecnología, infraestructuras, grandes corporaciones, políticas públicas acordes y la calidad de vida. Analizaremos los patrones comunes en el ciclo de vida del emprendedor, desde la concepción de la idea hasta la salida a bolsa o ser adquirido por una gran corporación. En el proceso de escalar proyectos globales, los inversores juegan un rol muy importante; estudiaremos la tipología, las fases de inversión así como la valoración de start-ups en fases iniciales con metodología utilizada en el Valley. ",
+   "title": "Emprender en San Francisco y Barcelona",
+   "startTimestamp": 1381503600,
+   "presenterIds": [ "ricard_garriga","vallsjordi"],
+   "endTimestamp": 1381506300,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_6"
   }
+  
  ],
  "kind": "googledevelopers#sessionsItem",
  "etag": "\"osyxKcbM5ip0ctwDSYkRLORXcUo/yGQ5LTk-TDzmactpsrhDg2XAgvc\""

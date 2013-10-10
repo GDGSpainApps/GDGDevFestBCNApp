@@ -12,17 +12,7 @@
    "isLivestream": true,
    "id": "entrepreneurship_1"
   },
-    {
-   "description": "",
-   "title": "Pend. Confirmar",
-   "startTimestamp": 1381482300,
-   "presenterIds": [ ""],
-   "endTimestamp": 1381485000,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "entrepreneurship_2"
-  },
+   
   
     {
    "description": "Desenvolupem projectes R+D+I col·laborant amb empreses i institucions en diferents àrees d’expertesa i amb les darreres tecnologies.",
@@ -74,9 +64,9 @@
     {
    "description": "La web és més que documents i apps: com esdevenir home / dona orquestra amb Web Àudio, Web GL, controladors maquinari, node.js i algun ingredient sorpresa mes",
    "title": "Four to the floor Javascript, vol 2",
-   "startTimestamp": 1381485900,
+   "startTimestamp": 1381478700,
    "presenterIds": [ "soledad_penades"],
-   "endTimestamp": 1381488600,
+   "endTimestamp": 1381481400,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -122,9 +112,9 @@
   {
    "description": "El framework d'Android ve amb un gran conjunt UI widgets (aka Views) que es poden usar per crear interfícies d'usuari bàsic. L'ús dels widgets bàsics és sovint un bon punt de partida, però un pot ràpidament ser enfrontat a la manca de possibilitats. Afortunadament, hi ha algunes opcions i consisteixen principalment en el domini de la classe View i la seva jerarquia. En aquesta xerrada veurem com impulsar el marc d'interfície d'usuari Android al següent nivell. Demostrarem com Android li permet anar més enllà de la imaginació mitjançant la millora dels views existents, la creació de controls compostos i / o elaboració completament de noves Views. Si vols construir la interfície d'usuari increïblement innovadora i avançada en Android aquesta xerrada és per a tu!",
    "title": "Crafting Custom Android Views",
-   "startTimestamp": 1381475400,
+   "startTimestamp": 1381503600,
    "presenterIds": [ "cyril_mottier"],
-   "endTimestamp": 1381478100,
+   "endTimestamp": 1381506300,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -133,9 +123,9 @@
     {
    "description": "Les tecnologies mòbils han experimentat grans avenços durant els últims anys en el camp de l'accessibilitat. Els fabricants de sistemes operatius dediquen enormes esforços a garantir que les seves plataformes són accessibles i, al seu torn, ofereixen les eines necessàries perquè tercers es puguin beneficiar de l'accessibilitat nativa en el desenvolupament de les seves aplicacions. Android disposa d'una completa API d'accessibilitat i, a més, posa a disposició dels usuaris cecs i deficients visuals eines especialitzades com TalkBack, que donen accés a la interfície del sistema i pretenen fer accessibles també les aplicacions de tercers. El proper repte consisteix a difondre l'accessibilitat entre tots els desenvolupadors d'aplicacions. Hi ha encara molta feina en aquest camp, l'accessibilitat continua sent la gran desconeguda i la indústria de desenvolupament d'apps aixeca noves barreres per a usuaris amb necessitats especials. L'accessibilitat és un camp molt especialitzat en el qual l'experiència té un gran valor. Sorgeix així la figura del consultor d'accessibilitat, expert en aquest camp que garanteix als desenvolupadors d'apps que els seus productes estan dissenyats i desenvolupats per a tots els usuaris. ",
    "title": "Accessibilitat en apps mòbils",
-   "startTimestamp": 1381478700,
+   "startTimestamp": 1381475400,
    "presenterIds": [ "ferran_gallego"],
-   "endTimestamp": 1381481400,
+   "endTimestamp": 1381478100,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -181,9 +171,9 @@
     {
    "description": "Analitzarem l'entorn en què es desenvolupa l'aplicació: com creix, com les persones involucrades treballen entre si, a més dissecció l'aplicació amb la precisió del bisturí d'un cirurgià plàstic.",
    "title": "Anatomia d'Android messenger",
-   "startTimestamp": 1381503600,
+   "startTimestamp": 1381485900,
    "presenterIds": [ "jorge_juan_barroso_carmona"],
-   "endTimestamp": 1381506300,
+   "endTimestamp": 1381488600,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -205,9 +195,9 @@
     {
    "description": "Juanjo Hierro ens presentarà la plataforma FI-WARE, iniciativa cofinançada per la Comunitat Europea i amb un potent pool de partners a tots els nivells, que pretén presentar una alternativa des europa en serveis i productes en l'àrea del Cloud Computing. A part d'una introducció a la plataforma i les seves possibilitats ens explicarà la gran dotació econòmica per a projectes i premis que hi ha disposada per a desenvolupadors i empreses.",
    "title": "Fi-WARE",
-   "startTimestamp": 1381503600,
+   "startTimestamp": 1381482300,
    "presenterIds": [ "juan_hierro"],
-   "endTimestamp": 1381506300,
+   "endTimestamp": 1381485000,
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
@@ -216,7 +206,7 @@
   
     {
    "description": "El CodeLab finalitzarà a les 12:45. En aquest Codelab podràs conèixer de primera mà del que és capaç ADA Framework i de com pot ajudar-te a reduir els costos d'implementació en els teus projectes Android, amb aquesta llibreria podràs reduir el codi font de les teves aplicacions d'una manera substancial i millorar el manteniment així com reduir el nivell de Bugs. No et perdis aquest taller perquè tenim molt per ensenyar.",
-   "title": "ADA Framework, molt més que un ORM",
+   "title": "CODELAB: ADA Framework, molt més que un ORM",
    "startTimestamp": 1381478700,
    "presenterIds": [ "txus_ballesteros"],
    "endTimestamp": 1381481400,
@@ -228,7 +218,7 @@
   
     {
    "description": "El CodeLab finalitzarà a les 17:45. I com no tot va a ser Google, un taller bàsic d'introducció al Firefox OS: com funciona, com programar i com provar-ho. I després, com trepitjar l'accelerador amb Brick i desenvolupar a tota velocitat.",
-   "title": "Programant Web Apps amb Brick",
+   "title": "CODELAB: Programant Web Apps amb Brick",
    "startTimestamp": 1381496400,
    "presenterIds": [ "soledad_penades"],
    "endTimestamp": 1381499100,
@@ -255,12 +245,24 @@
    "description": "Les aplicacions en backbone poden sortir de control ràpidament, tenir una estratègia clara durant el procés de desenvolupament i tenir coneixement de les eines i dels conceptes darrere d'elles és fonamental per mantenir el seny, i arribar vius al dia del llançament.",
    "title": "Arquitectura per a grans aplicacions basades en Backbone",
    "startTimestamp": 1381503600,
-   "presenterIds": [ "jean_meninno"],
+   "presenterIds": [ "jean_meninno","dias_jorge"],
    "endTimestamp": 1381506300,
    "subtype": "SESSION",
    "location": "sala_dactes",
    "isLivestream": true,
    "id": "web_6"
+  },
+  
+    {
+   "description": "Creativitat i actitud emprenedora, claus de l'èxit. Desenvolupar una tecnològica de zero amb actitud global, fent-la créixer en dos ecosistemes com Silicon Valley i Barcelona. Silicon Valley és un ecosistema únic, on els emprenedors són el motor de l'economia regional, amb impacte global. Els elements que fan d'això un ecosistema especial són: cultura emprenedora, inversors, universitats, tecnologia, infraestructures, grans corporacions, polítiques públiques acords i la qualitat de vida. Analitzarem els patrons comuns en el cicle de vida de l'emprenedor, des de la concepció de la idea fins a la sortida a borsa o ser adquirit per una gran corporació. En el procés d'escalar projectes globals, els inversors juguen un paper molt important; estudiarem la tipologia, les fases d'inversió així com la valoració d'start-ups en fases inicials amb metodologia utilitzada en el Valley.",
+   "title": "Emprendre a San Francisco i Barcelona",
+   "startTimestamp": 1381503600,
+   "presenterIds": [ "ricard_garriga","vallsjordi"],
+   "endTimestamp": 1381506300,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_6"
   }
   
  ],

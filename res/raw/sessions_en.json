@@ -23,17 +23,7 @@
    "isLivestream": true,
    "id": "entrepreneurship_3"
   },
-    {
-   "description": "",
-   "title": "Pending",
-   "startTimestamp": 1381482300,
-   "presenterIds": [ ""],
-   "endTimestamp": 1381485000,
-   "subtype": "SESSION",
-   "location": "sala_dactes_fib",
-   "isLivestream": true,
-   "id": "entrepreneurship_2"
-  },
+
   
     {
    "description":"Android has inspired thousands of developers to become entrepreneurs. But does being a good programmer does make you a good CEO? In the experience of first-time founder Hermes Pique (Robot Media, Barcelona.IO) it was quite the opposite. Come share Hermés growing pains and most stupid mistakes, from using Android in the company name, getting screwed by Amazon, building products no-one cares about, to letting go of your entire team.",
@@ -72,9 +62,9 @@
     {
    "description": "The web is more than documents and apps: how to become a man / woman orchestra with Web Audio, Web GL, hardware drivers, node.js and some more surprise ingredient",
    "title": "Four to the floor Javascript, vol 2",
-   "startTimestamp": 1381485900,
+   "startTimestamp": 1381478700,
    "presenterIds": [ "soledad_penades"],
-   "endTimestamp": 1381488600,
+   "endTimestamp": 1381481400,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -120,9 +110,9 @@
   {
    "description": "The Android framework is bundled with a large set of UI widgets (aka Views) that may be used to create basic UIs. Using the provided widgets is often a good starting point but one may rapidly be confronted to the lack of possibilities. Fortunately, some options do exist and mainly consist on mastering the View class and its hierarchy.  In this talk, we will focus on pushing the Android UI framework to the next level. We will demonstrate Android lets you go beyond your imagination by improving the existing widgets, creating compound controls and/or crafting completely new Views. If you want to build insanely innovative and advanced UI on Android and want to delight your users, this talk is definitely for you!",
    "title": "Crafting Custom Android Views",
-   "startTimestamp": 1381475400,
+   "startTimestamp": 1381503600,
    "presenterIds": [ "cyril_mottier"],
-   "endTimestamp": 1381478100,
+   "endTimestamp": 1381506300,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -131,9 +121,9 @@
     {
    "description": "Mobile technologies have experienced great advances in recent years in the field of accessibility. Operating system manufacturers devote enormous efforts to ensure that their platforms are accessible and, in turn, provide the tools necessary for third parties to benefit accessibility in developing native applications. has a complete Android accessibility API, and also makes available to the blind and visually impaired users specialized tools such as TalkBack, which give access to the system interface and wish to make accessible also third-party applications. The next challenge is to promote accessibility to all application developers. There are still a lot of work in this area, accessibility is still the great unknown and apps development industry raises new barriers for users with special needs. Accessibility is a very specialized field in which the experience is invaluable. Figure raises the accessibility consultant, expert in this field that apps developers guarantees that their products are designed and developed for all users. ",
    "title": "Accessibility mobile apps",
-   "startTimestamp": 1381478700,
+   "startTimestamp": 1381475400,
    "presenterIds": [ "ferran_gallego"],
-   "endTimestamp": 1381481400,
+   "endTimestamp": 1381478100,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -179,9 +169,9 @@
     {
    "description": "We´ll analyze the environment in which the application is developed: how it grows, how the people involved work between them, plus dissect the precise application of a plastic surgeon's scalpel.",
    "title": "Android Anatomy messenger",
-   "startTimestamp": 1381503600,
+   "startTimestamp": 1381485900,
    "presenterIds": [ "jorge_juan_barroso_carmona"],
-   "endTimestamp": 1381506300,
+   "endTimestamp": 1381488600,
    "subtype": "SESSION",
    "location": "auditori",
    "isLivestream": true,
@@ -202,9 +192,9 @@
     {
    "description": "Juanjo Hierro will present FI-WARE platform, an initiative co-funded by the European Community with a strong pool of partners at all levels, which aims to present an alternative from europe in services and products in the area of ​​Cloud Computing. Apart from an introduction to the platform and its possibilities will explain the large cash prize and awards for projects that are ready for developers and businesses.",
    "title": "Fi-WARE",
-   "startTimestamp": 1381503600,
+   "startTimestamp": 1381482300,
    "presenterIds": [ "juan_hierro"],
-   "endTimestamp": 1381506300,
+   "endTimestamp": 1381485000,
    "subtype": "SESSION",
    "location": "sala_dactes_fib",
    "isLivestream": true,
@@ -213,7 +203,7 @@
   
     {
    "description": "The codelab end at 12:45. In this codelab can see first hand what it is capable ADA Framework and how it can help you reduce your implementation costs in Android projects, with this program you can reduce your application source code in a substantial way and improve maintenance and reduce the level of Bugs. Do not miss this workshop because we have much to teach.",
-   "title": "ADA Framework, much more than an ORM",
+   "title": "CODELAB: ADA Framework, much more than an ORM",
    "startTimestamp": 1381478700,
    "presenterIds": [ "txus_ballesteros"],
    "endTimestamp": 1381481400,
@@ -225,7 +215,7 @@
   
     {
    "description": "The codelab end at 17:45. And since not everything is going to be Google, basic introductory workshop to Firefox OS: how it works, how to program and how to prove it. And then, like stepping on the accelerator Brick and developing at full speed.",
-   "title": "Programming Web Apps with Brick",
+   "title": "CODELAB: Programming Web Apps with Brick",
    "startTimestamp": 1381496400,
    "presenterIds": [ "soledad_penades"],
    "endTimestamp": 1381499100,
@@ -252,12 +242,25 @@
    "description": "The backbone applications can get out of control quickly, have a clear strategy for the development process and have knowledge of the tools and concepts behind them is key to maintaining sanity, and come alive at launch day.",
    "title": "Architecture for large applications based on Backbone",
    "startTimestamp": 1381503600,
-   "presenterIds": [ "jean_meninno"],
+   "presenterIds": [ "jean_meninno","dias_jorge"],
    "endTimestamp": 1381506300,
    "subtype": "SESSION",
    "location": "sala_dactes",
    "isLivestream": true,
    "id": "web_6"
+  }
+  ,
+  
+    {
+   "description": "Creativity and entrepreneurship, keys to success. Develop a zero technological global attitude, making it grow in two ecosystems like Silicon Valley and Barcelona. Silicon Valley is a unique ecosystem where entrepreneurs are the engine of the regional economy, with global impact. The elements that make it a special ecosystem are: entrepreneurial culture, investors, universities, technology, infrastructure, large corporations, public policies consistent and quality of life. Analyze common patterns in the entrepreneurial life cycle, from conception of the idea to IPO or being acquired by a large corporation. In the process of climbing global projects, investors play an important role; study the type, stage of investment and the valuation of start-ups in the early stages with methodology used in the Valley.",
+   "title": "Entrepreneurship in San Francisco and Barcelona",
+   "startTimestamp": 1381503600,
+   "presenterIds": [ "ricard_garriga","vallsjordi"],
+   "endTimestamp": 1381506300,
+   "subtype": "SESSION",
+   "location": "sala_dactes_fib",
+   "isLivestream": true,
+   "id": "entrepreneurship_6"
   }
  ],
  "kind": "googledevelopers#sessionsItem",

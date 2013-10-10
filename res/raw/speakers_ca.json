@@ -169,6 +169,34 @@
    "thumbnailUrl":"http://ladies.barcelonajs.org/images/727f3c5c.jean.jpg",
    "id": "jean_meninno"
   }
+  ,
+  
+  {
+   "publicPlusId": "RicardGarriga",
+   "bio": "Ricard és un empresari nascut a Barcelona instal · lat a San Francisco . Dinamitzador de negoci en YouNoodle , una empresa de nova creació amb seu en una oficina a SOMA a San Francisco , des d'on s'està construint un ecosistema d' emprenedors de tot el món , per ajudar a les organitzacions a innovar més ràpidament mitjançant l'estratègia d'innovació oberta . Després de 5 anys en un parc tecnològic treballant amb diverses noves empreses de base tecnològica per proporcionar la recaptació de fons de capital de risc , es va incorporar a l'Ajuntament de Barcelona per dissenyar l'estratègia d'inversió per a les empreses de nova creació ubicat al districte de la innovació 22 @ Barcelona , amb més de 1,500 companyies de 10 universitats i treballadors de 45,000 . És membre del comitè de ciutats agermanades San Francisco - Barcelona i co - organitzador de la TEDxEmbarcadero.com a San Francsico . És llicenciat en Enginyeria de Telecomunicacions , MBA a La Salle i l'educació executiva a Berkeley . Li encanten les motos , el paddle i és corredor amateur . Enamorat de Layers.com i Worldcoo.com .",
+   "name": "Ricard Garriga",
+   "plusoneUrl": "https://twitter.com/RicardGarriga",
+   "thumbnailUrl":"http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0007/6272/76272v7-max-250x250.jpg",
+   "id": "ricard_garriga"
+  },
+  {
+   "publicPlusId": "vallsjordi",
+   "bio":"Jordi Valls és un emprenedor de Barcelona focalitzat en Disseny i branding a l'emprenedoria tecnològica. És un apassionat per la promoció de l'esperit emprenedor entre els més joves donant xerrades en col · legis i instituts. Fundador de 1sleeve.com i Co-fundador de Startup Embassy a Palo Alto.",
+   "name": "Jordi Valls",
+   "plusoneUrl": "https://twitter.com/vallsjordi",
+   "thumbnailUrl":"http://m.c.lnkd.licdn.com/mpr/pub/image-WdGsCMceaQX0Eo5wC8gTIjzkQy-KXGTaWnsNccYeQHG1PAB7WdGNGFreQJ6xP78cUVvd/jordi-valls.jpg",
+   "id": "vallsjordi"
+  },
+  
+  {
+   "publicPlusId": "dias_jorge",
+   "bio": "Jorge és un apassionat de la programació i ha treballat amb molts llenguatges durant més de 10 anys. La seva major dedicació ha estat a Ruby i actualment Javascript. La gent no ho entén però fa servir emacs. Actualment és tech lead de activi recruiting a XING.",
+   "name": "Jorge Dias",
+   "plusoneUrl": "https://twitter.com/dias_jorge",
+   "thumbnailUrl":"http://m.c.lnkd.licdn.com/mpr/pub/image-0cDFQCHV7yLjC6_VuStdhnJvcYn_TJBxRYDWT8BVcwlPg-Hx0cDWgZgVczvXmGCTqeDM/jorge-dias.jpg",
+   "id": "dias_jorge"
+  }
+  
   
  ],
  "kind": "gdgmembers#presentersItem",
