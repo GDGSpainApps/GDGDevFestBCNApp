@@ -3,34 +3,42 @@
    
     {
       "date": "2013-10-11",
+      
       "slot": [
         {
           "start": "00:00",
-          "end": "00:10",
+          "end": "00:50",
+          "title": "Check in",
+          "meta": "UPC Campus Nord"
+        },
+        
+        {
+          "start": "00:50",
+          "end": "01:10",
           "title": "Inauguració",
           "meta": "UPC Campus Nord"
         },
         {
-          "start": "04:00",
-          "end": "05:00",
+          "start": "05:00",
+          "end": "06:00",
           "title": "Temps per dinar",
           "meta": "UPC Campus Nord"
         },
          {
-          "start": "05:00",
-          "end": "06:00",
+          "start": "06:00",
+          "end": "07:00",
           "title": "GDG Spain",
           "meta": "Auditori"
         },
         {
-          "start": "09:00",
-          "end": "09:15",
+          "start": "10:00",
+          "end": "10:15",
           "title": "Tancament a la UPC",
           "meta": "UPC Campus Nord"
         },
         {
-          "start": "12:00",
-          "end": "13:00",
+          "start": "13:00",
+          "end": "14:00",
           "title": "Cloenda",
           "meta": "Mobile World Centre"
         }
