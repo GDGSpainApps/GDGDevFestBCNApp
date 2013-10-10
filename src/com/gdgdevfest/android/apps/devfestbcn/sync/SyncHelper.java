@@ -81,7 +81,7 @@ public class SyncHelper {
 
     public static final int FLAG_SYNC_LOCAL = 0x1;
 
-    private static final int LOCAL_VERSION_CURRENT = 46;
+    private static final int LOCAL_VERSION_CURRENT = 61;
     private static final String LOCAL_MAPVERSION_CURRENT = "\"vlh7Ig\"";
 
     private Context mContext;
@@ -270,38 +270,7 @@ public class SyncHelper {
      */
     private void syncMapTiles(Collection<Tile> collection) throws IOException, SVGParseException {
     }
-        //keep track of used files, unused files are removed
-   //     ArrayList<String> usedTiles = Lists.newArrayList();
-     /*   for(Tile tile : collection){
-            final String filename = tile.filename;
-            final String url = tile.url;
-
-            usedTiles.add(filename);
-
-            if (!MapUtils.hasTile(mContext, filename)) {
-                // copy or download the tile if it is not stored yet
-                if (MapUtils.hasTileAsset(mContext, filename)) {
-                    // file already exists as an asset, copy it
-                    MapUtils.copyTileAsset(mContext, filename);
-                } else {
-                    // download the file
-                    File tileFile = MapUtils.getTileFile(mContext, filename);
-                    BasicHttpClient httpClient = new BasicHttpClient();
-                    httpClient.setRequestLogger(mQuietLogger);
-                    HttpResponse httpResponse = httpClient.get(url, null);
-                    writeFile(httpResponse.getBody(), tileFile);
-
-                    // ensure the file is valid SVG
-                    InputStream is = new FileInputStream(tileFile);
-                    SVG svg = SVGParser.getSVGFromInputStream(is);
-                    is.close();
-                }
-            }
-        }
-
-        MapUtils.removeUnusedTiles(mContext, usedTiles);
-    }
-
+  
     /**
      * Write the byte array directly to a file.
      * @throws IOException

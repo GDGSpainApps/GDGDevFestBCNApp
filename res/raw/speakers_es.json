@@ -168,6 +168,32 @@
    "plusoneUrl": "https://twitter.com/eth0lo",
    "thumbnailUrl":"http://ladies.barcelonajs.org/images/727f3c5c.jean.jpg",
    "id": "jean_meninno"
+  },
+  
+  {
+   "publicPlusId": "RicardGarriga",
+   "bio": " Ricard es un empresario nacido en Barcelona instalado en San Francisco. Dinamizador de negocio en YouNoodle, una empresa de nueva creación con sede en una oficina en SOMA en San Francisco, desde donde se está construyendo un ecosistema de emprendedores de todo el mundo, para ayudar a  las organizaciones a innovar más rápidamente mediante la estrategia de innovación abierta. Después de 5 años en un parque tecnológico  trabajando con varias nuevas empresas de base tecnológica para proporcionar la recaudación de fondos de capital de riesgo, se incorporó al Ayuntamiento de Barcelona para diseñar la estrategia de inversión para las empresas de nueva creación ubicado en el distrito de la innovación  22 @ Barcelona, con más de 1,500 compañías de 10 universidades y trabajadores de 45,000. Es miembro del comité de ciudades hermanadas San Francisco – Barcelona y co-organizador de la TEDxEmbarcadero.com en San Francsico. Es licenciado en Ingeniería de Telecomunicaciones, MBA en La Salle y la educación ejecutiva en Berkeley. Le encantan las motos, el paddle y es corredor amateur. Enamorado de Layers.com y Worldcoo.com.",
+   "name": "Ricard Garriga",
+   "plusoneUrl": "https://twitter.com/RicardGarriga",
+   "thumbnailUrl":"http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0007/6272/76272v7-max-250x250.jpg",
+   "id": "ricard_garriga"
+  },
+  {
+   "publicPlusId": "vallsjordi",
+   "bio": "Jordi Valls es un emprendedor de Barcelona focalizado en Diseño y branding en la emprendeduria tecnológica. Es un apasionado por la promoción del espíritu emprendedor entre los más jóvenes dando charlas en colegios e institutos. Fundador  de 1sleeve.com y Co-fundador de Startup Embassy en Palo Alto.",
+   "name": "Jordi Valls",
+   "plusoneUrl": "https://twitter.com/vallsjordi",
+   "thumbnailUrl":"http://m.c.lnkd.licdn.com/mpr/pub/image-WdGsCMceaQX0Eo5wC8gTIjzkQy-KXGTaWnsNccYeQHG1PAB7WdGNGFreQJ6xP78cUVvd/jordi-valls.jpg",
+   "id": "vallsjordi"
+  },
+  
+  {
+   "publicPlusId": "dias_jorge",
+   "bio": "Jorge es un apasionado de la programación y ha trabajado con muchos lenguajes durante más de 10 años. Su mayor dedicación ha sido a Ruby y actualmente Javascript. La gente no lo entiende pero usa emacs. Actualmente es tech lead de active recruiting en XING.",
+   "name": "Jorge Dias",
+   "plusoneUrl": "https://twitter.com/dias_jorge",
+   "thumbnailUrl":"http://m.c.lnkd.licdn.com/mpr/pub/image-0cDFQCHV7yLjC6_VuStdhnJvcYn_TJBxRYDWT8BVcwlPg-Hx0cDWgZgVczvXmGCTqeDM/jorge-dias.jpg",
+   "id": "dias_jorge"
   }
   
  ],
