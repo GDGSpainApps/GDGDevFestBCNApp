@@ -19,13 +19,10 @@ package com.gdgdevfest.android.apps.devfestbcn.io;
 import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGE;
 import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGV;
 import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
-
 import java.io.IOException;
 import java.util.ArrayList;
-
 import android.content.ContentProviderOperation;
 import android.content.Context;
-
 import com.gdgdevfest.android.apps.devfestbcn.io.model.Day;
 import com.gdgdevfest.android.apps.devfestbcn.io.model.EventSlots;
 import com.gdgdevfest.android.apps.devfestbcn.io.model.TimeSlot;
@@ -49,6 +46,7 @@ public class BlocksHandler extends JSONHandler {
             Gson gson = new Gson();
             EventSlots eventSlots = gson.fromJson(json, EventSlots.class);
             int numDays = eventSlots.day.length;
+            
             //2011-05-10T07:00:00.000-07:00
             for (int i = 0; i < numDays; i++) {
                 Day day = eventSlots.day[i];
@@ -80,8 +78,8 @@ public class BlocksHandler extends JSONHandler {
         if (slot.title != null) {
             title = slot.title;
         }
-        String startTime = date + "T" + start + ":00.000-07:00";
-        String endTime = date + "T" + end + ":00.000-07:00";
+        String startTime = date + "T" + start + ":00.000-06:00";
+        String endTime = date + "T" + end + ":00.000-06:00";
         LOGV(TAG, "startTime:" + startTime);
         long startTimeL = ParserUtils.parseTime(startTime);
         long endTimeL = ParserUtils.parseTime(endTime);
