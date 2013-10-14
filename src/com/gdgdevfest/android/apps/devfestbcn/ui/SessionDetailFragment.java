@@ -18,10 +18,8 @@ package com.gdgdevfest.android.apps.devfestbcn.ui;
 
 import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.LOGD;
 import static com.gdgdevfest.android.apps.devfestbcn.util.LogUtils.makeLogTag;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
@@ -56,7 +54,6 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import com.gdgdevfest.android.apps.devfestbcn.R;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.service.SessionAlarmService;
@@ -71,7 +68,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.plus.PlusClient;
 import com.google.android.gms.plus.PlusOneButton;
-import com.google.android.gms.plus.PlusOneButton.OnPlusOneClickListener;
 
 /**
  * A fragment that shows detail information for a session, including session title, abstract,
@@ -488,7 +484,7 @@ public class SessionDetailFragment extends Fragment implements
         }
 
         if (mPlusClient.isConnected() && !TextUtils.isEmpty(mUrl)) {
-            mPlusOneButton.initialize(mPlusClient, mUrl, null);
+            mPlusOneButton.initialize(mUrl,1);
             mPlusOneButton.setVisibility(View.VISIBLE);
         } else {
             mPlusOneButton.setVisibility(View.GONE);
