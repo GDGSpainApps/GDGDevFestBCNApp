@@ -18,7 +18,6 @@ package com.gdgdevfest.android.apps.devfestbcn.ui;
 
 import java.util.Arrays;
 import java.util.List;
-
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.app.Activity;
@@ -44,7 +43,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.gdgdevfest.android.apps.devfestbcn.R;
 import com.gdgdevfest.android.apps.devfestbcn.provider.ScheduleContract;
 import com.gdgdevfest.android.apps.devfestbcn.sync.SyncHelper;
@@ -58,12 +56,12 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.plus.PlusClient;
 import com.google.android.gms.plus.PlusClient.OnPeopleLoadedListener;
-import com.google.android.gms.plus.model.people.Person;
+import com.google.android.gms.plus.model.people.PersonBuffer;
 
 
 public class AccountActivity extends ActionBarActivity
         implements AccountUtils.AuthenticateCallback, GooglePlayServicesClient.ConnectionCallbacks,
-        GooglePlayServicesClient.OnConnectionFailedListener, PlusClient.OnPersonLoadedListener  {
+        GooglePlayServicesClient.OnConnectionFailedListener, OnPeopleLoadedListener  {
 
     private static final String TAG = ""+AccountActivity.class;
 
@@ -538,7 +536,7 @@ public class AccountActivity extends ActionBarActivity
     @Override
     public void onConnected(Bundle connectionHint) {
         // It is possible that the authenticated account doesn't have a profile.
-        mPlusClient.loadPerson(this,"me");
+        mPlusClient.loadPeople(this,"me");
         tryAuthenticate();
     }
 
@@ -566,16 +564,20 @@ public class AccountActivity extends ActionBarActivity
     }
 
 
+
 	@Override
-    public void onPersonLoaded(ConnectionResult connectionResult, Person person) {
-        if (connectionResult.isSuccess()) {
-            // Se the profile id
-            if (person != null) {
-                AccountUtils.setPlusProfileId(this, person.getId());
-            }
-        } else {
-            Log.e(TAG, "Got " + connectionResult.getErrorCode() + ". Could not load plus profile.");
-        }
-    }
+	public void onPeopleLoaded(ConnectionResult status, PersonBuffer personBuffer, String nextPageToken) {
+		  if (status.isSuccess()) {
+	            // Se the profile id
+	            if (personBuffer != null) {
+	                AccountUtils.setPlusProfileId(this, "s");
+	            }
+	        } else {
+	            Log.e(TAG, "Got " + status.getErrorCode() + ". Could not load plus profile.");
+	        }
+	   
+		// TODO Auto-generated method stub
+		
+	}
 
 }
